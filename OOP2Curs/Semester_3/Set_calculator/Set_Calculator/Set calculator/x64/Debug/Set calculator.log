@@ -1,0 +1,29 @@
+﻿  main.cpp
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(99,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(184,21): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(188,21): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(214,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(230,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(300,21): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(331,21): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(356,21): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(372,41): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(372,28): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(383,20): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(402,20): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(471,39): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(506,72): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(506,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(509,71): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(509,43): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(512,70): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(512,42): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(515,81): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(515,53): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(518,67): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\projectsGit\Set calculator\Set_Calculator\main.cpp(518,39): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  mainold.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  main.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Set calculator.vcxproj -> C:\projectsGit\Set calculator\Set_Calculator\x64\Debug\Set calculator.exe

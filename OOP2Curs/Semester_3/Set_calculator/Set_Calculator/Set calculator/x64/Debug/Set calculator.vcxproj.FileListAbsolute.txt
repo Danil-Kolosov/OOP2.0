@@ -1,0 +1,2 @@
+C:\projectsGit\Set calculator\Set calculator\x64\Debug\Set calculator.vcxproj.AssemblyReference.cache
+C:\projectsGit\Set calculator\Set_Calculator\Set calculator\x64\Debug\Set calculator.vcxproj.AssemblyReference.cache
