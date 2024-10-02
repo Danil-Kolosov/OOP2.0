@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex1
 {
@@ -79,12 +75,12 @@ namespace Ex1
         }
         static void AskToInputX()
         {
-            Console.WriteLine("Введите абсциссу точки (значение екоординаты Х)");
+            Console.WriteLine("Введите абсциссу точки (значение координаты Х)");
         }
 
         static void AskToInputY()
         {
-            Console.WriteLine("Введите ординаты точки (значение екоординаты Y)");
+            Console.WriteLine("Введите ординаты точки (значение координаты Y)");
         }
 
         static void InputX()

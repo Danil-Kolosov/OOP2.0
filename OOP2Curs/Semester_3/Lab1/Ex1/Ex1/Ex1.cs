@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
-using System.Linq.Expressions;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-
 
 namespace Ex1
 {
@@ -14,6 +12,7 @@ namespace Ex1
     {
         static int m;
         static int n;
+        static int errorValueM = 1;
 
         static double x;
         static int errorValueX = 0;
@@ -21,36 +20,36 @@ namespace Ex1
 
         static void Main() 
         {
-            GetFirstNumber();
-            GetSecondNumber();
-            GetThirdNumber();
-            GetFourthNumber();  
+            ProcessingFirstNumber();
+            ProcessingSecondNumber();
+            ProcessingThirdNumber();
+            ProcessingFourthNumber();  
         }
 
-        static void GetFirstNumber() 
+        static void ProcessingFirstNumber() 
         {
                 AskToInputFromFirstToThird(1);
                 InputFromFirstToThird(1);
                 AskToInputFromFirstToThird(2);
-                InputFromFirstToThird(2, true, 1);
+                InputFromFirstToThird(2);
                 OutputFirst();
         }
 
-        static void GetSecondNumber()
+        static void ProcessingSecondNumber()
         {
-            AskToInputFromFirstToThird(1);
-            InputFromFirstToThird(1);
-            AskToInputFromFirstToThird(2);
-            InputFromFirstToThird(2);
+            //AskToInputFromFirstToThird(1);
+            //InputFromFirstToThird(1);
+            //AskToInputFromFirstToThird(2);
+            //InputFromFirstToThird(2);
             OutputSecond();
         }
 
-        static void GetThirdNumber()
+        static void ProcessingThirdNumber()
         {
-            AskToInputFromFirstToThird(1);
-            InputFromFirstToThird(1);
-            AskToInputFromFirstToThird(2);
-            InputFromFirstToThird(2);
+            //AskToInputFromFirstToThird(1);
+            //InputFromFirstToThird(1);
+            //AskToInputFromFirstToThird(2);
+            //InputFromFirstToThird(2);
             OutputThird();
         }
 
@@ -62,7 +61,14 @@ namespace Ex1
                 Console.WriteLine("Введите m, не равное 1");
         }
 
-        static void InputFromFirstToThird(int step = 1, bool isErrorValue = false, int errorValue = 0) 
+        static bool IsErrorValue(int step) 
+        {
+            if (step == 1)
+                return m == errorValueM;
+            else
+                return x == errorValueX;
+        }
+        static void InputFromFirstToThird(int step = 1) 
         {
             if (step == 1)
             { 
@@ -71,17 +77,13 @@ namespace Ex1
             }
             else
             {
-                if (isErrorValue)
+                if (!(int.TryParse((Console.ReadLine()), out m)))
                 {
-                    if (!(int.TryParse((Console.ReadLine()), out m)))
-                        AskAgainFromFirstToThird(2);
-                    else
-                        if (m == errorValue)
-                        AskAgainFromFirstToThird(2);
+                    AskAgainFromFirstToThird(2);
                 }
                 else
-                     if (!(int.TryParse((Console.ReadLine()), out m)))
-                    AskAgainFromFirstToThird(2);
+                     if (IsErrorValue(1))
+                        AskAgainFromFirstToThird(2);
             }
         }
 
@@ -89,7 +91,7 @@ namespace Ex1
         {
             Console.WriteLine("Введены не корректные данные, повторите ввод");
             AskToInputFromFirstToThird(step);
-            InputFromFirstToThird(step, true, 1);
+            InputFromFirstToThird(step);
         }
 
         static void OutputFirst() 
@@ -114,7 +116,7 @@ namespace Ex1
             Console.WriteLine("--m > ++n = " + (--m > ++n)); //сначала вычтется и прибавиться потом сравниться
         }
 
-        static void GetFourthNumber() 
+        static void ProcessingFourthNumber() 
         {
             AskInputNumberOfRepeats();
             InputNumberOfRepeats();
@@ -128,7 +130,7 @@ namespace Ex1
 
         static void AskInputNumberOfRepeats() 
         {
-            Console.WriteLine("Введите сколько различных значений будет принимать x");
+            Console.WriteLine("Введите сколько раз будет вводиться x");
         }
 
         static void InputNumberOfRepeats() 
@@ -139,7 +141,7 @@ namespace Ex1
                 InputNumberOfRepeats();
             }
             else
-                if (x < 0) 
+                if (numberOfRepeats <= 0) 
                 {
                     Console.WriteLine("Введены не корректные данные, повторите ввод");
                     InputNumberOfRepeats();
@@ -156,21 +158,23 @@ namespace Ex1
             if (!(double.TryParse((Console.ReadLine()), out x)))
                 AskAgainFourth();
             else
-                if (x == errorValueX)
+                if (IsErrorValue(2))
                     AskAgainFourth();
         }
 
         static void AskAgainFourth() 
         {
             Console.WriteLine("Введены не корректные данные, повторите ввод");
-            AskToInputFourth();
             InputFourth();
         }
 
         static void OutputFourth() 
         {
             Console.WriteLine("x = " + x);
-            Console.WriteLine("(e^x + tg(x))^1/3 + 1/x = " + (double)(Math.Pow(Math.Exp(x) + Math.Tan(x), 1/3) + 1/x));
+            Console.WriteLine("(e^x + tg(x))^1/3 + 1/x = " + (Math.Pow(Math.Abs(Math.Exp(x) + Math.Tan(x)), 1.0/3.0)
+                *(int)((Math.Abs(Math.Exp(x) + Math.Tan(x)))/(Math.Exp(x) + Math.Tan(x))) + 1.0/x));
+            Console.WriteLine((int)((Math.Abs(Math.Exp(x) + Math.Tan(x))) / (Math.Exp(x) + Math.Tan(x))));
+            
         }
 
     }

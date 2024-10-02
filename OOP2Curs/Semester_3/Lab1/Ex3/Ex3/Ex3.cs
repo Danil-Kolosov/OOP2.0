@@ -25,12 +25,16 @@ namespace Ex3
 
         static void GetFloatResult() 
         {
-            fResult = (float)((Math.Pow((a+b),4)-(Math.Pow(a,4)+6*Math.Pow(a,2)*Math.Pow(b,2)+4*a*Math.Pow(b,3)))/(Math.Pow(b,4)+4*Math.Pow(a,3)*b));
+            fResult = (float)(((float)Math.Pow((a + b), 4) - ((float)Math.Pow(a, 4) + 6 * (float)Math.Pow(a, 2) 
+                * (float)Math.Pow(b, 2) + 4 * (float)a * (float)Math.Pow(b, 3))) / ((float)Math.Pow(b, 4) + 4 
+                * (float)Math.Pow(a, 3) * (float)b));
         }
 
         static void GetDoubleResult()
         {
-            dResult = ((Math.Pow((a + b), 4) - (Math.Pow(a, 4) + 6 * Math.Pow(a, 2) * Math.Pow(b, 2) + 4 * a * Math.Pow(b, 3))) / (Math.Pow(b, 4) + 4 * Math.Pow(a, 3) * b));
+            dResult = ((Math.Pow((a + b), 4) - (Math.Pow(a, 4) + 6 * Math.Pow(a, 2) 
+                * Math.Pow(b, 2) + 4 * a * Math.Pow(b, 3))) / (Math.Pow(b, 4) 
+                + 4 * Math.Pow(a, 3) * b));
         }
 
         static void OutFloatResult() 
