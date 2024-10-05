@@ -173,7 +173,6 @@ namespace Ex1
             Console.WriteLine("x = " + x);
             Console.WriteLine("(e^x + tg(x))^1/3 + 1/x = " + (Math.Pow(Math.Abs(Math.Exp(x) + Math.Tan(x)), 1.0/3.0)
                 *(int)((Math.Abs(Math.Exp(x) + Math.Tan(x)))/(Math.Exp(x) + Math.Tan(x))) + 1.0/x));
-            Console.WriteLine((int)((Math.Abs(Math.Exp(x) + Math.Tan(x))) / (Math.Exp(x) + Math.Tan(x))));
             
         }
 

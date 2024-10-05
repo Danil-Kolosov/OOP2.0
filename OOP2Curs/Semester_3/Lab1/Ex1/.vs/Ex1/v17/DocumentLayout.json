@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab1\\Ex1\\",
+  "WorkspaceRootPath": "C:\\C#\\OOP2.0\\OOP2Curs\\Semester_3\\Lab1\\Ex1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32623BA2-CA93-46B0-B935-C755A8B3F828}|Ex1\\Ex1.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab1\\ex1\\ex1\\ex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32623BA2-CA93-46B0-B935-C755A8B3F828}|Ex1\\Ex1.csproj|c:\\c#\\oop2.0\\oop2curs\\semester_3\\lab1\\ex1\\ex1\\ex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32623BA2-CA93-46B0-B935-C755A8B3F828}|Ex1\\Ex1.csproj|solutionrelative:ex1\\ex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,32 +20,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Ex1.cs",
-              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab1\\Ex1\\Ex1\\Ex1.cs",
+              "DocumentMoniker": "C:\\C#\\OOP2.0\\OOP2Curs\\Semester_3\\Lab1\\Ex1\\Ex1\\Ex1.cs",
               "RelativeDocumentMoniker": "Ex1\\Ex1.cs",
-              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab1\\Ex1\\Ex1\\Ex1.cs",
+              "ToolTip": "C:\\C#\\OOP2.0\\OOP2Curs\\Semester_3\\Lab1\\Ex1\\Ex1\\Ex1.cs",
               "RelativeToolTip": "Ex1\\Ex1.cs",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAiwKAAAAAjAAAA",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAiwK0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T12:03:32.162Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 137,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

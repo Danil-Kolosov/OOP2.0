@@ -5,3 +5,10 @@ C:\projectsGit\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\bin\Debug\Ex1.exe
 C:\projectsGit\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\bin\Debug\Ex1.pdb
 C:\projectsGit\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\obj\Debug\Ex1.exe
 C:\projectsGit\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\obj\Debug\Ex1.pdb
+C:\C#\OOP2.0\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\bin\Debug\Ex1.exe.config
+C:\C#\OOP2.0\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\bin\Debug\Ex1.exe
+C:\C#\OOP2.0\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\bin\Debug\Ex1.pdb
+C:\C#\OOP2.0\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\obj\Debug\Ex1.csproj.AssemblyReference.cache
+C:\C#\OOP2.0\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\obj\Debug\Ex1.csproj.CoreCompileInputs.cache
+C:\C#\OOP2.0\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\obj\Debug\Ex1.exe
+C:\C#\OOP2.0\OOP2Curs\Semester_3\Lab1\Ex1\Ex1\obj\Debug\Ex1.pdb

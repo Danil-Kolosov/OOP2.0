@@ -58,20 +58,22 @@ namespace Ex1
             OutData();
         }
 
-        static void IndetifyPoint()
+        static bool IndetifyPoint()
         {
-            if ((Math.Pow(x, 2) + Math.Pow(y, 2) <= 1) && (y >= -x - 1)) //y=kx+b  b=-1 k=-1
-                isInChart = true;
+            //if ((Math.Pow(x, 2) + Math.Pow(y, 2) <= 1) && (y >= -x - 1)) //y=kx+b  b=-1 k=-1
+            //    isInChart = true;
+            return Math.Pow(x, 2) + Math.Pow(y, 2) <= 1 && (y >= -x - 1);
         }
 
         static void OutData()
         {
+            isInChart=IndetifyPoint();
             Console.WriteLine("Полученный результат: " + isInChart);
             if (isInChart)
                 Console.WriteLine("Точка принадлежит заштрихованной области");
             else
                 Console.WriteLine("Точка не принадлежит заштрихованной области");
-            isInChart = false;
+            //isInChart = false;
         }
         static void AskToInputX()
         {
