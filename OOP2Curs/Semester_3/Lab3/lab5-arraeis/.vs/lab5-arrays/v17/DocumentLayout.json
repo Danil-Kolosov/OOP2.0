@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab1\\Ex1\\",
+  "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab3\\lab5-arraeis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32623BA2-CA93-46B0-B935-C755A8B3F828}|Ex1\\Ex1.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab1\\ex1\\ex1\\ex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32623BA2-CA93-46B0-B935-C755A8B3F828}|Ex1\\Ex1.csproj|solutionrelative:ex1\\ex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFE033FD-32B4-4275-BE2D-F7CA757CD16F}|Project1\\Project1.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab3\\lab5-arraeis\\project1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE033FD-32B4-4275-BE2D-F7CA757CD16F}|Project1\\Project1.csproj|solutionrelative:project1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Ex1.cs",
-              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab1\\Ex1\\Ex1\\Ex1.cs",
-              "RelativeDocumentMoniker": "Ex1\\Ex1.cs",
-              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab1\\Ex1\\Ex1\\Ex1.cs",
-              "RelativeToolTip": "Ex1\\Ex1.cs",
-              "ViewState": "AQIAAJsAAAAAAAAAAAAqwJ4AAAAhAAAA",
+              "Title": "main.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab3\\lab5-arraeis\\Project1\\main.cs",
+              "RelativeDocumentMoniker": "Project1\\main.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab3\\lab5-arraeis\\Project1\\main.cs",
+              "RelativeToolTip": "Project1\\main.cs",
+              "ViewState": "AQIAAG4CAAAAAAAAAAAAwIECAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:03:32.162Z",
+              "WhenOpened": "2024-10-14T09:21:16.044Z",
               "EditorCaption": ""
             }
           ]
