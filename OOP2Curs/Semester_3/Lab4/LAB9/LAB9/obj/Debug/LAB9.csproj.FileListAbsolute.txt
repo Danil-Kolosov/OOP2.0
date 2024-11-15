@@ -1,0 +1,14 @@
+C:\projectsGit\OOP2Curs\LAB9\LAB9\obj\Debug\LAB9.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\LAB9\LAB9\obj\Debug\LAB9.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\LAB9\LAB9\bin\Debug\LAB9.exe.config
+C:\projectsGit\OOP2Curs\LAB9\LAB9\bin\Debug\LAB9.exe
+C:\projectsGit\OOP2Curs\LAB9\LAB9\bin\Debug\LAB9.pdb
+C:\projectsGit\OOP2Curs\LAB9\LAB9\obj\Debug\LAB9.exe
+C:\projectsGit\OOP2Curs\LAB9\LAB9\obj\Debug\LAB9.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab4\LAB9\LAB9\bin\Debug\LAB9.exe.config
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab4\LAB9\LAB9\bin\Debug\LAB9.exe
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab4\LAB9\LAB9\bin\Debug\LAB9.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab4\LAB9\LAB9\obj\Debug\LAB9.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab4\LAB9\LAB9\obj\Debug\LAB9.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab4\LAB9\LAB9\obj\Debug\LAB9.exe
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab4\LAB9\LAB9\obj\Debug\LAB9.pdb
