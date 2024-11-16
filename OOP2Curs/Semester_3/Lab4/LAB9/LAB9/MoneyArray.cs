@@ -49,7 +49,6 @@ namespace ArraySpace
                     return Arr[index];//****
                 else
                     throw new ArgumentOutOfRangeException("Выход за границы массива");
-
             }
             set
             {
@@ -70,9 +69,7 @@ namespace ArraySpace
         {
             CounterObjects++;
             Arr = new Money[size];
-        }
-
-        
+        }  
 
         public MoneyArray(string madeType, int size = -1)
         {
@@ -177,6 +174,5 @@ namespace ArraySpace
             }
             return ((double)sumKop / Arr.Length);
         }
-
     }
 }

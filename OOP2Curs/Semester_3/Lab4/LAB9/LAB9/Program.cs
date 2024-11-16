@@ -12,7 +12,7 @@ namespace Lab9
 {
     public class Programm
     {
-        public static void Main() //в тестировании коллекции сделать try cath м вывод сообщения ошибки
+        public static void Main()
         {
             try
             {
@@ -90,7 +90,6 @@ namespace Lab9
             m3.SubtractingKopeks(500);
             m3.Show();
 
-            //Console.WriteLine($"\nБыло создано объектов класса Money: {Money.CounterObjects}\n\n");
             m1 = null;
             m2 = null;
             m3 = null;
@@ -147,8 +146,6 @@ namespace Lab9
                 Console.WriteLine("\nПолучаем 11 объект вычитанием из 4 объекта 6");
                 Money m7 = m1 - m3;
                 m7.Show();
-
-                //Console.WriteLine($"\nБыло создано объектов класса Money: {Money.CounterObjects}\n\n");
             }
             else 
             { 
@@ -191,26 +188,5 @@ namespace Lab9
                 Console.WriteLine("Нужно выбирать части по порядку");
             }
             }
-
-        //public static void Part3_2()
-        //{
-        //    if (Money.CounterObjects >= 11)
-        //    {
-                
-        //            Console.WriteLine("\n\nСоздадим автоматически массив из 5 элементов и найдём для него среднее арифметическое");
-        //            MoneyArray moneyArray = new MoneyArray("autoMade", 5);
-        //            double arithmeticMean = moneyArray.ArithmeticMean();
-        //            double arithmeticMeanRub = moneyArray.ArithmeticMeanRub();
-        //            double arithmeticMeanKop = moneyArray.ArithmeticMeanKop();
-        //            moneyArray.Show();
-        //            Console.WriteLine("Среднее арифметическое всех рублей и копеек месте взятых (в рублях): " + arithmeticMean);
-        //            Console.WriteLine("Среднее арифметическое всех рублей: " + arithmeticMeanRub);
-        //            Console.WriteLine("Среднее арифметическое всех копеек: " + arithmeticMeanKop);
-        //            int indexToShow = 0;
-        //            UserInterface.Input(ref indexToShow, 0, moneyArray.Size(), "Введите индекс элемента массива, котрый необходимо вывести");
-        //            moneyArray[indexToShow].Show();
-                
-        //    }
-        //}
     }
 }

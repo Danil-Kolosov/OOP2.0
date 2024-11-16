@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\lab9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|solutionrelative:lab9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\lab9\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|solutionrelative:lab9\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DB45F90-6E0D-4E62-9A50-4D1564E7BACE}|UnitTestProject1\\UnitTestProject1.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DB45F90-6E0D-4E62-9A50-4D1564E7BACE}|UnitTestProject1\\UnitTestProject1.csproj|solutionrelative:unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\lab9\\userinterfacecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|solutionrelative:lab9\\userinterfacecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\lab9\\moneyarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|solutionrelative:lab9\\moneyarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab4\\lab9\\lab9\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|solutionrelative:lab9\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\lab9\\userinterfacecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|solutionrelative:lab9\\userinterfacecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab4\\lab9\\lab9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F13BDBD-ECD7-4DEC-A62E-38979B32A8DF}|LAB9\\LAB9.csproj|solutionrelative:lab9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,59 +44,59 @@
               "RelativeDocumentMoniker": "UnitTestProject1\\UnitTest1.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\UnitTestProject1\\UnitTest1.cs",
               "RelativeToolTip": "UnitTestProject1\\UnitTest1.cs",
-              "ViewState": "AgIAAPQAAAAAAAAAAAAiwAEBAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAqwAEBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T15:49:10.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "UserInterfacecs.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\LAB9\\UserInterfacecs.cs",
               "RelativeDocumentMoniker": "LAB9\\UserInterfacecs.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\LAB9\\UserInterfacecs.cs",
               "RelativeToolTip": "LAB9\\UserInterfacecs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T15:48:37.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MoneyArray.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\LAB9\\MoneyArray.cs",
               "RelativeDocumentMoniker": "LAB9\\MoneyArray.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\LAB9\\MoneyArray.cs",
               "RelativeToolTip": "LAB9\\MoneyArray.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAcwHYAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T15:48:11.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Money.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\LAB9\\Money.cs",
               "RelativeDocumentMoniker": "LAB9\\Money.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\LAB9\\Money.cs",
               "RelativeToolTip": "LAB9\\Money.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwI8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T15:47:29.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\LAB9\\Program.cs",
               "RelativeDocumentMoniker": "LAB9\\Program.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab4\\LAB9\\LAB9\\Program.cs",
               "RelativeToolTip": "LAB9\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAqwL0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T15:45:52.775Z",
               "EditorCaption": ""

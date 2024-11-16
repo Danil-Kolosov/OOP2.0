@@ -169,8 +169,5 @@ namespace MoneySpace
                 return ((Rubles == money.Rubles) & (Kopeks == money.Kopeks));
             return false;
         }
-
-
-
     }
 }
