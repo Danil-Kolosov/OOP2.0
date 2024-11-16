@@ -11,41 +11,33 @@ namespace ArraySpace
     public class MoneyArray
     {
         private Money[] arr;
+        private static int counterObjects = 0;
 
-        public MoneyArray()
+        public Money[] Arr
         {
-            Arr = null;
-        }
-
-        public MoneyArray(int size)
-        {
-            Arr = new Money[size];
-        }
-
-        public MoneyArray(int size, string auto)
-        {
-            var rand = new Random();
-            Arr = new Money[size];
-            for (int i = 0; i < size; i++)
+            get
             {
-                Arr[i] = new Money(rand.Next(0, 25), rand.Next(0, 99));                             //************!!??
+                return arr;
+            }
+            set
+            {
+                if(value is Money[] money)
+                    arr = money;
             }
         }
 
-        public MoneyArray(string handMake)
+        public static int CounterObjects
         {
-            int size = 0;
-            int elementRub = 0;
-            int elementKop = 0;
-            InterfaceSpace.UserInterface.Input(ref size, 0, 20, "Введите размер коллекции (минимум - 0; максимум - 20)");
-            var rand = new Random();
-            Arr = new Money[size];
-            for (int i = 0; i < size; i++)
+            get
             {
-
-                InterfaceSpace.UserInterface.Input(ref elementRub, 0, 25, "Введите количество рублей (мнимум - 0, максимум - 25)");
-                InterfaceSpace.UserInterface.Input(ref elementKop, 0, 99, "Введите количество копеек (мнимум - 0, максимум - 99)");
-                Arr[i] = new Money(elementRub, elementKop);                             //************!!?'
+                return counterObjects;
+            }
+            set
+            {
+                if (value > 0)
+                {
+                    counterObjects = value;
+                }
             }
         }
 
@@ -69,16 +61,63 @@ namespace ArraySpace
             }
         }
 
-
-        public Money[] Arr
+        public MoneyArray()
         {
-            get
+            Arr = null;
+        }
+
+        public MoneyArray(int size)
+        {
+            CounterObjects++;
+            Arr = new Money[size];
+        }
+
+        
+
+        public MoneyArray(string madeType, int size = -1)
+        {
+            CounterObjects++;
+            if(size == -1)
+                Arr = CreateArray(madeType);
+            else
+                Arr = CreateArray(madeType, size);
+        }
+
+        public Money[] CreateArray(string madeType, int size = -1)
+        {
+            switch (madeType)
             {
-                return arr;
-            }
-            set
-            {
-                arr = value;
+                case "autoMade":
+                    {
+                        var rand = new Random();
+                        if (size == -1)
+                            size = rand.Next(3, 10);                      
+                        Money[] arrayTemp = new Money[size];
+                        for (int i = 0; i < size; i++)
+                        {
+                            arrayTemp[i] = new Money(rand.Next(0, 25), rand.Next(0, 99));                             //************!!??
+                        }
+                        return arrayTemp;
+                    }
+                case "handMade": 
+                    {
+                        size = 0;
+                        int elementRub = 0;
+                        int elementKop = 0;
+                        InterfaceSpace.UserInterface.Input(ref size, 0, 20, "Введите размер коллекции (минимум - 0; максимум - 20)");
+                        Money[] arrayTemp = new Money[size];
+                        for (int i = 0; i < size; i++)
+                        {
+                            InterfaceSpace.UserInterface.Input(ref elementRub, 0, 25, "Введите количество рублей (мнимум - 0, максимум - 25)");
+                            InterfaceSpace.UserInterface.Input(ref elementKop, 0, 99, "Введите количество копеек (мнимум - 0, максимум - 99)");
+                            arrayTemp[i] = new Money(elementRub, elementKop);                             //************!!?'
+                        }
+                        return arrayTemp;
+                    }
+                default:
+                    {
+                        throw new Exception("Не удалось создать масcив");
+                    }
             }
         }
 
@@ -90,12 +129,11 @@ namespace ArraySpace
 
         public void Show()
         {
-            if (Arr.Length != 0)
+            if (Arr.Length != 0 || Arr == null)
             {
                 Console.WriteLine("Элементы массива:");
                 for (int i = 0; i < Arr.Length; i++)
                 {
-                    //можно ещё подпись добавить номер эл но и так
                     Arr[i].Show();
                 }
             }
@@ -104,18 +142,18 @@ namespace ArraySpace
                 Console.WriteLine("Массив пустой");
             }
         }
+
         public int Size()
         {
             return Arr.Length;
         }
-
 
         public double ArithmeticMean ()
         {
             int sum = 0;
             for (int i = 0; i < Arr.Length; i++)
             {
-                sum += Arr[i].Sum;
+                sum += Arr[i].Sum();
             }
             return ((double)sum / Arr.Length / 100);
         }

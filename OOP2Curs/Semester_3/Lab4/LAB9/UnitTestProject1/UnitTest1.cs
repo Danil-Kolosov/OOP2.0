@@ -255,7 +255,7 @@ namespace UnitTestProject
         public void TestMethodAoutoMadeArr()
         {
             MoneyArray moneyArray = new MoneyArray();
-            moneyArray = new MoneyArray(3, "auto");
+            moneyArray = new MoneyArray("autoMade");
             int sumKop = 0;
             for (int i = 0; i < moneyArray.Size(); i++)
             {

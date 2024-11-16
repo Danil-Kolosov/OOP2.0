@@ -14,36 +14,42 @@ namespace Lab9
     {
         public static void Main() //в тестировании коллекции сделать try cath м вывод сообщения ошибки
         {
-            bool programmRuningKey = true;
-            do
+            try
             {
-                UserInterface.OutInformation("1. Первая часть");
-                UserInterface.OutInformation("2. Вторая часть");
-                UserInterface.OutInformation("3. Третья часть");
-                UserInterface.OutInformation("4. Выход");
-                int commandID = 0;
-                UserInterface.Input(ref commandID);
-                switch (commandID)
+                bool programmRuningKey = true;
+                do
                 {
-                    case 1:
+                    UserInterface.OutInformation("1. Первая часть");
+                    UserInterface.OutInformation("2. Вторая часть");
+                    UserInterface.OutInformation("3. Третья часть");
+                    UserInterface.OutInformation("4. Выход");
+                    int commandID = 0;
+                    UserInterface.Input(ref commandID);
+                    switch (commandID)
+                    {
+                        case 1:
 
-                        Part1();
-                        break;
-                    case 2:
-                        Part2();
-                        break;
-                    case 3:
-                        Part3_1();
-                        Part3_2();
-                        break;
-                    case 4:
-                        programmRuningKey = false;
-                        break;
-                    default:
-                        UserInterface.OutInformation("Введены не корректные данные");
-                        break;
-                }
-            } while (programmRuningKey);
+                            Part1();
+                            break;
+                        case 2:
+                            Part2();
+                            break;
+                        case 3:
+                            Part3();
+                            break;
+                        case 4:
+                            programmRuningKey = false;
+                            break;
+                        default:
+                            UserInterface.OutInformation("Введены не корректные данные");
+                            break;
+                    }
+                } while (programmRuningKey);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
 
         public static void Part1()
@@ -60,7 +66,7 @@ namespace Lab9
 
             Money m3 = new Money(1, 150);
             m3.Show();
-            Console.WriteLine("Сумма атрибутов 3 объекта = " + m3.Sum);
+            Console.WriteLine("Сумма атрибутов 3 объекта = " + m3.Sum());
 
             Console.WriteLine("\n\nВычитание  статической функцией: ");
             Console.WriteLine("Вычитаем из 2 объекта 5 копеек ");
@@ -84,7 +90,7 @@ namespace Lab9
             m3.SubtractingKopeks(500);
             m3.Show();
 
-            Console.WriteLine($"\nБыло создано объектов класса Money: {Money.CounterObjects}\n\n");
+            //Console.WriteLine($"\nБыло создано объектов класса Money: {Money.CounterObjects}\n\n");
             m1 = null;
             m2 = null;
             m3 = null;
@@ -142,7 +148,7 @@ namespace Lab9
                 Money m7 = m1 - m3;
                 m7.Show();
 
-                Console.WriteLine($"\nБыло создано объектов класса Money: {Money.CounterObjects}\n\n");
+                //Console.WriteLine($"\nБыло создано объектов класса Money: {Money.CounterObjects}\n\n");
             }
             else 
             { 
@@ -150,18 +156,35 @@ namespace Lab9
             }
         }
 
-        public static void Part3_1()
+        public static void Part3()
         {
             if (Money.CounterObjects == 11)
             {
 
                 Console.WriteLine("Автоматически созданный массив из 5 элементов: ");
-                MoneyArray moneyArray1 = new MoneyArray(5, "auto");
+                MoneyArray moneyArray1 = new MoneyArray("autoMade", 5);
                 moneyArray1.Show();
 
                 Console.WriteLine("Ручное создание массива");
-                MoneyArray moneyArray2 = new MoneyArray("hand");
+                MoneyArray moneyArray2 = new MoneyArray("handMade");
                 moneyArray2.Show();
+
+
+                Console.WriteLine("\n\nСоздадим автоматически массив из 5 элементов и найдём для него среднее арифметическое");
+                MoneyArray moneyArray = new MoneyArray("autoMade", 5);
+                double arithmeticMean = moneyArray.ArithmeticMean();
+                double arithmeticMeanRub = moneyArray.ArithmeticMeanRub();
+                double arithmeticMeanKop = moneyArray.ArithmeticMeanKop();
+                moneyArray.Show();
+                Console.WriteLine("Среднее арифметическое всех рублей и копеек месте взятых (в рублях): " + arithmeticMean);
+                Console.WriteLine("Среднее арифметическое всех рублей: " + arithmeticMeanRub);
+                Console.WriteLine("Среднее арифметическое всех копеек: " + arithmeticMeanKop);
+                int indexToShow = 0;
+                UserInterface.Input(ref indexToShow, 0, moneyArray.Size(), "Введите индекс элемента массива, котрый необходимо вывести");
+                moneyArray[indexToShow].Show();
+
+                Console.WriteLine($"\nБыло создано объектов класса Money: {Money.CounterObjects}\n\n");
+                Console.WriteLine($"\nБыло создано объектов класса MoneyArray: {MoneyArray.CounterObjects}\n\n");
             }
             else
             {
@@ -169,37 +192,25 @@ namespace Lab9
             }
             }
 
-        public static void Part3_2()
-        {
-            if (Money.CounterObjects >= 11)
-            {
-                try
-                {
-                    Console.WriteLine("\n\nСоздадим автоматически массив из 5 элементов и найдём для него среднее арифметическое");
-                    MoneyArray moneyArray = new MoneyArray(5, "auto");
-                    double arithmeticMean = moneyArray.ArithmeticMean();
-                    double arithmeticMeanRub = moneyArray.ArithmeticMeanRub();
-                    double arithmeticMeanKop = moneyArray.ArithmeticMeanKop();
-                    moneyArray.Show();
-                    moneyArray[4].Show();
-                    float sum = 0;
-                    float sumRub = 0;
-                    float sumKop = 0;
-                    for (int i = 0; i < 5; i++)
-                    {
-                        sum += moneyArray[i].Sum;
-                        sumRub += moneyArray[i].Rubles;
-                        sumKop += moneyArray[i].Kopeks;
-                    }
-                    Console.WriteLine("Среднее арифметическое всех рублей и копеек месте взятых (в рублях): " + arithmeticMean);
-                    Console.WriteLine("Среднее арифметическое всех рублей: " + (sumRub / moneyArray.Size()) + arithmeticMeanRub);
-                    Console.WriteLine("Среднее арифметическое всех копеек: " + (sumKop / moneyArray.Size()) + arithmeticMeanKop);
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-            }
-        }
+        //public static void Part3_2()
+        //{
+        //    if (Money.CounterObjects >= 11)
+        //    {
+                
+        //            Console.WriteLine("\n\nСоздадим автоматически массив из 5 элементов и найдём для него среднее арифметическое");
+        //            MoneyArray moneyArray = new MoneyArray("autoMade", 5);
+        //            double arithmeticMean = moneyArray.ArithmeticMean();
+        //            double arithmeticMeanRub = moneyArray.ArithmeticMeanRub();
+        //            double arithmeticMeanKop = moneyArray.ArithmeticMeanKop();
+        //            moneyArray.Show();
+        //            Console.WriteLine("Среднее арифметическое всех рублей и копеек месте взятых (в рублях): " + arithmeticMean);
+        //            Console.WriteLine("Среднее арифметическое всех рублей: " + arithmeticMeanRub);
+        //            Console.WriteLine("Среднее арифметическое всех копеек: " + arithmeticMeanKop);
+        //            int indexToShow = 0;
+        //            UserInterface.Input(ref indexToShow, 0, moneyArray.Size(), "Введите индекс элемента массива, котрый необходимо вывести");
+        //            moneyArray[indexToShow].Show();
+                
+        //    }
+        //}
     }
 }
