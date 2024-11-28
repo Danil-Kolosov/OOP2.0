@@ -13,18 +13,20 @@ namespace ArraySpace
         private Money[] arr;
         private static int counterObjects = 0;
 
-        public Money[] Arr
-        {
-            get
-            {
-                return arr;
-            }
-            set
-            {
-                if(value is Money[] money)
-                    arr = money;
-            }
-        }
+        //public Money[] Arr
+        //{
+        //    get
+        //    {
+        //        return arr;
+        //    }
+        //    set
+        //    {
+        //        if(value is Money[] money)
+        //            arr = money;
+        //    }
+        //}
+
+        public int Length => arr.Length;
 
         public static int CounterObjects
         {
@@ -41,19 +43,19 @@ namespace ArraySpace
             }
         }
 
-        public Money this[int index]////////////при ввводе индекса просто сделать проверку
+        public Money this[int index]
         {
             get
             {
-                if (index < Arr.Length & index >= 0)//****
-                    return Arr[index];//****
+                if (index < arr.Length & index >= 0)
+                    return arr[index];
                 else
                     throw new ArgumentOutOfRangeException("Выход за границы массива");
             }
             set
             {
-                if (index < Arr.Length & index >= 0)//*******
-                    Arr[index] = value;//********
+                if (index < arr.Length & index >= 0)
+                    arr[index] = value;
                 else
                     throw new ArgumentOutOfRangeException("Выход за границы массива");
 
@@ -62,22 +64,22 @@ namespace ArraySpace
 
         public MoneyArray()
         {
-            Arr = null;
+            arr = null;
         }
 
         public MoneyArray(int size)
         {
             CounterObjects++;
-            Arr = new Money[size];
+            arr = new Money[size];
         }  
 
         public MoneyArray(string madeType, int size = -1)
         {
             CounterObjects++;
             if(size == -1)
-                Arr = CreateArray(madeType);
+                arr = CreateArray(madeType);
             else
-                Arr = CreateArray(madeType, size);
+                arr = CreateArray(madeType, size);
         }
 
         public Money[] CreateArray(string madeType, int size = -1)
@@ -92,7 +94,7 @@ namespace ArraySpace
                         Money[] arrayTemp = new Money[size];
                         for (int i = 0; i < size; i++)
                         {
-                            arrayTemp[i] = new Money(rand.Next(0, 25), rand.Next(0, 99));                             //************!!??
+                            arrayTemp[i] = new Money(rand.Next(0, 25), rand.Next(0, 99));
                         }
                         return arrayTemp;
                     }
@@ -105,9 +107,9 @@ namespace ArraySpace
                         Money[] arrayTemp = new Money[size];
                         for (int i = 0; i < size; i++)
                         {
-                            InterfaceSpace.UserInterface.Input(ref elementRub, 0, 25, "Введите количество рублей (мнимум - 0, максимум - 25)");
-                            InterfaceSpace.UserInterface.Input(ref elementKop, 0, 99, "Введите количество копеек (мнимум - 0, максимум - 99)");
-                            arrayTemp[i] = new Money(elementRub, elementKop);                             //************!!?'
+                            InterfaceSpace.UserInterface.Input(ref elementRub, 0, 100000, "Введите количество рублей (мнимум - 0)");
+                            InterfaceSpace.UserInterface.Input(ref elementKop, 0, 100000, "Введите количество копеек (мнимум - 0)");
+                            arrayTemp[i] = new Money(0, elementRub * 100 + elementKop);
                         }
                         return arrayTemp;
                     }
@@ -126,12 +128,12 @@ namespace ArraySpace
 
         public void Show()
         {
-            if (Arr.Length != 0 || Arr == null)
+            if (arr.Length != 0 || arr == null)
             {
                 Console.WriteLine("Элементы массива:");
-                for (int i = 0; i < Arr.Length; i++)
+                for (int i = 0; i < arr.Length; i++)
                 {
-                    Arr[i].Show();
+                    arr[i].Show();
                 }
             }
             else
@@ -142,37 +144,37 @@ namespace ArraySpace
 
         public int Size()
         {
-            return Arr.Length;
+            return arr.Length;
         }
 
         public double ArithmeticMean ()
         {
             int sum = 0;
-            for (int i = 0; i < Arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                sum += Arr[i].Sum();
+                sum += arr[i].Sum();
             }
-            return ((double)sum / Arr.Length / 100);
+            return ((double)sum / arr.Length / 100);
         }
 
         public double ArithmeticMeanRub()
         {
             int sumRub = 0;
-            for (int i = 0; i < Arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                sumRub += Arr[i].Rubles;
+                sumRub += arr[i].Rubles;
             }
-            return ((double)sumRub / Arr.Length);
+            return ((double)sumRub / arr.Length);
         }
 
         public double ArithmeticMeanKop()
         {
             int sumKop = 0;
-            for (int i = 0; i < Arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                sumKop += Arr[i].Kopeks;
+                sumKop += arr[i].Kopeks;
             }
-            return ((double)sumKop / Arr.Length);
+            return ((double)sumKop / arr.Length);
         }
     }
 }

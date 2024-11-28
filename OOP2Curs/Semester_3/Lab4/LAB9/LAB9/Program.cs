@@ -177,10 +177,10 @@ namespace Lab9
                 Console.WriteLine("Среднее арифметическое всех рублей: " + arithmeticMeanRub);
                 Console.WriteLine("Среднее арифметическое всех копеек: " + arithmeticMeanKop);
                 int indexToShow = 0;
-                UserInterface.Input(ref indexToShow, 0, moneyArray.Size(), "Введите индекс элемента массива, котрый необходимо вывести");
-                moneyArray[indexToShow].Show();
+                UserInterface.Input(ref indexToShow, 1, moneyArray.Size(), "Введите номер элемента массива, котрый необходимо вывести:");
+                moneyArray[indexToShow - 1].Show();
 
-                Console.WriteLine($"\nБыло создано объектов класса Money: {Money.CounterObjects}\n\n");
+                Console.WriteLine($"\nБыло создано объектов класса Money: {Money.CounterObjects}");
                 Console.WriteLine($"\nБыло создано объектов класса MoneyArray: {MoneyArray.CounterObjects}\n\n");
             }
             else
