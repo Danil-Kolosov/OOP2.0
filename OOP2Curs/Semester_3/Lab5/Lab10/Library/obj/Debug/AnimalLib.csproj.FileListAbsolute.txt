@@ -1,0 +1,6 @@
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\Library\bin\Debug\Library.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\Library\bin\Debug\Library.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\Library\obj\Debug\AnimalLib.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\Library\obj\Debug\AnimalLib.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\Library\obj\Debug\Library.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\Library\obj\Debug\Library.pdb
