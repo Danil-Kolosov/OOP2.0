@@ -9,8 +9,6 @@ namespace AnimalLibrary
 {
     public class Artiodactyl : Mammal
     {
-        //наличеие рогов
-        //вымя
         int hoofSize;  //размер копыт
         int hornsSize; //размер рогов
         public int HoofSize
@@ -108,10 +106,5 @@ namespace AnimalLibrary
             clone.Name = $"Клон {clone.Name}";
             return clone;
         }
-
-        //public new Artiodactyl SuperficialCopy() //поверхностное копирование
-        //{
-        //    return (Artiodactyl)this.MemberwiseClone();
-        //}
     }
 }

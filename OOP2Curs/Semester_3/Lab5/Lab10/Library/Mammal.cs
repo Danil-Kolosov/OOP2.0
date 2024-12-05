@@ -12,10 +12,8 @@ namespace AnimalLibrary
         string specie;
         string location;
         string livingEnvironment;
-        //молоком кормит детей вскармливание
-        //
         string lifestyle; //ночной дневной образ жизни
-        //int maxAge;    ограничение по возрасту много волокиты будет, не стоит
+
         public string Specie 
         {  
             get 
@@ -81,17 +79,12 @@ namespace AnimalLibrary
             Lifestyle = lifestyle;
         }
 
-        public Mammal(Mammal mammal):base(mammal)//сделать через базовый класс
+        public Mammal(Mammal mammal):base(mammal)
         {
             Specie = mammal.Specie;
             Location = mammal.Location;
             LivingEnvironment = mammal.LivingEnvironment;
             Lifestyle = mammal.Lifestyle;
-
-            //Weight = mammal.Weight;//тут
-            //Height = mammal.Height;
-            //Age = mammal.Age;
-            //Name = mammal.Name;//по сюда
         }
 
         public override void Show()
@@ -101,9 +94,7 @@ namespace AnimalLibrary
                 $"\nОреал обитания: {LivingEnvironment}\nОбраз жизни: {Lifestyle}");
         }
 
-        //public override string ToString() { return $"{Specie} {Location} {LivingEnvironment} {Lifestyle}"; }
-        //public  enum Geogreph { a= }; в перечисления можно только цифры:-(((
-    public override void Init()
+        public override void Init()
         {
             base.Init();
             string specie = "";
@@ -114,7 +105,7 @@ namespace AnimalLibrary
             External_Interactions.Input(ref location, "Введите географическое местоположение млекопитающего: ");
             External_Interactions.Input(ref livingEnvironment, "Введите ореал обитания млекопитающего: ");
             External_Interactions.Input(ref lifestyle, "Введите образ жизни (дневной/ночной) млекопитающего: ");//убрать может просто этот пракметр
-            //Console.Write("dsaaa", Geogreph.a);
+
             Specie = specie;
             Location = location;
             LivingEnvironment = livingEnvironment;
@@ -125,7 +116,6 @@ namespace AnimalLibrary
         {
             base.RandomInit();
 
-            //var rand = new Random();
             List<string> arrType = new List<string>(){"Волк", "Утконос", "Белка", "Дельфин", "Кит", 
                 "Кот", "Собака", "Тигр", "Рысь",
                 "Медведь", "Росомаха", "Ласка"};
@@ -133,10 +123,6 @@ namespace AnimalLibrary
                 "Азия", "Северная Америка", "Южная Америка", "Австралия"};
 
             List<string> arrLifestyle = new List<string>(){"Дневной", "Ночной"};
-
-            //Weight = rand.Next(1, 100);
-            //Height = rand.Next(1, 7);
-            //Age = rand.Next(1, 85);
 
             Specie = arrType[rand.Next(0, arrType.Count-1)];//*****
             Location = arrLocation[rand.Next(0, arrLocation.Count - 1)]; ;
@@ -151,8 +137,6 @@ namespace AnimalLibrary
         {
             if (obj is Mammal mammal)
                 {
-                //sMammal mamm = this;
-                //bool x = ((Animal)mammal).Equals(mamm);
                 return (base.Equals(obj) & (Specie == mammal.Specie)
                 & (Location == mammal.Location) & (LivingEnvironment == mammal.LivingEnvironment)
                 & (Lifestyle == mammal.Lifestyle));
@@ -166,11 +150,5 @@ namespace AnimalLibrary
             clone.Name = $"Клон {clone.Name}";
             return clone;
         }
-
-        //public new Mammal SuperficialCopy() //поверхностное копирование
-        //{
-        //    return (Mammal)this.MemberwiseClone();
-        //}
-
     }
 }

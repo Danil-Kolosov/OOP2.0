@@ -134,7 +134,6 @@ namespace AnimalLibrary
 
         public virtual void RandomInit()
         {
-            //var rand = new Random();
             Weight = rand.Next(1, 100);
             Height = rand.Next(1, 7);
             Age = rand.Next(1, 85);
@@ -180,58 +179,9 @@ namespace AnimalLibrary
 
         public virtual Animal SuperficialCopy() //поверхностное копирование
         {
-            this.Name = $"Клон {this.Name}";
-            return (Animal)this.MemberwiseClone();
+            Animal copy = (Animal)this.MemberwiseClone();
+            copy.Name = $"Клон {copy.Name}";
+            return copy;
         }
-
-
-        //запросы
-
-        //Наименование птиц в зоопарке
-        //Сколько собак в зоопарке
-        //В какое время суток бодрствует Рич
-        //public static void BirdsNameQuery(Animal[] zoo)
-        //{
-        //    Console.WriteLine("Список имен птиц в зоопарке:");
-        //    foreach (Animal an in zoo)
-        //    {
-        //        if (an is Bird)
-        //            Console.WriteLine(an.Name);
-        //    }
-        //}
-
-        //public static void DogsNumberQuery(Animal[] zoo)
-        //{
-        //    int dogsNumber = 0;
-        //    foreach (Animal an in zoo)
-        //    {
-        //        if (an is Mammal)
-        //        {
-        //            Mammal mamm = (Mammal)an;
-        //            if (mamm.Specie == "Собака")
-        //                dogsNumber++;
-        //        }
-        //    }
-        //    Console.WriteLine($"Количество собак в зоопарке: {dogsNumber}");
-        //}
-
-        //public static void GetLifeStyleByName(Animal[] zoo, string nickname = "Рич")
-        //{
-        //    foreach (Animal an in zoo)
-        //    {
-        //        if (an is Mammal || an is Artiodactyl)
-        //        {
-        //            Mammal mamm = (Mammal)an;
-        //            if (mamm.Name == "Рич")
-        //            {
-        //                if (mamm.Lifestyle == "Дневной")
-        //                    Console.WriteLine($"{mamm.Specie} {nickname} бодрствует днем");
-        //                else
-        //                    Console.WriteLine($"{mamm.Specie} {nickname} бодрствует ночью");
-        //            }
-        //        }
-        //    }
-        //    Console.WriteLine($"Животное с именем {nickname} отсутсвует, или не имеет поля о времени бодрствования");
-        //}
     }
 }
