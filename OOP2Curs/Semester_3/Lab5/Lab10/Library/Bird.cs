@@ -130,9 +130,14 @@ namespace AnimalLibrary
             return clone;
         }
 
-        //public new Bird SuperficialCopy() //поверхностное копирование
-        //{
-        //    return (Bird)this.MemberwiseClone();
-        //}
+        public override void VirtualShow()
+        {
+            External_Interactions.OutInformation("Виртуалный вывод - птица");
+        }
+
+        public new void UnVirtualShow()
+        {
+            External_Interactions.OutInformation("НЕ виртуалный вывод - птица");
+        }
     }
 }

@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\",
+  "WorkspaceRootPath": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E00C3A7-7554-49CF-A2CC-8E43647DD594}|lab10\\lab10.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab5\\lab10\\lab10\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E00C3A7-7554-49CF-A2CC-8E43647DD594}|lab10\\lab10.csproj|c:\\git\\danil\\oop2.0\\oop2curs\\semester_3\\lab5\\lab10\\lab10\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E00C3A7-7554-49CF-A2CC-8E43647DD594}|lab10\\lab10.csproj|solutionrelative:lab10\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|c:\\git\\danil\\oop2.0\\oop2curs\\semester_3\\lab5\\lab10\\library\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|solutionrelative:library\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|c:\\git\\danil\\oop2.0\\oop2curs\\semester_3\\lab5\\lab10\\library\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|solutionrelative:library\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|c:\\git\\danil\\oop2.0\\oop2curs\\semester_3\\lab5\\lab10\\library\\artiodactyl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|solutionrelative:library\\artiodactyl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|c:\\git\\danil\\oop2.0\\oop2curs\\semester_3\\lab5\\lab10\\library\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|solutionrelative:library\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,42 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bird.cs",
+              "DocumentMoniker": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\Bird.cs",
+              "RelativeDocumentMoniker": "Library\\Bird.cs",
+              "ToolTip": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\Bird.cs",
+              "RelativeToolTip": "Library\\Bird.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAkwIsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:59:55.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Artiodactyl.cs",
+              "DocumentMoniker": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\Artiodactyl.cs",
+              "RelativeDocumentMoniker": "Library\\Artiodactyl.cs",
+              "ToolTip": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\Artiodactyl.cs",
+              "RelativeToolTip": "Library\\Artiodactyl.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAYwGkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:59:01.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mammal.cs",
+              "DocumentMoniker": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\Mammal.cs",
+              "RelativeDocumentMoniker": "Library\\Mammal.cs",
+              "ToolTip": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\Mammal.cs",
+              "RelativeToolTip": "Library\\Mammal.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAswKEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:57:46.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\Animal.cs",
+              "RelativeDocumentMoniker": "Library\\Animal.cs",
+              "ToolTip": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\Animal.cs",
+              "RelativeToolTip": "Library\\Animal.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAA6wL8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:54:34.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Programm.cs",
-              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\lab10\\Programm.cs",
+              "DocumentMoniker": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\lab10\\Programm.cs",
               "RelativeDocumentMoniker": "lab10\\Programm.cs",
-              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\lab10\\Programm.cs",
+              "ToolTip": "C:\\GIT\\Danil\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\lab10\\Programm.cs",
               "RelativeToolTip": "lab10\\Programm.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T18:10:23.867Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 137,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

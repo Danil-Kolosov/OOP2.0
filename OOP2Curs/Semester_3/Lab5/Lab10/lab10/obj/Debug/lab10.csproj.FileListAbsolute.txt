@@ -18,3 +18,13 @@ C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\bin\Debug\la
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\obj\Debug\lab10.csproj.Up2Date
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\bin\Debug\Library.dll
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\bin\Debug\Library.pdb
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\obj\Debug\lab10.csproj.AssemblyReference.cache
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\obj\Debug\lab10.csproj.CoreCompileInputs.cache
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\obj\Debug\lab10.exe
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\obj\Debug\lab10.pdb
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\bin\Debug\lab10.exe.config
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\bin\Debug\lab10.exe
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\bin\Debug\lab10.pdb
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\bin\Debug\Library.dll
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\bin\Debug\Library.pdb
+C:\GIT\Danil\OOP2.0\OOP2Curs\Semester_3\Lab5\Lab10\lab10\obj\Debug\lab10.csproj.Up2Date

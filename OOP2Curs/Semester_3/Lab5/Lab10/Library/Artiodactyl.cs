@@ -106,5 +106,15 @@ namespace AnimalLibrary
             clone.Name = $"Клон {clone.Name}";
             return clone;
         }
+
+        public override void VirtualShow()
+        {
+            External_Interactions.OutInformation("Виртуалный вывод - парнокопытное");
+        }
+
+        public new void UnVirtualShow()
+        {
+            External_Interactions.OutInformation("НЕ виртуалный вывод - парнокопытное");
+        }
     }
 }

@@ -183,5 +183,16 @@ namespace AnimalLibrary
             copy.Name = $"Клон {copy.Name}";
             return copy;
         }
+
+        public virtual void VirtualShow() 
+        {
+            External_Interactions.OutInformation("Виртуалный вывод - животное");
+        }
+
+        public void UnVirtualShow()
+        {
+            External_Interactions.OutInformation("НЕ виртуалный вывод - животное");
+        }
+
     }
 }

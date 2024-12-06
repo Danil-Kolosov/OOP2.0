@@ -13,6 +13,26 @@ namespace lab10
         {
             Console.InputEncoding = System.Text.Encoding.GetEncoding("utf-16");
 
+            Console.WriteLine("Создадим переменную типа Animal и будем присваивать ссылки на все объекты иерархии\nПри этом вызовем виртуальные функции: ");
+            Animal virtShow = new Animal();
+            virtShow.VirtualShow();
+            virtShow = new Mammal();
+            virtShow.VirtualShow();
+            virtShow = new Artiodactyl();
+            virtShow.VirtualShow();
+            virtShow = new Bird();
+            virtShow.VirtualShow();
+            Console.WriteLine("Теперь будем вызывать невиртуальные методы");
+            virtShow = new Animal();
+            virtShow.UnVirtualShow();
+            virtShow = new Mammal();
+            virtShow.UnVirtualShow();
+            virtShow = new Artiodactyl();
+            virtShow.UnVirtualShow();
+            virtShow = new Bird();
+            virtShow.UnVirtualShow();
+
+
             Console.WriteLine("Создадим массив из объектов иерархии и реализуем на нем запросы");
 
             Animal[] zoo = new Animal[6];
