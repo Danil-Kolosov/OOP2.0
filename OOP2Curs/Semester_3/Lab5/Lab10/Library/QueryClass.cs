@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnimalLibrary
 {
+    //В отдельный класс вынесено чтобы не влиять на картину покрытия тестами и немусорить код животных классов
     public class Query
     {
         //Наименование птиц в зоопарке

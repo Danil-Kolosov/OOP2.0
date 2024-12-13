@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\Library\\algebra\u041EfLogic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|c:\\projectsgit\\oop2curs\\library\\algebra\u043Eflogic\\algebra\u043Eflogic\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|solutionrelative:algebra\u043Eflogic\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|c:\\projectsgit\\oop2curs\\library\\algebra\u043Eflogic\\algebra\u043Eflogic\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|solutionrelative:algebra\u043Eflogic\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 836,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Programm.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\Library\\algebra\u041EfLogic\\algebra\u041EfLogic\\Programm.cs",
+              "RelativeDocumentMoniker": "algebra\u041EfLogic\\Programm.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\Library\\algebra\u041EfLogic\\algebra\u041EfLogic\\Programm.cs",
+              "RelativeToolTip": "algebra\u041EfLogic\\Programm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:34:29.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Logica.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\Library\\algebra\u041EfLogic\\algebra\u041EfLogic\\Logica.cs",
+              "RelativeDocumentMoniker": "algebra\u041EfLogic\\Logica.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\Library\\algebra\u041EfLogic\\algebra\u041EfLogic\\Logica.cs",
+              "RelativeToolTip": "algebra\u041EfLogic\\Logica.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAmwBQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:33:46.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 137,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

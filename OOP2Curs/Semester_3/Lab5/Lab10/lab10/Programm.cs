@@ -15,25 +15,44 @@ namespace lab10
 
             Console.WriteLine("Создадим переменную типа Animal и будем присваивать ссылки на все объекты иерархии\nПри этом вызовем виртуальные функции: ");
             Animal virtShow = new Animal();
-            virtShow.VirtualShow();
+            virtShow.RandomInit();
+            Console.WriteLine("\nЖивотное");
+            virtShow.Show();
             virtShow = new Mammal();
-            virtShow.VirtualShow();
+            virtShow.RandomInit();
+            Console.WriteLine("\nМлекопитающее");
+            virtShow.Show();
             virtShow = new Artiodactyl();
-            virtShow.VirtualShow();
+            virtShow.RandomInit();
+            Console.WriteLine("\nПарнокопытное");
+            virtShow.Show();
             virtShow = new Bird();
-            virtShow.VirtualShow();
-            Console.WriteLine("Теперь будем вызывать невиртуальные методы");
+            virtShow.RandomInit();
+            Console.WriteLine("\nПтица");
+            virtShow.Show();
+            Console.WriteLine("\nТеперь будем вызывать невиртуальные методы");
             virtShow = new Animal();
+            virtShow.RandomInit();
+            Console.WriteLine("\nЖивотное");
             virtShow.UnVirtualShow();
             virtShow = new Mammal();
+            virtShow.RandomInit();
+            Console.WriteLine("\nМлекопитающее");
             virtShow.UnVirtualShow();
             virtShow = new Artiodactyl();
+            virtShow.RandomInit();
+            Console.WriteLine("\nПарнокопытное");
             virtShow.UnVirtualShow();
             virtShow = new Bird();
+            virtShow.RandomInit();
+            Console.WriteLine("\nПтица");
             virtShow.UnVirtualShow();
 
+            Console.WriteLine("\nНажмите Enter для продолжения");
+            Console.ReadLine();
 
-            Console.WriteLine("Создадим массив из объектов иерархии и реализуем на нем запросы");
+
+            Console.WriteLine("\n\nСоздадим массив из объектов иерархии и реализуем на нем запросы");
 
             Animal[] zoo = new Animal[6];
             zoo[0] = new Animal();

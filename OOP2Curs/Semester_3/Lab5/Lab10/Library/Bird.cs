@@ -137,7 +137,9 @@ namespace AnimalLibrary
 
         public new void UnVirtualShow()
         {
-            External_Interactions.OutInformation("НЕ виртуалный вывод - птица");
+            //Console.WriteLine("НЕ виртуалный вывод - птица");
+            base.Show();
+            Console.WriteLine($"Размах крыльев: {Wingspan}\nДальность полета: {FlightRange}\nВид: {Specie}");
         }
     }
 }

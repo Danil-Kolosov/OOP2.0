@@ -191,7 +191,9 @@ namespace AnimalLibrary
 
         public void UnVirtualShow()
         {
-            External_Interactions.OutInformation("НЕ виртуалный вывод - животное");
+            //Console.WriteLine("НЕ виртуалный вывод - животное");
+            Console.WriteLine("\n\nХарактеристики объекта: ");
+            Console.WriteLine($"Имя: {name} Вес: {weight} Рост: {height} Возраст: {age}\nЗаметки по животному: {Note}");
         }
 
     }

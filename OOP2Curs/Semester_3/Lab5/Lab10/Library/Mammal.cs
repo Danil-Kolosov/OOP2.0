@@ -158,7 +158,10 @@ namespace AnimalLibrary
 
         public new void UnVirtualShow()
         {
-            External_Interactions.OutInformation("НЕ виртуалный вывод - млекопитающее");
+            //Console.WriteLine("НЕ виртуалный вывод - млекопитающее");
+            base.Show();
+            Console.WriteLine($"Вид: {Specie}\nМесто обитания: {Location}" +
+                $"\nОреал обитания: {LivingEnvironment}\nОбраз жизни: {Lifestyle}");
         }
     }
 }

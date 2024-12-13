@@ -1,0 +1,7 @@
+C:\projectsGit\OOP2Curs\Library\algebraОfLogic\algebraОfLogic\bin\Debug\algebraОfLogic.exe.config
+C:\projectsGit\OOP2Curs\Library\algebraОfLogic\algebraОfLogic\bin\Debug\algebraОfLogic.exe
+C:\projectsGit\OOP2Curs\Library\algebraОfLogic\algebraОfLogic\bin\Debug\algebraОfLogic.pdb
+C:\projectsGit\OOP2Curs\Library\algebraОfLogic\algebraОfLogic\obj\Debug\algebraОfLogic.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\Library\algebraОfLogic\algebraОfLogic\obj\Debug\algebraОfLogic.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\Library\algebraОfLogic\algebraОfLogic\obj\Debug\algebraОfLogic.exe
+C:\projectsGit\OOP2Curs\Library\algebraОfLogic\algebraОfLogic\obj\Debug\algebraОfLogic.pdb

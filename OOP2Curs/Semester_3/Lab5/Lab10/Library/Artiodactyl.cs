@@ -114,7 +114,9 @@ namespace AnimalLibrary
 
         public new void UnVirtualShow()
         {
-            External_Interactions.OutInformation("НЕ виртуалный вывод - парнокопытное");
+            //Console.WriteLine("НЕ виртуалный вывод - парнокопытное");
+            base.Show();
+            Console.WriteLine($"Размер копыт: {HoofSize} Размер рогов: {HornsSize}");
         }
     }
 }
