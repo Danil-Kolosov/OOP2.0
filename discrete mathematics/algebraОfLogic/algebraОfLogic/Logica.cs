@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.PerformanceData;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,256 +9,381 @@ namespace algebraОfLogic
 {
     internal class Logica
     {
-        public static void Main() 
-        {
-            InputData();
-            OutputData();
-            //список-массив перменных - по индексу первый-х второй-у и так далее
-            //отсюда строить скнф и сднф
-            //все работает коменты можно убирать слава Богу
-            
-            прогнозируются большие проблемы изз-за чтения задом напреред, но еще большие проблемы будут, если пытаться это исправить
-            есть сднф, надо скнф и склейку
-                еще исправить вывод данных в инпутедата взять из тоутпутдата
-
-        }
-
-        //private static List<List<int>> values;
         private static int[][] values;
+        private static int size = 0;
         private static int numberOfVariable = 0;
-        private static string[] variables = { "X", "Y", "Z", "V", "K" };
+        private static string[] variables = { "X", "Y", "Z", "P", "Q" };
+        //private static string[] variablesNegative = { "X̄", "Ȳ", "Z̄", "P̄", "Q̄" };
+        private static string[] variablesNegative = { "¬X", "¬Y", "¬Z", "¬P", "¬Q" };
 
-        public static void InputData() 
+        public static void InputData()
         {
-            //int numberOfVariable = 0; //куда-то еще передать надо
-            Input(ref numberOfVariable, 0, 5, "Введите количество переменных: ");
-            FillVariableValues(numberOfVariable);
-
-            int size = (int)Math.Pow(2, numberOfVariable);
-            //values = new int[numberOfVariable][];
-            for (int i = 0; i < size; i++)
-            {     
-                int tempValue = 0;
-                Input(ref tempValue, 0, 1, $"{values[i][1]}{values[i][0]} ");
-                //ТУТ НЕ ПРАИВЛЬНО ДЕЛАТЬ КАК В OUTPUTdaTA  
-                values[i][numberOfVariable] = tempValue;
+            int commandKey = 0;
+            Output("1. Задать результаты в ручную\n2. Задать результаты с помощью генератора случайных чисел\n3. Назад");
+            Input(ref commandKey);
+            
+            switch (commandKey) 
+            {
+                case 1:
+                    {
+                        Input(ref numberOfVariable, 1, 5, "Введите количество переменных: ");
+                        size = (int)Math.Pow(2, numberOfVariable);
+                        FillVariableValues(numberOfVariable);
+                        for (int i = 0; i < numberOfVariable; i++)
+                        {
+                            Console.Write(variables[i]);
+                        }
+                        Console.WriteLine();
+                                               
+                        for (int i = 0; i < size; i++)
+                        {
+                            for (int j = 0; j < numberOfVariable; j++)///стало (int j = 0; j < numberOfVariable; j++) но гавно -ь заполняшось с конца
+                                                                      ///было  int j = numberOfVariable-1; j >=0 ; j--
+                            {
+                                Console.Write(values[i][j]);
+                                //Output($"{values[i][0]}{values[i][1]} {values[i][2]}");
+                            }
+                            int tempValue = 0;
+                            Input(ref tempValue, 0, 1, " ");
+                            values[i][numberOfVariable] = tempValue;
+                        }
+                        break;
+                    }
+                case 2: 
+                    {
+                        Input(ref numberOfVariable, 1, 5, "Введите количество переменных: ");
+                        size = (int)Math.Pow(2, numberOfVariable);
+                        FillVariableValues(numberOfVariable);
+                        var rand = new Random();
+                        for (int i = 0; i < size; i++)
+                        {                            
+                            values[i][numberOfVariable] = rand.Next(0,2);
+                        }
+                        OutputData();
+                        break;
+                    }
+                case 3: 
+                    {
+                        break;
+                    }
             }
-
-            //**********************************
-            Console.WriteLine(GetSDNF(size, numberOfVariable));
-
         }
 
-        public static bool AllPreviosOne(int i, int j)
+        public static bool AllPreviosOne(int i, int j, int numberOfVariable)
         {
-            for (int k = 0; k < j; k++) 
+            for (int k = numberOfVariable - 1; k > j; k--)//было int k = 0; k < j; k++ //int k = j-1; k >= 0; k--
             {
                 if (values[i][k] == 0)
                     return false;
             }
-            return true;
+            
+            return true;          
         }
 
         public static bool IWasOne(int i, int j, int numberOfVariable)
         {
-            if(values[i][j] == 1)
+            if (values[i][j] == 1)
                 return true;
             return false;
         }
 
-        public static bool NextIsOne(int i, int j) 
+        public static bool NextIsOne(int i, int j)
         {
-            if (values[i][j+1]==1)
+            if (values[i][j - 1] == 1)
                 return true;
             return false;
         }
 
-        public static void FillVariableValues(int numberOfVariable) 
-        {
-            //if (numberOfVariable < 1 || numberOfVariable > 31)
-            //    throw new ArgumentOutOfRangeException("n");
-            //int size = 1 << numberOfVariable;
-            //for (int i = 0; i < size; i++)
-            //{
-            //    bool[] values = new bool[numberOfVariable];
-            //    for (int j = 0; j < values.Length; j++)
-            //    {
-            //        values[j] = (int)((i & (1 << (numberOfVariable - j - 1))) > 0);
-            //    }
-            //    return;
-            //}
-            //все преидущее единица или я сам был единицей - единица
-            
-            int size = (int)Math.Pow(2, numberOfVariable);
+        public static void FillVariableValues(int numberOfVariable)
+        {            
+            size = (int)Math.Pow(2, numberOfVariable);
             values = new int[size][];
             values[0] = new int[1 + numberOfVariable];
             for (int i = 1; i < size; i++)
-            {
                 values[i] = new int[1 + numberOfVariable];
-                values[i][0] = (i) % 2;
-                for (int j = 1; j < numberOfVariable; j++)
+            for(int i = 1; i < size; i++) 
+            {
+                values[i][numberOfVariable - 1] = (i) % 2;
+                for (int j = numberOfVariable - 2; j >= 0; j--) 
                 {
-                    if (AllPreviosOne(i - 1, j) & IWasOne(i - 1, j, numberOfVariable))
+                    if (AllPreviosOne(i - 1, j,numberOfVariable)) 
                     {
-                        if (i == 8 || i == 9)
-                            ;
-                        if(j!= numberOfVariable - 1)
+                        values[i][j] = 1;
+                        for(int k=j+1;k < numberOfVariable; k++) 
                         {
-                            while (NextIsOne(i - 1, j)) 
-                            {
-                                values[i][j] = 0;
-                                j++;
-                            }
-                            //values[i][j] = 0;
-                            values[i][j + 1] = 1;
-                            j ++;
-                        }
-                        else
-                            values[i][j] = 1;
-                        //if (j > 0)
-                        //  values[i - 1][j - 1] = 0;
-                    }
-                    else 
-                    {
-                        if (AllPreviosOne(i - 1, j) || IWasOne(i - 1, j, numberOfVariable))
-                        {
-                            values[i][j] = 1;
+                            values[i][k] = 0;
                         }
                     }
-
-                    //if (values[i - 1][j - 1] == 1 || values[i - 1][j] == 1 /*& j!= numberOfVariable-1*/)
-                    //    {
-                    //        if (values[i - 1][j] == 1 & j == numberOfVariable - 1)
-                    //        {
-                    //            values[i][j] = 1;
-                    //        }
-                    //        else
-                    //        {
-                    //            //if (j - *2 * >= 0)
-                    //            bool isZero = true;
-                    //            for (int k = 0; k < j & isZero; k++)
-                    //            {
-                    //                if (values[i - 1][k] != 1)
-                    //                    isZero = false;
-                    //            }
-                    //            if (!isZero)
-                    //            {
-                    //                values[i][j] = 1;
-                    //            }
-                    //        }
-                    //    }
+                    else
+                    {
+                        if (IWasOne(i - 1, j, numberOfVariable))
+                            values[i][j] = 1;
+                    }
                 }
             }
-
-            //values = new int[(int)Math.Pow(2, numberOfVariable)][];
-            //int size = (int)Math.Pow(2, numberOfVariable);
-            ////string s = Convert.ToString(4, 2);
-            ////for (int i = 1; i < size; i++) 
-            ////{
-            ////    values[i][0] = 1;
-            ////    if()
-            ////}
-
-
-            //for (int i = 0; i < size; i++)
-            //{
-            //    values[i] = new int[1 + numberOfVariable];
-            //    values[i][0] = (i) % 2;
-            //    for (int j = 1; j < numberOfVariable; j++)
-            //    {
-
-            //        if (i > 0)
-            //        {
-            //            if (values[i - 1][j - 1] == 1 || values[i - 1][j]==1 /*& j!= numberOfVariable-1*/)
-            //            {
-            //                if(values[i - 1][j] == 1 & j == numberOfVariable - 1) 
-            //                {
-            //                    values[i][j] = 1;
-            //                }
-            //                else
-            //                 {
-            //                    //if (j - *2 * >= 0)
-            //                    bool isZero = true;
-            //                    for(int k = 0; k < j & isZero; k++)
-            //                    {
-            //                            if (values[i - 1][k] != 1)
-            //                                isZero = false;
-            //                    }
-            //                    if(!isZero)
-            //                    {
-            //                       values[i][j] = 1;
-            //                    }
-            //                }                        
-            //            }
-            //        }
-            //    }
-            //}
         }
 
         public static void Input(ref int data, int minValue = -100000, int maxValue = 100000, string introductoryMessage = "")
         {
-            //Console.OutputEncoding = Encoding.Unicode;
             if (introductoryMessage != "")
             {
                 Console.Write(introductoryMessage);
             }
             if (!(int.TryParse((Console.ReadLine()), out data)) || data < minValue || data > maxValue)
             {
-                Input(ref data, minValue, maxValue, "Введены не корректные данные, повторите");
+                Input(ref data, minValue, maxValue, "Введены не корректные данные, повторите\n");
             }
         }
 
         public static void Output(string information)
         {
+            //Console.OutputEncoding = Encoding.Unicode;
             Console.WriteLine(information);
         }
 
-        public static void OutputData() 
+        public static void OutputData()
         {
             for (int i = 0; i < (int)Math.Pow(2, numberOfVariable); i++)
             {
-                for (int j = numberOfVariable-1; j >= 0; j--)
+                for (int j = 0; j < numberOfVariable; j++) //было int j = numberOfVariable - 1; j >= 0; j--
                 {
                     Console.Write(values[i][j]);
                     //Output($"{values[i][0]}{values[i][1]} {values[i][2]}");
                 }
-                Console.WriteLine($" {values[i][numberOfVariable]}");
-                //int tempValue = 0;
-                //Input(ref tempValue, 0, 1, $"{values[i][0]}{values[i][1]}");
-                //values[i][3] = tempValue;
+                Console.WriteLine($" {values[i][numberOfVariable]}");               
             }
         }
 
-        public static string GetSDNF(int size,int numberOfVariable) 
+        public static string GetSKNF(int size, int numberOfVariable)
         {
-            string sdnf = "";
-            for (int i = 0; i < size; i++) 
+            string sknf = "";
+            for (int i = 0; i < size; i++)
             {
-                if (values[i][numberOfVariable] == 0) 
+                if (values[i][numberOfVariable] == 0)
                 {
                     string temp = "";
-                    if (sdnf != "")
-                        temp = " v ";
-                    for (int j = numberOfVariable - 1, var = 0; j >= 0; j--) 
+                    if (sknf != "")
+                        temp += ")•(";
+                    else
+                        sknf += "(";
+                    for (int j = 0, var = 0; j < numberOfVariable; j++)//было int j = numberOfVariable - 1, var = 0; j >= 0; j-- //int j = 0, var = 0; j < numberOfVariable; j++
                     {
                         if (values[i][j] == 0)
-                        { 
+                        {
+                            if (j > 0)
+                                temp += " V ";
                             temp += variables[var];
                             var++;
                         }
                         else
                         {
-                            temp += "!";
+                            if (j > 0)
+                                temp += " V ";
+                            temp += variablesNegative[var];
+                            var++;
+                        }                        
+                    }
+                    sknf += temp;
+                }
+            }
+            if (sknf != "")
+            {
+                sknf += ")";
+                return sknf;
+            }
+            else
+                return "СKНФ - пустая";            
+        }
+
+        public static string GetSDNF(int size, int numberOfVariable)
+        {
+            string sdnf = "";
+            for (int i = 0; i < size; i++)
+            {
+                if (values[i][numberOfVariable] == 1)
+                {
+                    string temp = "";
+                    if (sdnf != "")
+                        temp = " V ";
+                    for (int j = 0, var = 0; j < numberOfVariable; j++)//было int j = numberOfVariable - 1, var = 0; j >= 0; j--//int j = 0, var = 0; j < numberOfVariable; j++
+                    {
+                        if (values[i][j] == 1)
+                        {
                             temp += variables[var];
+                            var++;
+                        }
+                        else
+                        {
+                            temp += variablesNegative[var];
                             var++;
                         }
                     }
                     sdnf += temp;
                 }
-                
             }
+            if (sdnf != "")
+                return sdnf;
+            else
+                return "СДНФ - пустая";
+        }
 
-            return sdnf;
+        public static string Gluing(int i, int j, int numberOfVariable, int[][] tempValues, int tempIter, int[][] value, int numberToEuqls)
+        {
+            int numberOfEuqls = 0;
+            int numberOfDifferents = 0;
+            string gluingResult = "";
+            //int[] savedVariables = new int[numberOfVariable - 1];
+            //int savedVariablesCounter = 0;
+
+            for (int k = 0; k < numberOfVariable; k++)//было int k = numberOfVariable - 1; k >= 0; k-- и дичайше не согласовалось с последующми добавлениями: совпало z а добавили и записали  x хотя его в одном из дизъюнктов даже не было!
+            {
+                if (value[i][k] == value[j][k] & value[j][k] != -1)
+                {
+                    numberOfEuqls++;
+                    if (value[i][k] == 0)
+                    {
+                        gluingResult += variablesNegative[k]; //было numberOfVariable - 1 - k] и не согласовалось наждо просто к
+                        tempValues[tempIter][k] = 0; //тк value[i][k] == 0
+                        tempValues[tempIter][numberOfVariable] = 1; //так как резуьтат по любому один
+                        //savedVariables[savedVariablesCounter] = numberOfVariable - 1 - k;
+                        //savedVariablesCounter++;
+                    }
+                    else
+                    {
+                        gluingResult += variables[k];
+                        tempValues[tempIter][k] = 1; //тк value[i][k] == 1
+                        tempValues[tempIter][numberOfVariable] = 1; //так как резуьтат по любому один
+                        //savedVariables[savedVariablesCounter] = numberOfVariable - 1 - k;
+                        //savedVariablesCounter++;
+                    }
+                }
+                else 
+                {
+                    if (value[i][k] != -1 & value[j][k] != -1)
+                        numberOfDifferents++;
+                }
+            }
+            if (numberOfEuqls == numberToEuqls & numberOfDifferents == 1)
+            {
+                //for (int k = 0; k < savedVariablesCounter; k++)
+                //{
+                //    tempValues[tempIter][k] = values[][];
+                //}                
+                return gluingResult;
+            }
+            else
+            { 
+                for(int k = 0; k < numberOfVariable+1; k++) 
+                {
+                    tempValues[tempIter][k] = -1;
+                }
+                return ""; 
+            }
+        }
+       
+        public static string GetMDNF(int size, int numberOfVariable, int[][] value, int counter = 1)
+        {
+            string mdnf = "";
+            int[][] tempValues = new int[size*size][];
+            int tempIter = 0;
+            int numberOfOneResult = 0;
+            for(int k = 0; k < size; k++) 
+            {
+                if (values[k][numberOfVariable] == 1)
+                    numberOfOneResult++;
+            }
+            if (numberOfOneResult == 1)
+                return GetSDNF(size, numberOfVariable);
+            else 
+            {
+                if (numberOfOneResult == 0)
+                    return "МДНФ - пустая";
+            }
+            //int[,] tempValues = new int[size, numberOfVariable + 1]; можно вот так и тогда нимжний цикл не нужен но потом везде исправить на [,] 
+            for (int i = 0; i < size*size; i++)
+            {
+                tempValues[i] = new int[numberOfVariable+1];
+                for (int j = 0; j < numberOfVariable; j++)
+                    tempValues[i][j] = -1;
+            }
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = i + 1; j < size; j++)
+                {                    
+                    if (value[i][numberOfVariable] == value[j][numberOfVariable] & value[j][numberOfVariable] == 1)
+                    {
+                        string gluingRes = Gluing(i, j, numberOfVariable, tempValues, tempIter, value, counter);//ОСТОРОЖНО МЕНЯТЬ COUNTER, ОН ВАЖНАЯ ФИГУРА
+                        if(gluingRes != "")
+                        {
+                            tempIter++;
+                            if (mdnf != gluingRes & (!mdnf.Contains($"{gluingRes} ") & !mdnf.Contains($" {gluingRes}")))//было || вместо & ориентировочно мешало - добавлялось когда уже и так было в мднф ОДНАКО добавился только лишний z икса лишнего не было ХОТЯ его и так не получалось по склейке ТЕПЕРЬ выдает что и должно на 0 1 0 1 1 1 1 и тд
+                            {
+                                if(gluingRes.Length==2 & gluingRes.Contains("¬") || gluingRes.Length == 1)
+                                {
+                                    if (mdnf.Contains($"¬{gluingRes} ") || mdnf.Contains($" ¬{gluingRes}"))
+                                    {
+                                        //значит этого длина 1
+                                        //mdnf = mdnf.Replace($" V ¬{gluingRes}", ""); //прекрасно работает но надо ведь просто сделать == 1
+                                        return "1";
+                                    }
+                                    else 
+                                    {
+                                        if(mdnf.Contains($"{gluingRes} ") || mdnf.Contains($" {gluingRes}"))
+                                        {
+                                            //mdnf = mdnf.Replace($"V {gluingRes[1]} ", "");//прекрасно работает но надо ведь просто сделать == 1
+                                            //mdnf = mdnf.Replace($"V ¬{gluingRes} ", ""); //
+                                            return "1";
+                                        }
+                                        else
+                                        {
+                                            if (mdnf != "")
+                                            {
+                                                mdnf += " V ";
+                                            }
+                                            mdnf += gluingRes;
+                                        }
+                                    }
+                                }
+                                else 
+                                {
+                                    if (mdnf != "")
+                                    {
+                                        mdnf += " V ";
+                                    }
+                                    mdnf += gluingRes;
+                                }                                
+                            }
+                        }
+                    }
+                }
+
+
+            }
+            if (counter > 1)
+            {
+                string tempResult = GetMDNF(size, numberOfVariable, tempValues, counter - 1);
+                if (tempResult == "")
+                    return mdnf;
+                else
+                    return tempResult;
+            }
+            else
+                return mdnf;
+        }
+
+        public static void OutSDNF()
+        {
+            Console.WriteLine(GetSDNF(size, numberOfVariable));
+        }
+
+        public static void OutSKNF()
+        {
+            Console.WriteLine(GetSKNF(size, numberOfVariable));
+        }
+
+        public static void OutMDNF()
+        {
+            Console.WriteLine(GetMDNF(size, numberOfVariable, values, numberOfVariable - 1));
         }
     }
 }
