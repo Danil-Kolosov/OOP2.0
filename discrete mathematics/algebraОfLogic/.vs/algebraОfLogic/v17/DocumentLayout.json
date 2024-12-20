@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\algebra\u041EfLogic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\discrete mathematics\\algebra\u043Eflogic\\algebra\u043Eflogic\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|solutionrelative:algebra\u043Eflogic\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\discrete mathematics\\algebra\u043Eflogic\\algebra\u043Eflogic\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|solutionrelative:algebra\u043Eflogic\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\algebra\u041EfLogic\\algebra\u043Eflogic\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|solutionrelative:algebra\u043Eflogic\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\algebra\u041EfLogic\\algebra\u043Eflogic\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5EC18E-5531-46C9-8E6E-85B66F40A799}|algebra\u041EfLogic\\algebra\u041EfLogic.csproj|solutionrelative:algebra\u043Eflogic\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Programm.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\algebra\u041EfLogic\\algebra\u041EfLogic\\Programm.cs",
               "RelativeDocumentMoniker": "algebra\u041EfLogic\\Programm.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\algebra\u041EfLogic\\algebra\u041EfLogic\\Programm.cs",
               "RelativeToolTip": "algebra\u041EfLogic\\Programm.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA9wC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T14:34:29.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Logica.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\algebra\u041EfLogic\\algebra\u041EfLogic\\Logica.cs",
               "RelativeDocumentMoniker": "algebra\u041EfLogic\\Logica.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\algebra\u041EfLogic\\algebra\u041EfLogic\\Logica.cs",
               "RelativeToolTip": "algebra\u041EfLogic\\Logica.cs",
-              "ViewState": "AgIAABwBAAAAAAAAAADwvwoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAJICAAAAAAAAAAAQwKYCAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:33:46.076Z"
+              "WhenOpened": "2024-12-09T14:33:46.076Z",
+              "EditorCaption": ""
             }
           ]
         },
