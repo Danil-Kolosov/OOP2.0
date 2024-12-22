@@ -48,9 +48,9 @@ namespace AnimalLibrary
             Specie = "none";
         }
 
-        public Artiodactyl(float weight, float height, int age, string name, int number, string specie,
+        public Artiodactyl(float weight, float height, int age, string name, string specie,
             string location, string livingEnvironment, string lifestyle, int hoofSize, int hornSize)
-            : base(weight, height, age, name, number, specie, location, livingEnvironment, lifestyle)
+            : base(weight, height, age, name, specie, location, livingEnvironment, lifestyle)
         {
             HoofSize = hoofSize;
             HornsSize = hornSize;

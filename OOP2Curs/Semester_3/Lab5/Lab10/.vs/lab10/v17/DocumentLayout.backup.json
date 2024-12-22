@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab5\\lab10\\library\\external_interactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|solutionrelative:library\\external_interactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E00C3A7-7554-49CF-A2CC-8E43647DD594}|lab10\\lab10.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab5\\lab10\\lab10\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E00C3A7-7554-49CF-A2CC-8E43647DD594}|lab10\\lab10.csproj|solutionrelative:lab10\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\library\\external_interactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|solutionrelative:library\\external_interactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\library\\queryclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,16 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "External_Interactions.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\External_Interactions.cs",
               "RelativeDocumentMoniker": "Library\\External_Interactions.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\Library\\External_Interactions.cs",
               "RelativeToolTip": "Library\\External_Interactions.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:46:12.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T14:46:12.773Z"
             },
             {
               "$type": "Document",
@@ -115,13 +114,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Programm.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\lab10\\Programm.cs",
               "RelativeDocumentMoniker": "lab10\\Programm.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab5\\Lab10\\lab10\\Programm.cs",
               "RelativeToolTip": "lab10\\Programm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T18:10:23.867Z",
               "EditorCaption": ""

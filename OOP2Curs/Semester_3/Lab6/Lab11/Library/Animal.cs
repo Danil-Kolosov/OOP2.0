@@ -14,7 +14,7 @@ namespace AnimalLibrary
         protected float height;
         protected int age;
         protected string name;
-        protected int number;
+        protected int number = 1;
         protected static int staticNumber = 0;
         protected static Random rand = new Random();
         protected NoteClass note = new NoteClass();
@@ -93,23 +93,29 @@ namespace AnimalLibrary
             set { number = value; }
         }
 
-        public Animal()
+        public Animal(int numberManagKey = -1)
         {
             Weight = 0;
             Height = 0;
             Age = 0;
             Name = "none";
-            Number = staticNumber;
-            staticNumber++;
+            if(numberManagKey != -1)
+            {
+                Number = staticNumber;
+                staticNumber++;
+            }
         }
 
-        public Animal(float weight, float height, int age, string name, int number)
+        public Animal(float weight, float height, int age, string name, int number = -1)
         {
             Weight = weight;
             Height = height;
             Age = age;
             Name = name;
-            Number = number;
+            if(number !=-1)
+            {
+                this.number = number;
+            }
         }
 
         public Animal(Animal man)
@@ -160,7 +166,7 @@ namespace AnimalLibrary
         {
             if (obj is Animal animal)
                 return ((Weight == animal.Weight) & (Height == animal.Height)
-                    & (Age == animal.Age) & (Name == animal.Name));
+                    & (Age == animal.Age) & (Name == animal.Name) & (this.GetHashCode() == animal.GetHashCode()));
             return false;
         }
 
@@ -210,7 +216,7 @@ namespace AnimalLibrary
 
         public override string ToString()
         {
-            return $"Имя: {name} Вес: {weight} Рост: {height} Возраст: {age} \nЗаметки по животному: {Note}";
+            return $"Имя: {name} Вес: {weight} Рост: {height} Возраст: {age} \nЗаметки по животному: {Note} \nИдентификационный номер: {Number}";
         }
 
         public override int GetHashCode()

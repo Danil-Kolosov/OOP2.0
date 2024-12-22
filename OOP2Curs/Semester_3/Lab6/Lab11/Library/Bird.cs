@@ -62,7 +62,7 @@ namespace AnimalLibrary
             specie = "none";
         }
 
-        public Bird(float weight, float height, int age, string name, int number, int wingspan, int flightRange, string specie) : base(weight, height, age, name, number)
+        public Bird(float weight, float height, int age, string name, int wingspan, int flightRange, string specie) : base(weight, height, age, name)
         {
             Wingspan = wingspan;
             FlightRange = flightRange;

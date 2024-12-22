@@ -10,7 +10,7 @@ using AnimalLibrary;
 
 namespace Lab11
 {
-    internal class TestCollections
+    public class TestCollections
     {
         private List<Mammal> list1 = new List<Mammal>();
         private List<string> list2 = new List<string>();
@@ -22,6 +22,8 @@ namespace Lab11
         //Коллекция_2<string, TValue>.
         //Dictionary<Person, Student> col2 = new Dictionary<Person, Student>();
         //Dictionary<string, Student> col2 = new Dictionary<string, Student>();
+
+        public int Count {  get { return list1.Count; } }
 
         public Mammal List1First 
         {
@@ -35,7 +37,7 @@ namespace Lab11
         {
             get
             {
-                return list1[(list1.Count / 2) - 1];
+                return list1[(list1.Count / 2)];
             }
         }
 
@@ -59,7 +61,7 @@ namespace Lab11
         {
             get
             {
-                return list2[(list1.Count / 2) - 1];
+                return list2[(list2.Count / 2)];
             }
         }
 
@@ -83,7 +85,7 @@ namespace Lab11
         {
             get
             {
-                return list1[(list1.Count / 2) - 1].BaseAnimal;
+                return list1[(list1.Count / 2)].BaseAnimal;
             }
         }
 
@@ -99,7 +101,7 @@ namespace Lab11
         {
             get
             {
-                return dictionary2[list2[0]].ToString();
+                return list1[0].BaseAnimal.ToString();
             }
         }
 
@@ -107,7 +109,7 @@ namespace Lab11
         {
             get
             {
-                return dictionary2[list2[(list2.Count / 2) - 1]].ToString();
+                return list1[(list1.Count / 2)].BaseAnimal.ToString();
             }
         }
 
@@ -115,7 +117,7 @@ namespace Lab11
         {
             get
             {
-                return dictionary2[list2[list2.Count - 1]].ToString();
+                return list1[list1.Count - 1].BaseAnimal.ToString();
             }
         }
 
@@ -131,7 +133,7 @@ namespace Lab11
         {
             get
             {
-                return list1[(list1.Count / 2) - 1];
+                return list1[(list1.Count / 2)];
             }
         }
 
@@ -149,10 +151,11 @@ namespace Lab11
             for(int i = 0; i < size; i++)
             {
                 //Animal man = new Mammal();
-                Mammal man = new Mammal();
+                Mammal man = new Mammal(1);
                 man.RandomInit();
                 list1.Add(man);
                 list2.Add(man.ToString());
+                Animal tMan = man.BaseAnimal;
                 dictionary1.Add(man.BaseAnimal, man);
                 dictionary2.Add(man.ToString(), man);
             }
@@ -172,113 +175,64 @@ namespace Lab11
             list2.Remove(man.ToString());
             dictionary1.Remove(man.BaseAnimal);
             dictionary2.Remove(man.ToString());
-        }
+        }     
 
-        //public void List2Add(Object man)
+        //public void Searching()
         //{
-        //    if (man is Mammal mammal)
-        //    {
-        //        list2.Add(mammal.ToString());
-        //    }
-        //}
-        //public void Dictionary1Add(Object man)
-        //{
-        //    if (man is Mammal mammal)
-        //    {
-        //        dictionary1.Add(mammal.BaseAnimal, mammal);
-        //    }
-        //}
-        //public void Dictionary2Add(Object man)
-        //{
-        //    if (man is Mammal mammal)
-        //    {
-        //        dictionary2.Add(man.ToString(), mammal);
-        //    }
-        //}
+        //    Console.WriteLine("Ищем первый элемент в list с типом - Mammal" + SearchingTimeList1(new Mammal(List1First)));
+        //    Console.WriteLine("Ищем средний элемент в list с типом - Mammal" + SearchingTimeList1(new Mammal(List1Medium)));
+        //    Console.WriteLine("Ищем последний элемент в list с типом - Mammal" + SearchingTimeList1(new Mammal(List1Last)));
+        //    Console.WriteLine("Ищем не существующий элемент в list с типом - Mammal" + SearchingTimeList1(new Mammal()));
 
-        //public void List1Delete(int indexToDel)
-        //{
-        //    if (indexToDel >= 0 & indexToDel < list1.Count)
-        //    {
-        //        list1.RemoveAt(indexToDel);
-        //    }
-        //}
+        //    Console.WriteLine();
 
-        //public void List2Delete(int indexToDel)
-        //{
-        //    if (indexToDel >= 0 & indexToDel < list2.Count)
-        //    {
-        //        list2.RemoveAt(indexToDel);
-        //    }
-        //}
-        //public void Dictionary1Delete(Object key)
-        //{
-        //    if (key is Animal animal)
-        //    {
-        //        dictionary1.Remove(animal);
-        //    }
-        //}
-        //public void Dictionary2Delete(string key)
-        //{
-        //    dictionary2.Remove(key);            
+        //    Console.WriteLine("Ищем первый элемент в list с типом - string" + SearchingTimeList2(List2First));
+        //    Console.WriteLine("Ищем средний элемент в list с типом - string" + SearchingTimeList2(List2Medium));
+        //    Console.WriteLine("Ищем последний элемент в list с типом - string" + SearchingTimeList2(List2Last));
+        //    Console.WriteLine("Ищем не существующий элемент в list с типом - string" + SearchingTimeList2((new Mammal()).ToString()));
+
+        //    Console.WriteLine();
+
+        //    //В словарях используется функция получения хэш кода - без ее переопределения работать не будет
+        //    //Потому что славарь на самомо деле - хэш таблица с навешаными функциями
+        //    Console.WriteLine("Ищем с помощью ContainsKey");            
+        //    Console.WriteLine("Ищем первый элемент в dictionary с ключом - Animal" + SearchingTimeDictionary1(new Animal(Dictionary1FirstKey)));
+        //    Console.WriteLine("Ищем средний элемент в dictionary с ключом - Animal" + SearchingTimeDictionary1(new Animal(Dictionary1MediumKey)));
+        //    Console.WriteLine("Ищем последний элемент в dictionary с ключом - Animal" + SearchingTimeDictionary1(new Animal(Dictionary1LastKey)));
+        //    Console.WriteLine("Ищем не существующий элемент в list с типом - string" + SearchingTimeDictionary1(new Animal()));
+
+        //    Console.WriteLine();
+
+        //    Console.WriteLine("Ищем первый элемент в dictionary с ключом - string" + SearchingTimeDictionary2Key(Dictionary2FirstKey)); //для поиска по ключу: dictionary2[list2[0]].ToString()
+        //    Console.WriteLine("Ищем средний элемент в dictionary с ключом - string" + SearchingTimeDictionary2Key(Dictionary2MediumKey));//для поиска по ключу: dictionary2[list2[(list2.Count / 2) - 1]].ToString()
+        //    Console.WriteLine("Ищем последний элемент в dictionary с ключом - string" + SearchingTimeDictionary2Key(Dictionary2LastKey)); //для поиска по ключу: dictionary2[list2[list2.Count - 1]].ToString()
+        //    Console.WriteLine("Ищем не существующий элемент в list с типом - string" + SearchingTimeDictionary2Key("neturrrrrrrerr"));
+
+        //    Console.WriteLine();
+
+        //    Console.WriteLine("Ищем с помощью ContainsValue");
+        //    Console.WriteLine("Ищем первый элемент в dictionary с ключом - string" + SearchingTimeDictionary2Val(new Mammal(Dictionary2FirstValue))); //для поиска по ключу: dictionary2[list2[0]].ToString()
+        //    Console.WriteLine("Ищем средний элемент в dictionary с ключом - string" + SearchingTimeDictionary2Val(new Mammal(Dictionary2MediumValue)));//для поиска по ключу: dictionary2[list2[(list2.Count / 2) - 1]].ToString()
+        //    Console.WriteLine("Ищем последний элемент в dictionary с ключом - string" + SearchingTimeDictionary2Val(new Mammal(Dictionary2LastValue))); //для поиска по ключу: dictionary2[list2[list2.Count - 1]].ToString()
+        //    Console.WriteLine("Ищем не существующий элемент в list с типом - string" + SearchingTimeDictionary2Val(new Mammal()));
         //}
 
-        public void Searching()
-        {
-            Console.WriteLine("Ищем первый элемент в list с типом - Mammal" + SearchingTimeList1(new Mammal(List1First)));
-            Console.WriteLine("Ищем средний элемент в list с типом - Mammal" + SearchingTimeList1(new Mammal(List1Medium)));
-            Console.WriteLine("Ищем последний элемент в list с типом - Mammal" + SearchingTimeList1(new Mammal(List1Last)));
-            Console.WriteLine("Ищем не существующий элемент в list с типом - Mammal" + SearchingTimeList1(new Mammal()));
-
-            Console.WriteLine();
-
-            Console.WriteLine("Ищем первый элемент в list с типом - string" + SearchingTimeList2(List2First));
-            Console.WriteLine("Ищем средний элемент в list с типом - string" + SearchingTimeList2(List2Medium));
-            Console.WriteLine("Ищем последний элемент в list с типом - string" + SearchingTimeList2(List2Last));
-            Console.WriteLine("Ищем не существующий элемент в list с типом - string" + SearchingTimeList2((new Mammal()).ToString()));
-
-            Console.WriteLine();
-
-            //В словарях используется функция получения хэш кода - без ее переопределения работать не будет
-            //Потому что славарь на самомо деле - хэш таблица с навешаными функциями
-            Console.WriteLine("Ищем с помощью ContainsKey");            
-            Console.WriteLine("Ищем первый элемент в dictionary с ключом - Animal" + SearchingTimeDictionary1(new Animal(Dictionary1FirstKey)));
-            Console.WriteLine("Ищем средний элемент в dictionary с ключом - Animal" + SearchingTimeDictionary1(new Animal(Dictionary1MediumKey)));
-            Console.WriteLine("Ищем последний элемент в dictionary с ключом - Animal" + SearchingTimeDictionary1(new Animal(Dictionary1LastKey)));
-            Console.WriteLine("Ищем не существующий элемент в list с типом - string" + SearchingTimeDictionary1(new Mammal()));
-
-            Console.WriteLine();
-
-            Console.WriteLine("Ищем первый элемент в dictionary с ключом - string" + SearchingTimeDictionary2Key(Dictionary2FirstKey)); //для поиска по ключу: dictionary2[list2[0]].ToString()
-            Console.WriteLine("Ищем средний элемент в dictionary с ключом - string" + SearchingTimeDictionary2Key(Dictionary2MediumKey));//для поиска по ключу: dictionary2[list2[(list2.Count / 2) - 1]].ToString()
-            Console.WriteLine("Ищем последний элемент в dictionary с ключом - string" + SearchingTimeDictionary2Key(Dictionary2LastKey)); //для поиска по ключу: dictionary2[list2[list2.Count - 1]].ToString()
-            Console.WriteLine("Ищем не существующий элемент в list с типом - string" + SearchingTimeDictionary2Key("neturrrrrrrerr"));
-
-            Console.WriteLine();
-
-            Console.WriteLine("Ищем с помощью ContainsValue");
-            Console.WriteLine("Ищем первый элемент в dictionary с ключом - string" + SearchingTimeDictionary2Val(new Mammal(Dictionary2FirstValue))); //для поиска по ключу: dictionary2[list2[0]].ToString()
-            Console.WriteLine("Ищем средний элемент в dictionary с ключом - string" + SearchingTimeDictionary2Val(new Mammal(Dictionary2MediumValue)));//для поиска по ключу: dictionary2[list2[(list2.Count / 2) - 1]].ToString()
-            Console.WriteLine("Ищем последний элемент в dictionary с ключом - string" + SearchingTimeDictionary2Val(new Mammal(Dictionary2LastValue))); //для поиска по ключу: dictionary2[list2[list2.Count - 1]].ToString()
-            Console.WriteLine("Ищем не существующий элемент в list с типом - string" + SearchingTimeDictionary2Val(new Mammal()));
-        }
-
-        public string SearchingTimeList1(Animal key) 
-        {
+        public string SearchingTimeList1(Mammal val) 
+        {           
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            bool isFound = list1.Contains(key);
+            bool isFound = list1.Contains(val);
             stopWatch.Stop();
             string result = "\n";
             result += isFound ? $"Элемент найден за время {stopWatch.Elapsed.Ticks}" : $"Элемент не найден, затраченное время: {stopWatch.Elapsed.Ticks}";
             return result;
         }
 
-        public string SearchingTimeList2(string key)
+        public string SearchingTimeList2(string val)
         {
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            bool isFound = list2.Contains(key);
+            bool isFound = list2.Contains(val);
             stopWatch.Stop();
             string result = "\n";
             result += isFound ? $"Элемент найден за время {stopWatch.Elapsed.Ticks}" : $"Элемент не найден, затраченное время: {stopWatch.Elapsed.Ticks}";

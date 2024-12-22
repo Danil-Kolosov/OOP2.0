@@ -18,6 +18,10 @@ namespace AnimalLibrary
         {
             get
             {
+                //Animal newAn = new Animal(Weight, Height, Age, Name);
+                //newAn.Number = this.Number;
+                //staticNumber++;
+                //return newAn;
                 return new Animal(Weight, Height, Age, Name, Number);//возвращает объект базового класса
             }
         }
@@ -70,7 +74,7 @@ namespace AnimalLibrary
             }
         }
 
-        public Mammal() : base()
+        public Mammal(int numberKeyManage = -1) : base(numberKeyManage)
         {
             Specie = "none";
             Location = "none";
@@ -78,8 +82,8 @@ namespace AnimalLibrary
             Lifestyle = "none";
         }
 
-        public Mammal(float weight, float height, int age, string name, int number, string specie,
-            string location, string livingEnvironment, string lifestyle) : base(weight, height, age, name, number)
+        public Mammal(float weight, float height, int age, string name, string specie,
+            string location, string livingEnvironment, string lifestyle) : base(weight, height, age, name)
         {
             Specie = specie;
             Location = location;
