@@ -118,5 +118,10 @@ namespace AnimalLibrary
             base.Show();
             Console.WriteLine($"Размер копыт: {HoofSize} Размер рогов: {HornsSize}");
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"\nРазмер копыт: {HoofSize} Размер рогов: {HornsSize}";
+        }
     }
 }

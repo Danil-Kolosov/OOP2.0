@@ -14,6 +14,14 @@ namespace AnimalLibrary
         string livingEnvironment;
         string lifestyle; //ночной дневной образ жизни
 
+        public Animal BaseAnimal
+        {
+            get
+            {
+                return new Animal(Weight, Height, Age, Name);//возвращает объект базового класса
+            }
+        }
+
         public string Specie 
         {  
             get 
@@ -163,5 +171,14 @@ namespace AnimalLibrary
             Console.WriteLine($"Вид: {Specie}\nМесто обитания: {Location}" +
                 $"\nОреал обитания: {LivingEnvironment}\nОбраз жизни: {Lifestyle}");
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"\nВид: {Specie}\nМесто обитания: {Location}" +
+                $"\nОреал обитания: {LivingEnvironment}\nОбраз жизни: {Lifestyle}";
+        }
+
+        
+
     }
 }

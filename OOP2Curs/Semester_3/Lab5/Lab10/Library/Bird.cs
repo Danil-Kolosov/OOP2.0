@@ -141,5 +141,10 @@ namespace AnimalLibrary
             base.Show();
             Console.WriteLine($"Размах крыльев: {Wingspan}\nДальность полета: {FlightRange}\nВид: {Specie}");
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"\nРазмах крыльев: {Wingspan}\nДальность полета: {FlightRange}\nВид: {Specie}";
+        }
     }
 }

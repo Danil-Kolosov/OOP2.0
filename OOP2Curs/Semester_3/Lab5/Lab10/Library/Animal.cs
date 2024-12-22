@@ -196,5 +196,10 @@ namespace AnimalLibrary
             Console.WriteLine($"Имя: {name} Вес: {weight} Рост: {height} Возраст: {age}\nЗаметки по животному: {Note}");
         }
 
+        public override string ToString()
+        {
+            return $"Имя: {name} Вес: {weight} Рост: {height} Возраст: {age}\nЗаметки по животному: {Note}";
+        }
+
     }
 }
