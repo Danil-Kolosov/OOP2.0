@@ -178,8 +178,8 @@ namespace AnimalLibrary
 
         public override string ToString()
         {
-            return base.ToString() + $"\nВид: {Specie}\nМесто обитания: {Location}" +
-                $"\nОреал обитания: {LivingEnvironment}\nОбраз жизни: {Lifestyle}";
+            return base.ToString() +  $"{Specie} {Location}" +
+                $"{LivingEnvironment} {Lifestyle}";
         }
 
         public override int GetHashCode()

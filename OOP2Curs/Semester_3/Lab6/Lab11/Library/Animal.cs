@@ -216,7 +216,7 @@ namespace AnimalLibrary
 
         public override string ToString()
         {
-            return $"Имя: {name} Вес: {weight} Рост: {height} Возраст: {age} \nЗаметки по животному: {Note} \nИдентификационный номер: {Number}";
+            return $"{name} {weight} {height} {age} {Note}";
         }
 
         public override int GetHashCode()

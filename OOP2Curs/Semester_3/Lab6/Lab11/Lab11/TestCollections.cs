@@ -101,7 +101,7 @@ namespace Lab11
         {
             get
             {
-                return list1[0].BaseAnimal.ToString();
+                return list1[0].ToString();
             }
         }
 
@@ -109,7 +109,7 @@ namespace Lab11
         {
             get
             {
-                return list1[(list1.Count / 2)].BaseAnimal.ToString();
+                return list1[(list1.Count / 2)].ToString();
             }
         }
 
@@ -117,7 +117,7 @@ namespace Lab11
         {
             get
             {
-                return list1[list1.Count - 1].BaseAnimal.ToString();
+                return list1[list1.Count - 1].ToString();
             }
         }
 
