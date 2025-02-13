@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2FC246B-68FA-4FB0-B0ED-A642741B1DBA}|Project1\\Lab12.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\project1\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2FC246B-68FA-4FB0-B0ED-A642741B1DBA}|Project1\\Lab12.csproj|solutionrelative:project1\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E76AD1B9-0684-4A27-879B-49E9D859314E}|MyCollectionLibrary\\MyCollectionLibrary.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab1\\lab12\\mycollectionlibrary\\mycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76AD1B9-0684-4A27-879B-49E9D859314E}|MyCollectionLibrary\\MyCollectionLibrary.csproj|solutionrelative:mycollectionlibrary\\mycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF3D30E-0636-487D-B84D-B76F6244F2E2}|UnitTestProject1\\UnitTestProject1.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF3D30E-0636-487D-B84D-B76F6244F2E2}|UnitTestProject1\\UnitTestProject1.csproj|solutionrelative:unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2FC246B-68FA-4FB0-B0ED-A642741B1DBA}|Project1\\Lab12.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\project1\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2FC246B-68FA-4FB0-B0ED-A642741B1DBA}|Project1\\Lab12.csproj|solutionrelative:project1\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E76AD1B9-0684-4A27-879B-49E9D859314E}|MyCollectionLibrary\\MyCollectionLibrary.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\mycollectionlibrary\\myenumerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,73 +34,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\UnitTestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTestProject1\\UnitTest1.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\UnitTestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAFsBAAAAAAAAAAAcwHMBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T18:02:36.995Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MyCollection.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\MyCollectionLibrary\\MyCollection.cs",
               "RelativeDocumentMoniker": "MyCollectionLibrary\\MyCollection.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\MyCollectionLibrary\\MyCollection.cs",
               "RelativeToolTip": "MyCollectionLibrary\\MyCollection.cs",
-              "ViewState": "AgIAAGEBAAAAAAAAAAAcwHsBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALgCAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T17:04:12.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Point.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\MyCollectionLibrary\\Point.cs",
               "RelativeDocumentMoniker": "MyCollectionLibrary\\Point.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\MyCollectionLibrary\\Point.cs",
               "RelativeToolTip": "MyCollectionLibrary\\Point.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T17:03:33.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MyEnumerator.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\MyCollectionLibrary\\MyEnumerator.cs",
               "RelativeDocumentMoniker": "MyCollectionLibrary\\MyEnumerator.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\MyCollectionLibrary\\MyEnumerator.cs",
               "RelativeToolTip": "MyCollectionLibrary\\MyEnumerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T17:03:12.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Animal.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\Library\\Animal.cs",
               "RelativeDocumentMoniker": "Library\\Animal.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\Library\\Animal.cs",
               "RelativeToolTip": "Library\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAKoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T14:24:05.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T14:24:05.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Programm.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\Project1\\Programm.cs",
               "RelativeDocumentMoniker": "Project1\\Programm.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\lab1\\Lab12\\Project1\\Programm.cs",
               "RelativeToolTip": "Project1\\Programm.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwC0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwC0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T14:07:39.662Z",
               "EditorCaption": ""

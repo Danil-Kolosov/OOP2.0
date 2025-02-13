@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
-  <Summary numSequencePoints="486" visitedSequencePoints="403" numBranchPoints="84" visitedBranchPoints="67" sequenceCoverage="82.92" branchCoverage="79.76" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="1" visitedClasses="6" numClasses="7" visitedMethods="65" numMethods="72" />
+  <Summary numSequencePoints="486" visitedSequencePoints="400" numBranchPoints="84" visitedBranchPoints="67" sequenceCoverage="82.30" branchCoverage="79.76" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="1" visitedClasses="6" numClasses="7" visitedMethods="65" numMethods="72" />
   <Modules>
-    <Module hash="8E-72-12-2B-78-09-A1-F7-E6-EA-88-15-C7-92-3B-54-6D-40-84-FE">
-      <Summary numSequencePoints="328" visitedSequencePoints="324" numBranchPoints="46" visitedBranchPoints="46" sequenceCoverage="98.78" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="5" numClasses="5" visitedMethods="46" numMethods="46" />
+    <Module hash="9B-1F-17-2A-59-EE-78-D9-89-06-35-6D-A1-C3-72-4D-27-18-70-4E">
+      <Summary numSequencePoints="328" visitedSequencePoints="321" numBranchPoints="46" visitedBranchPoints="46" sequenceCoverage="97.87" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="5" numClasses="5" visitedMethods="46" numMethods="46" />
       <ModulePath>C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab6\Lab11\UnitTestProject1\bin\fine-code-coverage-Debug\UnitTestProject1.dll</ModulePath>
-      <ModuleTime>2024-12-22T19:28:26.2730413Z</ModuleTime>
+      <ModuleTime>2025-02-13T16:21:19.205232Z</ModuleTime>
       <ModuleName>UnitTestProject1</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab6\Lab11\UnitTestProject1\UnitTest1.cs" />
       </Files>
       <Classes>
         <Class>
-          <Summary numSequencePoints="316" visitedSequencePoints="316" numBranchPoints="42" visitedBranchPoints="42" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="42" numMethods="42" />
+          <Summary numSequencePoints="316" visitedSequencePoints="313" numBranchPoints="42" visitedBranchPoints="42" sequenceCoverage="99.05" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="42" numMethods="42" />
           <FullName>UnitTestProject.UnitTest1</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
@@ -206,8 +206,8 @@
               <BranchPoints />
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="75" ordinal="0" offset="0" sl="159" sc="9" el="159" ec="10" bec="0" bev="0" fileid="1" />
             </Method>
-            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="87.5" branchCoverage="100" crapScore="1.00" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="87.5" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.00" minCrapScore="1.00" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663308</MetadataToken>
               <Name>System.Void UnitTestProject.UnitTest1::TestMethodTestCollectionsDictionary2FirstKey()</Name>
               <FileRef uid="1" />
@@ -219,13 +219,13 @@
                 <SequencePoint vc="1" uspid="86" ordinal="4" offset="27" sl="181" sc="13" el="181" ec="39" bec="0" bev="0" fileid="1" />
                 <SequencePoint vc="1" uspid="87" ordinal="5" offset="35" sl="182" sc="13" el="182" ec="61" bec="0" bev="0" fileid="1" />
                 <SequencePoint vc="1" uspid="88" ordinal="6" offset="42" sl="184" sc="13" el="184" ec="51" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="1" uspid="89" ordinal="7" offset="50" sl="185" sc="9" el="185" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="89" ordinal="7" offset="50" sl="185" sc="9" el="185" ec="10" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="82" ordinal="0" offset="0" sl="173" sc="9" el="173" ec="10" bec="0" bev="0" fileid="1" />
             </Method>
-            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="88.89" branchCoverage="100" crapScore="1.00" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="88.89" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.00" minCrapScore="1.00" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663309</MetadataToken>
               <Name>System.Void UnitTestProject.UnitTest1::TestMethodTestCollectionsDictionary2MediumKey()</Name>
               <FileRef uid="1" />
@@ -238,13 +238,13 @@
                 <SequencePoint vc="1" uspid="95" ordinal="5" offset="35" sl="199" sc="13" el="199" ec="79" bec="0" bev="0" fileid="1" />
                 <SequencePoint vc="1" uspid="96" ordinal="6" offset="83" sl="200" sc="13" el="200" ec="62" bec="0" bev="0" fileid="1" />
                 <SequencePoint vc="1" uspid="97" ordinal="7" offset="90" sl="202" sc="13" el="202" ec="51" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="1" uspid="98" ordinal="8" offset="98" sl="203" sc="9" el="203" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="98" ordinal="8" offset="98" sl="203" sc="9" el="203" ec="10" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="90" ordinal="0" offset="0" sl="189" sc="9" el="189" ec="10" bec="0" bev="0" fileid="1" />
             </Method>
-            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="85.71" branchCoverage="100" crapScore="1.00" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="85.71" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.00" minCrapScore="1.00" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663310</MetadataToken>
               <Name>System.Void UnitTestProject.UnitTest1::TestMethodTestCollectionsDictionary2LastKey()</Name>
               <FileRef uid="1" />
@@ -255,7 +255,7 @@
                 <SequencePoint vc="1" uspid="102" ordinal="3" offset="20" sl="213" sc="13" el="213" ec="47" bec="0" bev="0" fileid="1" />
                 <SequencePoint vc="1" uspid="103" ordinal="4" offset="33" sl="214" sc="13" el="214" ec="60" bec="0" bev="0" fileid="1" />
                 <SequencePoint vc="1" uspid="104" ordinal="5" offset="40" sl="216" sc="13" el="216" ec="51" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="1" uspid="105" ordinal="6" offset="48" sl="217" sc="9" el="217" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="105" ordinal="6" offset="48" sl="217" sc="9" el="217" ec="10" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="99" ordinal="0" offset="0" sl="207" sc="9" el="207" ec="10" bec="0" bev="0" fileid="1" />
@@ -871,10 +871,10 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="0D-54-30-34-5A-FC-28-C4-5F-9B-68-73-BB-1B-23-7A-E4-81-10-F4">
+    <Module hash="F6-39-35-90-F1-0E-85-AE-22-96-52-66-2F-AF-C8-4C-55-C0-BB-19">
       <Summary numSequencePoints="158" visitedSequencePoints="79" numBranchPoints="38" visitedBranchPoints="21" sequenceCoverage="50" branchCoverage="55.26" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="1" visitedClasses="1" numClasses="2" visitedMethods="19" numMethods="26" />
       <ModulePath>C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab6\Lab11\UnitTestProject1\bin\fine-code-coverage-Debug\Lab11.exe</ModulePath>
-      <ModuleTime>2024-12-22T19:27:45.5469635Z</ModuleTime>
+      <ModuleTime>2024-12-23T05:07:57.1728925Z</ModuleTime>
       <ModuleName>Lab11</ModuleName>
       <Files>
         <File uid="11" fullPath="C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab6\Lab11\Lab11\Programm.cs" />
@@ -1090,8 +1090,8 @@
               <FileRef uid="12" />
               <SequencePoints>
                 <SequencePoint vc="1" uspid="403" ordinal="0" offset="0" sl="103" sc="13" el="103" ec="14" bec="0" bev="0" fileid="12" />
-                <SequencePoint vc="1" uspid="404" ordinal="1" offset="1" sl="104" sc="17" el="104" ec="55" bec="0" bev="0" fileid="12" />
-                <SequencePoint vc="1" uspid="405" ordinal="2" offset="26" sl="105" sc="13" el="105" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="404" ordinal="1" offset="1" sl="104" sc="17" el="104" ec="44" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="405" ordinal="2" offset="21" sl="105" sc="13" el="105" ec="14" bec="0" bev="0" fileid="12" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="403" ordinal="0" offset="0" sl="103" sc="13" el="103" ec="14" bec="0" bev="0" fileid="12" />
@@ -1103,8 +1103,8 @@
               <FileRef uid="12" />
               <SequencePoints>
                 <SequencePoint vc="1" uspid="406" ordinal="0" offset="0" sl="111" sc="13" el="111" ec="14" bec="0" bev="0" fileid="12" />
-                <SequencePoint vc="1" uspid="407" ordinal="1" offset="1" sl="112" sc="17" el="112" ec="71" bec="0" bev="0" fileid="12" />
-                <SequencePoint vc="1" uspid="408" ordinal="2" offset="38" sl="113" sc="13" el="113" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="407" ordinal="1" offset="1" sl="112" sc="17" el="112" ec="60" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="408" ordinal="2" offset="33" sl="113" sc="13" el="113" ec="14" bec="0" bev="0" fileid="12" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="406" ordinal="0" offset="0" sl="111" sc="13" el="111" ec="14" bec="0" bev="0" fileid="12" />
@@ -1116,8 +1116,8 @@
               <FileRef uid="12" />
               <SequencePoints>
                 <SequencePoint vc="1" uspid="409" ordinal="0" offset="0" sl="119" sc="13" el="119" ec="14" bec="0" bev="0" fileid="12" />
-                <SequencePoint vc="1" uspid="410" ordinal="1" offset="1" sl="120" sc="17" el="120" ec="69" bec="0" bev="0" fileid="12" />
-                <SequencePoint vc="1" uspid="411" ordinal="2" offset="38" sl="121" sc="13" el="121" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="410" ordinal="1" offset="1" sl="120" sc="17" el="120" ec="58" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="411" ordinal="2" offset="33" sl="121" sc="13" el="121" ec="14" bec="0" bev="0" fileid="12" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint xsi:type="SequencePoint" vc="1" uspid="409" ordinal="0" offset="0" sl="119" sc="13" el="119" ec="14" bec="0" bev="0" fileid="12" />

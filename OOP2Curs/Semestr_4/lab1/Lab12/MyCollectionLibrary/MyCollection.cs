@@ -7,6 +7,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 
 namespace MyCollectionLibrary
@@ -16,8 +17,7 @@ namespace MyCollectionLibrary
         //T begin;
         Point<TKey, TVal> begin;
         //List<List<T>> hashTable;
-        Point<TKey, TVal>[] hashTable;
-        //T defaultValue = default;        
+        Point<TKey, TVal>[] hashTable;      
 
         public bool IsSynchronized { get{ return hashTable.IsSynchronized; }} //является ли коллекция потокобезопасной - чтобы одновременно к 1 ячейке несколько не обратились
 
@@ -32,7 +32,7 @@ namespace MyCollectionLibrary
                     throw new ArgumentNullException("Хэш таблица не инициализирована");
                 if (!this.ContainsKey(key))
                     throw new KeyNotFoundException("Данный ключ отсутсвует в хэш-таблице");
-                return hashTable[key.GetHashCode()].Value;
+                return hashTable[Math.Abs(key.GetHashCode()) % hashTable.Length].Value;
             }
             set 
             {
@@ -40,7 +40,7 @@ namespace MyCollectionLibrary
                     throw new ArgumentNullException("Хэш таблица не инициализирована");
                 if (!this.ContainsKey(key))
                     throw new KeyNotFoundException("Данный ключ отсутсвует в хэш-таблице");
-                hashTable[key.GetHashCode()].Value = value;
+                hashTable[Math.Abs(key.GetHashCode()) % hashTable.Length].Value = value;
             }
         }
 
@@ -51,7 +51,8 @@ namespace MyCollectionLibrary
                 List<TVal> valList = new List<TVal>();
                 for (int i = 0; i < Count; i++) 
                 {
-                    valList.Add(hashTable[i].Value);
+                    if (hashTable[i] != null)
+                        valList.Add(hashTable[i].Value);
                 }
                 return valList;
             }
@@ -64,18 +65,36 @@ namespace MyCollectionLibrary
                 List<TKey> keyList = new List<TKey>();
                 for (int i = 0; i < Count; i++)
                 {
-                    keyList.Add(hashTable[i].Key);
+                    if (hashTable[i] != null)
+                        keyList.Add(hashTable[i].Key);
                 }
                 return keyList;
             }
         }
 
+        public Point<TKey, TVal> Begin
+        {
+            get
+            {
+                if (hashTable == null)
+                    return null;/*new Point(hashTable[0][0], Next(hashTable[0], 0));*//*hashTable[0][0];*/
+                else
+                    return begin;
+            }
+
+        }
+
+        public int Count { get { if (hashTable == null) return 0; else return hashTable.Length; } }
+
+        public bool IsReadOnly { get { return false; } }
+
+        //public T Next(List<T>,) { }
 
         //
         public MyCollection()
         {
-            //hashTable = new Point<T>[0];
-            //begin = null;
+            hashTable = null;
+            begin = null;
         }
 
         public MyCollection(int size)
@@ -113,12 +132,14 @@ namespace MyCollectionLibrary
                     }
                 }
             }
+            begin = hashTable[0];
         }
         //еще один
 
         MyCollection(ref Point<TKey, TVal>[] oldTable)
         {
             hashTable = oldTable;
+            begin = hashTable[0];
         }
 
         IEnumerator IEnumerable.GetEnumerator()
@@ -181,19 +202,7 @@ namespace MyCollectionLibrary
             }
         }
 
-        public Point<TKey, TVal> Begin
-        {
-            get
-            {
-                if (hashTable == null)
-                    return null;/*new Point(hashTable[0][0], Next(hashTable[0], 0));*//*hashTable[0][0];*/
-                else
-                    return begin;
-            }
-
-        }
-
-        //public T Next(List<T>,) { }
+        
 
         //public void Add(TVal val)
         //{
@@ -240,10 +249,8 @@ namespace MyCollectionLibrary
             if (val == null || hashTable == null /*|| hashTable.Length == 0*/)
             {
                 throw new ArgumentNullException("Хэш-таблица не инициализирована");
-                //return;
             }
 
-            //int index = val.GetHashCode();
             Point<TKey, TVal> data = new Point<TKey, TVal>(key, val, hashTable.Length);
             if (hashTable[Math.Abs(data.Key.GetHashCode())%hashTable.Length] == null)
             {
@@ -254,14 +261,20 @@ namespace MyCollectionLibrary
                 //    data.Next = hashTable[data.Key + 1];
                 //else
                 //    data.Next = null; и так будет
-
             }
             else
             {
                 //if (string.Compare(data.ToString(), (hashTable[data.Key]).ToString()) == 0)
-                if (Equals(hashTable[Math.Abs(data.Key.GetHashCode()) % hashTable.Length], val))
-                    return; //Хотим добавить уже добавленный элемент
-                hashTable[Math.Abs(data.Key.GetHashCode()) % hashTable.Length].Next = data;
+                Point<TKey, TVal> cur = hashTable[Math.Abs(data.Key.GetHashCode()) % hashTable.Length];
+                while (cur.Next != null) 
+                {
+                    if (Equals(cur.Value, val))
+                        return; //Хотим добавить уже добавленный элемент
+                    cur = cur.Next;
+                }
+                cur.Next = data;
+                   
+                //hashTable[Math.Abs(data.Key.GetHashCode()) % hashTable.Length].Next = data;
             }
             for (int i = 0; i < hashTable.Length; i++) //БЕГИН уже не нужен - использовали иименованый итератор
             {
@@ -271,7 +284,6 @@ namespace MyCollectionLibrary
                     i = hashTable.Length;
                 }
             }
-            //return; 
         }
 
         public void Add(KeyValuePair<TKey,TVal> pair)
@@ -285,7 +297,7 @@ namespace MyCollectionLibrary
 
         public void Print()
         {
-            if (hashTable == null /*|| hashTable.Length == 0*/)
+            if (hashTable == null)
                 Console.WriteLine("Хэш-таблица не инициализирована");
             else
             {
@@ -311,7 +323,7 @@ namespace MyCollectionLibrary
         public void Clear()
         {
             //hashTable = null;
-            //begin = null;
+            begin = null;
             for(int i = 0;i < hashTable.Length; i++) 
             {
                 hashTable[i] = null;
@@ -324,6 +336,38 @@ namespace MyCollectionLibrary
             hashTable = null;
         }
 
+        public bool RemoveAmongNexts(TVal val, int i) 
+        {
+            if (Equals(hashTable[i].Value, val))
+            {
+                hashTable[i] = hashTable[i].Next;
+                return true;
+            }
+            Point<TKey, TVal> curr = hashTable[i];
+            Point<TKey, TVal> beforeCurr = hashTable[i];
+            int step = 0;
+            while (curr != null)
+            {
+                if (Equals(curr.Value, val))
+                {
+                    if (step > 0)
+                        beforeCurr.Next = curr.Next;
+                    else
+                        hashTable[i] = hashTable[i].Next;
+                    return true;
+                }
+                else
+                {
+                    if (step > 0)
+                    {
+                        beforeCurr = curr;
+                    }
+                    curr = curr.Next;
+                }
+                step++;
+            }
+            return false;
+        }
 
         public bool Remove(TVal val)
         {
@@ -331,51 +375,59 @@ namespace MyCollectionLibrary
                 throw new ArgumentNullException("Хэш таблица пуста");
             if (val == null)
                 throw new ArgumentNullException("Переданный параметр является null");
-            //int index = (Math.Abs(val.GetHashCode()) % hashTable.Length);
-            //return false;                       
 
             for (int i = 0; i < hashTable.Length; i++)
             {
-                if (Equals(hashTable[i].Value, val))
+                if (hashTable[i] != null)
                 {
-                    if (hashTable[i].Next == null)
+                    if (Equals(hashTable[i].Value, val))
                     {
-                        hashTable[i] = null;
+                        if (hashTable[i].Next == null)
+                        {
+                            hashTable[i] = null;
+                            return true;
+                        }
+                        else
+                        {
+                            if (this.RemoveAmongNexts(val, i))
+                                return true;
+                            //if (Equals(hashTable[i].Value, val))
+                            //{
+                            //    hashTable[i] = hashTable[i].Next;
+                            //    return true;
+                            //}
+                            //Point<TKey, TVal> curr = hashTable[i];
+                            //Point<TKey, TVal> beforeCurr = hashTable[i];
+                            //int step = 0;
+                            //while (curr != null)
+                            //{
+                            //    if (Equals(curr.Value, val))
+                            //    {
+                            //        if (step > 0)
+                            //            beforeCurr.Next = curr.Next;
+                            //        else
+                            //            hashTable[i] = hashTable[i].Next;
+                            //        return true;
+                            //    }
+                            //    else
+                            //    {
+                            //        if (step > 0)
+                            //        {
+                            //            beforeCurr = curr;
+                            //        }
+                            //        curr = curr.Next;
+                            //    }
+                            //    step++;
+                            //}
+                        }
                         return true;
                     }
                     else
                     {
-                        if (Equals(hashTable[i].Value, val))
-                        {
-                            hashTable[i] = hashTable[i].Next;
-                            return true;
-                        }
-                        Point<TKey, TVal> curr = hashTable[i];
-                        Point<TKey, TVal> beforeCurr = hashTable[i];
-                        int step = 0;
-                        while (curr != null)
-                        {
-
-                            if (Equals(curr.Value, val))
-                            {
-                                if (step > 0)
-                                    beforeCurr.Next = curr.Next;
-                                else
-                                    hashTable[i] = hashTable[i].Next;
+                        if (hashTable[i].Next != null)
+                            if (this.RemoveAmongNexts(val, i))
                                 return true;
-                            }
-                            else
-                            {
-                                if (step > 0)
-                                {
-                                    beforeCurr = curr;
-                                }
-                                curr = curr.Next;
-                            }
-                            step++;
-                        }
                     }
-                    return true;
                 }
             }
             return false;
@@ -543,10 +595,9 @@ namespace MyCollectionLibrary
 
         public bool Contains(KeyValuePair<TKey, TVal> pair)
         {
-            if (hashTable == null /*|| hashTable.Length == 0*/)
+            if (hashTable == null)
                 throw new ArgumentNullException("Хэш таблица не инициализирована");
-            //if (hashTable == null)
-            //   return false;
+                //   return false;
             int index = (Math.Abs(pair.Key.GetHashCode()) % hashTable.Length);
             if (hashTable[index] == null)
                 return false;
@@ -600,16 +651,15 @@ namespace MyCollectionLibrary
         {
             for (int i = 0; i < hashTable.Length; i++) 
             {
-                if (Equals(hashTable[i].Value, val))
+                if (hashTable[i] != null)
+                    if (Equals(hashTable[i].Value, val))
                         return true;
             }
             return false;
         }
 
 
-        public int Count { get { if (hashTable == null) return 0; else return hashTable.Length; } }
-
-        public bool IsReadOnly { get { return false; } }
+        
         public void CopyTo(Array array, int firstCopyedIIndex = 0)
         {
             if (hashTable == null)
@@ -689,10 +739,11 @@ namespace MyCollectionLibrary
             return (MyCollection<TKey, TVal>)(this.Clone());
         }
 
-        public MyCollection<TKey, TVal> Copyng(/*Point<T>[] oldTable*/)
+        public MyCollection<TKey, TVal> Copyng()
         {
 
-            return (MyCollection<TKey, TVal>)this.MemberwiseClone();//new MyCollection<T>(ref hashTable);
+            return (MyCollection<TKey, TVal>)this.MemberwiseClone();
+            //new MyCollection<T>(ref hashTable);
             //Point<T>[] oldTable = this.hashTable;
             //int size = hashTable.Length;
             ////Point<T>[] newTable = new Point<T>[size];
@@ -706,8 +757,27 @@ namespace MyCollectionLibrary
             //return newTable;
         }
 
+        public override bool Equals(Object obj)
+        {
+            if (obj is MyCollection<TKey, TVal> collection)
+            {
+                if (hashTable == null & collection.hashTable == null)
+                    return true;
+                if (hashTable.Length == collection.Count)
+                {
+                    for (int i = 0; i < hashTable.Length; i++)
+                    {
+                        if (!Equals(hashTable[i], collection.hashTable[i]))
+                            return false;
+                    }
+                    return true;
+                }
+            }
+            return false;
+            //return ((Equals(Begin, collection.Begin)) & (Equals(hashTable, collection.hashTable)));
+            
+        }
+
         //public void Resize() { }
     }
-
-
 }

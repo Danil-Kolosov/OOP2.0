@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -66,6 +67,13 @@ namespace MyCollectionLibrary
                 return (key).ToString() + " : " + "пусто";
             }
             return (key).ToString() + " : " + value.ToString();
+        }
+
+        public override bool Equals(Object obj)
+        {
+            if (obj is Point<TKey, TVal> point)
+                return ((Equals(Key, point.Key)) & (Equals(Value, point.Value)) & (Equals(Next, point.Next)));
+            return false;
         }
 
     }

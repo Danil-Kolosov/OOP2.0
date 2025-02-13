@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.802788844621514" branch-rate="0.166666666666667" lines-covered="403" lines-valid="502" branches-covered="2" branches-valid="12" complexity="58" version="0" timestamp="1734940375">
+<coverage line-rate="0.796812749003984" branch-rate="0.166666666666667" lines-covered="400" lines-valid="502" branches-covered="2" branches-valid="12" complexity="58" version="0" timestamp="1739474487">
   <sources />
   <packages>
     <package name="Lab11" line-rate="0.431034482758621" branch-rate="0.166666666666667" complexity="16">
@@ -517,9 +517,9 @@
         </class>
       </classes>
     </package>
-    <package name="UnitTestProject1" line-rate="1" branch-rate="1" complexity="42">
+    <package name="UnitTestProject1" line-rate="0.990853658536585" branch-rate="1" complexity="42">
       <classes>
-        <class name="UnitTestProject.UnitTest1" filename="C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab6\Lab11\UnitTestProject1\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="42">
+        <class name="UnitTestProject.UnitTest1" filename="C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semester_3\Lab6\Lab11\UnitTestProject1\UnitTest1.cs" line-rate="0.990853658536585" branch-rate="1" complexity="42">
           <methods>
             <method name="TestMethodTestCollectionsAdd" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -646,7 +646,7 @@
                 <line number="169" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="TestMethodTestCollectionsDictionary2FirstKey" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="TestMethodTestCollectionsDictionary2FirstKey" signature="()" line-rate="0.875" branch-rate="1" complexity="1">
               <lines>
                 <line number="173" hits="1" branch="false" />
                 <line number="175" hits="1" branch="false" />
@@ -655,10 +655,10 @@
                 <line number="181" hits="1" branch="false" />
                 <line number="182" hits="1" branch="false" />
                 <line number="184" hits="1" branch="false" />
-                <line number="185" hits="1" branch="false" />
+                <line number="185" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="TestMethodTestCollectionsDictionary2MediumKey" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="TestMethodTestCollectionsDictionary2MediumKey" signature="()" line-rate="0.888888888888889" branch-rate="1" complexity="1">
               <lines>
                 <line number="189" hits="1" branch="false" />
                 <line number="191" hits="1" branch="false" />
@@ -668,10 +668,10 @@
                 <line number="199" hits="1" branch="false" />
                 <line number="200" hits="1" branch="false" />
                 <line number="202" hits="1" branch="false" />
-                <line number="203" hits="1" branch="false" />
+                <line number="203" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="TestMethodTestCollectionsDictionary2LastKey" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="TestMethodTestCollectionsDictionary2LastKey" signature="()" line-rate="0.857142857142857" branch-rate="1" complexity="1">
               <lines>
                 <line number="207" hits="1" branch="false" />
                 <line number="209" hits="1" branch="false" />
@@ -679,7 +679,7 @@
                 <line number="213" hits="1" branch="false" />
                 <line number="214" hits="1" branch="false" />
                 <line number="216" hits="1" branch="false" />
-                <line number="217" hits="1" branch="false" />
+                <line number="217" hits="0" branch="false" />
               </lines>
             </method>
             <method name="TestMethodTestCollectionsDictionary2FirstVal" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1107,7 +1107,7 @@
             <line number="181" hits="1" branch="false" />
             <line number="182" hits="1" branch="false" />
             <line number="184" hits="1" branch="false" />
-            <line number="185" hits="1" branch="false" />
+            <line number="185" hits="0" branch="false" />
             <line number="189" hits="1" branch="false" />
             <line number="191" hits="1" branch="false" />
             <line number="195" hits="1" branch="false" />
@@ -1116,14 +1116,14 @@
             <line number="199" hits="1" branch="false" />
             <line number="200" hits="1" branch="false" />
             <line number="202" hits="1" branch="false" />
-            <line number="203" hits="1" branch="false" />
+            <line number="203" hits="0" branch="false" />
             <line number="207" hits="1" branch="false" />
             <line number="209" hits="1" branch="false" />
             <line number="211" hits="1" branch="false" />
             <line number="213" hits="1" branch="false" />
             <line number="214" hits="1" branch="false" />
             <line number="216" hits="1" branch="false" />
-            <line number="217" hits="1" branch="false" />
+            <line number="217" hits="0" branch="false" />
             <line number="221" hits="1" branch="false" />
             <line number="223" hits="1" branch="false" />
             <line number="225" hits="1" branch="false" />

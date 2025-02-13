@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab6\\Lab11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42CAB065-7F1F-4BF6-9DF6-87D43F4BEAAC}|Lab11\\Lab11.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab6\\Lab11\\lab11\\testcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42CAB065-7F1F-4BF6-9DF6-87D43F4BEAAC}|Lab11\\Lab11.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab6\\lab11\\lab11\\testcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42CAB065-7F1F-4BF6-9DF6-87D43F4BEAAC}|Lab11\\Lab11.csproj|solutionrelative:lab11\\testcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|solutionrelative:library\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semester_3\\lab6\\lab11\\library\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semester_3\\Lab6\\Lab11\\library\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|Library\\AnimalLib.csproj|solutionrelative:library\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Lab11\\Programm.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowD8AAACpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T17:08:56.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T17:08:56.166Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Library\\Animal.cs",
               "ViewState": "AgIAAMUAAAAAAAAAAAAiwNoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T16:14:19.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T16:14:19.273Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Library\\Bird.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAAAFAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T16:14:49.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T16:14:49.548Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Library\\Mammal.cs",
               "ViewState": "AgIAAKoAAAAAAAAAAAAAALcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T16:13:41.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T16:13:41.094Z"
             },
             {
               "$type": "Document",
