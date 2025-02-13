@@ -490,10 +490,12 @@ namespace MyCollectionLibrary
                 {
                     newTable[i] = new Point<TKey, TVal>(hashTable[i]);
                     Point<TKey, TVal> curr = hashTable[i].Next;
+                    Point<TKey, TVal> currNew = newTable[i];
                     while (curr != null)
                     {
-                        newTable[i].Next = new Point<TKey, TVal>(curr);
+                        currNew.Next = new Point<TKey, TVal>(curr);
                         curr = curr.Next;
+                        currNew = currNew.Next;
                     }
                 }
             }

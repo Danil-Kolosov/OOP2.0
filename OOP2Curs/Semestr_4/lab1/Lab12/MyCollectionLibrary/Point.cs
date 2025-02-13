@@ -31,7 +31,7 @@ namespace MyCollectionLibrary
             set { next = value; }
         }
 
-        public Point(TKey key, TVal val, int size) 
+        public Point(TKey key, TVal val, int size = 1) 
         {
             value = val;
             this.key = key;
@@ -56,7 +56,10 @@ namespace MyCollectionLibrary
         {
             this.key = point.Key;
             this.value = point.Value;
-            this.next = point.Next;
+            if (point.Next == null)
+                this.next = null;
+            else
+                this.next = new Point<TKey, TVal>(point.Next.Key, point.Next.Value);
         }
 
         public override string ToString()

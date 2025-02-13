@@ -64,6 +64,7 @@ namespace UnitTestProject1
             //Act - проверяемое действие
             testCollections.Add("1", 1);
             testCollections.Add("2", 2);
+            testCollections.Add("3", 3);
             MyCollection<string, int> tReceived = (MyCollection<string, int>)testCollections.Clone();
             //Assert - верификация результатов
             Assert.AreEqual(tExpected, tReceived);
