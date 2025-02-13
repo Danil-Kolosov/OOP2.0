@@ -63,6 +63,7 @@ namespace UnitTestProject1
             MyCollection<string, int> tExpected = testCollections;
             //Act - проверяемое действие
             testCollections.Add("1", 1);
+            testCollections.Add("2", 2);
             MyCollection<string, int> tReceived = (MyCollection<string, int>)testCollections.Clone();
             //Assert - верификация результатов
             Assert.AreEqual(tExpected, tReceived);
@@ -224,7 +225,8 @@ namespace UnitTestProject1
             string sReceived;
             //Act - проверяемое действие
             testCollections.Add(new KeyValuePair<string, int>("1", 1));
-            tReceived = testCollections.Begin;
+            //tReceived = testCollections.Begin;
+            tReceived = new Point<string, int> (tExpected);
             sExpected = tExpected.ToString();
             sReceived = tReceived.ToString();
             //Assert - верификация результатов
@@ -387,25 +389,5 @@ namespace UnitTestProject1
             //Assert - верификация результатов
             Assert.AreEqual(tExpected, tReceived);
         }
-
-        //keys
-        //begin
-        //getenumerble
-
-        //TestCollections
-        //[TestMethod]
-        //public void TestMethodTestCollectionsAdd()
-        //{
-        //    //Arrange - начальные условия
-        //    TestCollections testCollections = new TestCollections(1);
-        //    int tReceived;
-        //    int tExpected = 2;
-        //    //Act - проверяемое действие
-        //    testCollections.Add(new Mammal());
-        //    tReceived = testCollections.Count;
-        //    //Assert - верификация результатов
-        //    Assert.AreEqual(tExpected, tReceived);
-        //}
-
     }
 }

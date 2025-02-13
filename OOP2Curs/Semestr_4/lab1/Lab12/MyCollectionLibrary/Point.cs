@@ -13,7 +13,6 @@ namespace MyCollectionLibrary
         TVal value;
 
         Point<TKey, TVal> next;
-        //Point<TKey, TVal> eNext;
 
         public TKey Key 
         {
@@ -60,7 +59,7 @@ namespace MyCollectionLibrary
             this.next = point.Next;
         }
 
-        public override string ToString()  //!!!! надо все таки
+        public override string ToString()
         {
             if (value == null) 
             {
@@ -75,6 +74,5 @@ namespace MyCollectionLibrary
                 return ((Equals(Key, point.Key)) & (Equals(Value, point.Value)) & (Equals(Next, point.Next)));
             return false;
         }
-
     }
 }
