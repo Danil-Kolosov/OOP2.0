@@ -1,0 +1,7 @@
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab3\GraphAdjaencyMatrix\GraphAdjaencyMatrix\obj\Debug\GraphConnectivityMatrix.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab3\GraphAdjaencyMatrix\GraphAdjaencyMatrix\obj\Debug\GraphConnectivityMatrix.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab3\GraphAdjaencyMatrix\GraphAdjaencyMatrix\bin\Debug\GraphAdjaencyMatrix.exe.config
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab3\GraphAdjaencyMatrix\GraphAdjaencyMatrix\bin\Debug\GraphAdjaencyMatrix.exe
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab3\GraphAdjaencyMatrix\GraphAdjaencyMatrix\bin\Debug\GraphAdjaencyMatrix.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab3\GraphAdjaencyMatrix\GraphAdjaencyMatrix\obj\Debug\GraphAdjaencyMatrix.exe
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab3\GraphAdjaencyMatrix\GraphAdjaencyMatrix\obj\Debug\GraphAdjaencyMatrix.pdb
