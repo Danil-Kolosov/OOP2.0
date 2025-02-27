@@ -1,0 +1,9 @@
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\Library\bin\Release\Library.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\Library\bin\Release\Library.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\Library\bin\Release\Microsoft.Bcl.HashCode.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\Library\bin\Release\Microsoft.Bcl.HashCode.xml
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\Library\obj\Release\AnimalLib.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\Library\obj\Release\AnimalLib.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\Library\obj\Release\AnimalLib.csproj.Up2Date
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\Library\obj\Release\Library.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\Library\obj\Release\Library.pdb

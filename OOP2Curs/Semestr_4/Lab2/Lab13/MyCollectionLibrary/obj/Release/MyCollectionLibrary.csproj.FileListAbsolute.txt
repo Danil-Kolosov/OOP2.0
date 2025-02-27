@@ -1,0 +1,6 @@
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\MyCollectionLibrary\bin\Release\MyCollectionLibrary.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\MyCollectionLibrary\bin\Release\MyCollectionLibrary.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\MyCollectionLibrary\obj\Release\MyCollectionLibrary.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\MyCollectionLibrary\obj\Release\MyCollectionLibrary.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\MyCollectionLibrary\obj\Release\MyCollectionLibrary.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab1\Lab12\MyCollectionLibrary\obj\Release\MyCollectionLibrary.pdb
