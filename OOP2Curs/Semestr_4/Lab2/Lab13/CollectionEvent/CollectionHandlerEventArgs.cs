@@ -14,10 +14,10 @@ namespace CollectionEvent
 
         public TVal ObjectData {  get; set; }
 
-        public override string ToString() 
-        {
-            return ObjectData.ToString();
-        }
+        //public override string ToString() 
+        //{
+        //    return ObjectData.ToString();
+        //}
 
         public CollectionHandlerEventArgs() { }
 

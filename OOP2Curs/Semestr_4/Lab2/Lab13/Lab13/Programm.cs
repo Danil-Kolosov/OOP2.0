@@ -36,7 +36,7 @@ namespace Lab13
             zoo.Remove("Приматы");
             zoo["Рептилии"] = new Animal(13, 5, 6, "Хамелион");
 
-
+            Console.WriteLine();
 
             flat.Add("Кошки", new Animal(13, 5, 6, "Барсик"));
             flat.Add("Собаки", new Animal(50, 60, 34, "Шарик"));
