@@ -21,7 +21,7 @@ namespace MyCollectionLibrary
 
         public object SyncRoot { get { return hashTable.SyncRoot; } } //объект с помощью которого можно синхронизировать доступ к коллекции
 
-        public TVal this[TKey key]
+        public virtual TVal this[TKey key]
         {
             get
             {
@@ -168,7 +168,7 @@ namespace MyCollectionLibrary
             }
         }        
 
-        public void Add(TKey key ,TVal val)
+        public virtual void Add(TKey key ,TVal val)
         {
             if (val == null || hashTable == null)
             {
@@ -201,7 +201,7 @@ namespace MyCollectionLibrary
             //}
         }
 
-        public void Add(KeyValuePair<TKey,TVal> pair)
+        public virtual void Add(KeyValuePair<TKey,TVal> pair)
         {
             TKey key = pair.Key;
             TVal val = pair.Value;
@@ -283,7 +283,7 @@ namespace MyCollectionLibrary
             return false;
         }
 
-        public bool Remove(TVal val)
+        public virtual bool Remove(TVal val)
         {
             if (hashTable == null)
                 throw new ArgumentNullException("Хэш таблица пуста");
@@ -319,12 +319,12 @@ namespace MyCollectionLibrary
             return false;
         }
 
-        public bool Remove(KeyValuePair<TKey, TVal> pair)
+        public virtual bool Remove(KeyValuePair<TKey, TVal> pair)
         {
             return (Remove(pair.Value));
         }
 
-        public bool Remove(TKey key) 
+        public virtual bool Remove(TKey key) 
         {
             if (hashTable == null)
                 throw new ArgumentNullException("Хэш таблица пуста");
