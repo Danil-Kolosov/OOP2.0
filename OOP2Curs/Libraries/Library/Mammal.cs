@@ -178,7 +178,7 @@ namespace AnimalLibrary
 
         public override string ToString()
         {
-            return base.ToString() +  $"{Specie} {Location}" +
+            return base.ToString() +  $" {Specie} {Location} " +
                 $"{LivingEnvironment} {Lifestyle}";
         }
 

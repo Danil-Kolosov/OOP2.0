@@ -37,3 +37,10 @@ C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab2\Lab13\Library\obj\Debug\A
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab2\Lab13\Library\obj\Debug\AnimalLib.csproj.Up2Date
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab2\Lab13\Library\obj\Debug\Library.dll
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\lab2\Lab13\Library\obj\Debug\Library.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\Library\bin\Debug\Library.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\Library\bin\Debug\Library.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\Library\obj\Debug\AnimalLib.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\Library\obj\Debug\AnimalLib.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\Library\obj\Debug\AnimalLib.csproj.Up2Date
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\Library\obj\Debug\Library.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\Library\obj\Debug\Library.pdb

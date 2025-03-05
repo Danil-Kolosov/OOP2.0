@@ -87,6 +87,7 @@ namespace AnimalLibrary
             HoofSize = rand.Next(1, 10);
             HornsSize = rand.Next(1, 10);
             Specie = arrSpec[rand.Next(0, arrSpec.Count - 1)];
+            LivingEnvironment = "Наземно-воздушная";
         }
 
         public override bool Equals(Object obj)

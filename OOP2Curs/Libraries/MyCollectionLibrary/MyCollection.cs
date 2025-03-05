@@ -15,9 +15,9 @@ namespace MyCollectionLibrary
     public class MyCollection<TKey, TVal> : ICollection, ICloneable, IDictionary<TKey, TVal>, IEnumerable<KeyValuePair<TKey, TVal>>
     {
         //Point<TKey, TVal> begin;
-        Point<TKey, TVal>[] hashTable;      
+        Point<TKey, TVal>[] hashTable;
 
-        public bool IsSynchronized { get{ return hashTable.IsSynchronized; }} //является ли коллекция потокобезопасной - чтобы одновременно к 1 ячейке несколько не обратились
+        public bool IsSynchronized { get { return hashTable.IsSynchronized; } } //является ли коллекция потокобезопасной - чтобы одновременно к 1 ячейке несколько не обратились
 
         public object SyncRoot { get { return hashTable.SyncRoot; } } //объект с помощью которого можно синхронизировать доступ к коллекции
 
@@ -31,7 +31,7 @@ namespace MyCollectionLibrary
                     throw new KeyNotFoundException("Данный ключ отсутсвует в хэш-таблице");
                 return hashTable[Math.Abs(key.GetHashCode()) % hashTable.Length].Value;
             }
-            set 
+            set
             {
                 if (hashTable == null)
                     throw new ArgumentNullException("Хэш таблица не инициализирована");
@@ -41,12 +41,12 @@ namespace MyCollectionLibrary
             }
         }
 
-        public ICollection<TVal> Values 
+        public ICollection<TVal> Values
         {
-            get 
+            get
             {
                 List<TVal> valList = new List<TVal>();
-                for (int i = 0; i < Count; i++) 
+                for (int i = 0; i < Count; i++)
                 {
                     if (hashTable[i] != null)
                         valList.Add(hashTable[i].Value);
@@ -80,14 +80,14 @@ namespace MyCollectionLibrary
         //    }
         //}
 
-        public int Count 
-        { 
-            get 
-            { 
-                if (hashTable == null) 
-                    return 0; 
-                else 
-                    return hashTable.Length; 
+        public int Count
+        {
+            get
+            {
+                if (hashTable == null)
+                    return 0;
+                else
+                    return hashTable.Length;
             }
         }
 
@@ -142,7 +142,7 @@ namespace MyCollectionLibrary
             return GetEnumerator();
         }
 
-        public IEnumerator<KeyValuePair<TKey,TVal>> GetEnumerator()
+        public IEnumerator<KeyValuePair<TKey, TVal>> GetEnumerator()
         {
             int i = 0;
             while (true)
@@ -158,17 +158,17 @@ namespace MyCollectionLibrary
                         Point<TKey, TVal> curr = hashTable[i];
                         while (curr != null)
                         {
-                            KeyValuePair<TKey, TVal> pair = new KeyValuePair<TKey, TVal> (curr.Key, curr.Value);
-                            yield return  pair;
+                            KeyValuePair<TKey, TVal> pair = new KeyValuePair<TKey, TVal>(curr.Key, curr.Value);
+                            yield return pair;
                             curr = curr.Next;
                         }
                     }
                 }
                 i++;
             }
-        }        
+        }
 
-        public virtual void Add(TKey key ,TVal val)
+        public virtual void Add(TKey key, TVal val)
         {
             if (val == null || hashTable == null)
             {
@@ -176,20 +176,20 @@ namespace MyCollectionLibrary
             }
 
             Point<TKey, TVal> data = new Point<TKey, TVal>(key, val, hashTable.Length);
-            if (hashTable[Math.Abs(data.Key.GetHashCode())%hashTable.Length] == null)
+            if (hashTable[Math.Abs(data.Key.GetHashCode()) % hashTable.Length] == null)
             {
                 hashTable[Math.Abs(data.Key.GetHashCode()) % hashTable.Length] = data;
             }
             else
             {
                 Point<TKey, TVal> cur = hashTable[Math.Abs(data.Key.GetHashCode()) % hashTable.Length];
-                while (cur.Next != null) 
+                while (cur.Next != null)
                 {
                     if (Equals(cur.Value, val))
                         return; //Хотим добавить уже добавленный элемент
                     cur = cur.Next;
                 }
-                cur.Next = data;                                  
+                cur.Next = data;
             }
             //for (int i = 0; i < hashTable.Length; i++) //БЕГИН уже не нужен - использовали иименованый итератор
             //{
@@ -201,11 +201,11 @@ namespace MyCollectionLibrary
             //}
         }
 
-        public virtual void Add(KeyValuePair<TKey,TVal> pair)
+        public virtual void Add(KeyValuePair<TKey, TVal> pair)
         {
             TKey key = pair.Key;
             TVal val = pair.Value;
-            if(key == null || val == null)
+            if (key == null || val == null)
                 throw new ArgumentNullException("Переданы пустые параметры");
             this.Add(key, val);
         }
@@ -238,19 +238,19 @@ namespace MyCollectionLibrary
         public void Clear()
         {
             //begin = null;
-            for(int i = 0;i < hashTable.Length; i++) 
+            for (int i = 0; i < hashTable.Length; i++)
             {
                 hashTable[i] = null;
             }
         }
 
-        public void Delete() 
+        public void Delete()
         {
             this.Clear();
             hashTable = null;
         }
 
-        public bool RemoveAmongNexts(TVal val, int i) 
+        public bool RemoveAmongNexts(TVal val, int i)
         {
             if (Equals(hashTable[i].Value, val))
             {
@@ -304,7 +304,7 @@ namespace MyCollectionLibrary
                         else
                         {
                             if (this.RemoveAmongNexts(val, i))
-                                return true;                            
+                                return true;
                         }
                         return true;
                     }
@@ -324,13 +324,13 @@ namespace MyCollectionLibrary
             return (Remove(pair.Value));
         }
 
-        public virtual bool Remove(TKey key) 
+        public virtual bool Remove(TKey key)
         {
             if (hashTable == null)
                 throw new ArgumentNullException("Хэш таблица пуста");
             if (key == null)
                 throw new ArgumentNullException("Переданный параметр является null");
-            int index = (Math.Abs(key.GetHashCode()) % hashTable.Length);         
+            int index = (Math.Abs(key.GetHashCode()) % hashTable.Length);
             if (hashTable[index] == null)
                 return false;
             if (hashTable[index].Next == null)
@@ -373,15 +373,15 @@ namespace MyCollectionLibrary
             }
         }
 
-        public bool TryGetValue(TKey key, out TVal val) 
+        public bool TryGetValue(TKey key, out TVal val)
         {
-            if(!ContainsKey(key))
-            { 
+            if (!ContainsKey(key))
+            {
                 val = default(TVal);
-                return false; 
+                return false;
             }
 
-            int index = (Math.Abs(key.GetHashCode()) % hashTable.Length); 
+            int index = (Math.Abs(key.GetHashCode()) % hashTable.Length);
             val = hashTable[index].Value;
             return true;
 
@@ -412,7 +412,7 @@ namespace MyCollectionLibrary
             }
         }
 
-        public bool ContainsKey(TKey key) 
+        public bool ContainsKey(TKey key)
         {
             if (hashTable == null)
                 throw new ArgumentNullException("Хэш таблица не инициализирована");
@@ -438,9 +438,9 @@ namespace MyCollectionLibrary
             }
         }
 
-        public bool ContainsValue(TVal val) 
+        public bool ContainsValue(TVal val)
         {
-            for (int i = 0; i < hashTable.Length; i++) 
+            for (int i = 0; i < hashTable.Length; i++)
             {
                 if (hashTable[i] != null)
                     if (Equals(hashTable[i].Value, val))
@@ -448,7 +448,7 @@ namespace MyCollectionLibrary
             }
             return false;
         }
-        
+
         public void CopyTo(Array array, int firstCopyedIIndex = 0)
         {
             if (hashTable == null)
@@ -464,7 +464,7 @@ namespace MyCollectionLibrary
             }
         }
 
-        public void CopyTo(KeyValuePair<TKey,TVal>[] array, int firstCopyedIIndex = 0)
+        public void CopyTo(KeyValuePair<TKey, TVal>[] array, int firstCopyedIIndex = 0)
         {
             if (hashTable == null)
                 throw new ArgumentNullException("Хэш таблица не инициализирована");
@@ -472,7 +472,7 @@ namespace MyCollectionLibrary
                 throw new ArgumentOutOfRangeException("Индекс начала копирования не может быть отрицательным");
             if (Count > array.Length - firstCopyedIIndex)
                 throw new ArgumentOutOfRangeException("Новый массив имеет меньше элементов, чем копируемая хэш таблица");
-            
+
             for (int i = 0; i < Count; i++)
             {
                 KeyValuePair<TKey, TVal> pair = new KeyValuePair<TKey, TVal>(array[i].Key, array[i].Value);
@@ -509,7 +509,7 @@ namespace MyCollectionLibrary
 
         public MyCollection<TKey, TVal> Copyng()
         {
-            return (MyCollection<TKey, TVal>)this.MemberwiseClone();          
+            return (MyCollection<TKey, TVal>)this.MemberwiseClone();
         }
 
         public override bool Equals(Object obj)
@@ -528,7 +528,7 @@ namespace MyCollectionLibrary
                     return true;
                 }
             }
-            return false;            
+            return false;
         }
     }
 }

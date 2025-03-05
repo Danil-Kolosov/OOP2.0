@@ -24,7 +24,7 @@ namespace CollectionEvent
             }
         }
 
-        public MyNewCollection(int capacity):base(capacity) { /*CollectionCountChanged += ShowInfoEvent; CollectionReferenceChanged += ShowInfoEvent;*/ }
+        public MyNewCollection(int capacity):base(capacity) { CollectionCountChanged += ShowInfoEvent; CollectionReferenceChanged += ShowInfoEvent; }
 
         public delegate void CollectionHandler(MyNewCollection<TKey, TVal> sender, CollectionHandlerEventArgs<TVal> args);
         public event CollectionHandler CollectionCountChanged;
@@ -35,10 +35,10 @@ namespace CollectionEvent
             CollectionCountChanged?.Invoke(sourcer, args);
         }
 
-        //public void ShowInfoEvent(MyNewCollection<TKey, TVal> sourcer, CollectionHandlerEventArgs<TVal> args)
-        //{
-        //    Console.WriteLine($"Коллекция с именем {args.Name}  было {args.Type} вот это {args.ObjectData}");
-        //}
+        public void ShowInfoEvent(MyNewCollection<TKey, TVal> sourcer, CollectionHandlerEventArgs<TVal> args)
+        {
+            Console.WriteLine($"Коллекция с именем {args.Name} : было {args.Type} : вот это {args.ObjectData}");
+        }
 
         public void OnCollectionReferenceChanged(MyNewCollection<TKey, TVal> sourcer, CollectionHandlerEventArgs<TVal> args)
         {

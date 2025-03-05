@@ -30,14 +30,14 @@ namespace CollectionEvent
         }
 
 
-        public override string ToString()
-        {
-            string information = "";
-            foreach (JournalEntry<T> item in journal)
-            {
-                information += item.ToString();
-            }
-            return information;
-        }
+        //public override string ToString()
+        //{
+        //    string information = "";
+        //    foreach (JournalEntry<T> item in journal)
+        //    {
+        //        information += item.ToString();
+        //    }
+        //    return information;
+        //}
     }
 }
