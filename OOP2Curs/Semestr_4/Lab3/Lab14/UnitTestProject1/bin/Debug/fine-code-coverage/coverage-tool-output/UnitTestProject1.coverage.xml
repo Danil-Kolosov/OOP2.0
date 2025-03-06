@@ -4,7 +4,7 @@
   <Modules>
     <Module hash="7B-A0-BF-2A-DD-ED-3A-CA-56-F5-8E-72-47-1B-DE-94-3D-BB-85-1B">
       <Summary numSequencePoints="507" visitedSequencePoints="93" numBranchPoints="202" visitedBranchPoints="30" sequenceCoverage="18.34" branchCoverage="14.85" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" maxCrapScore="110" minCrapScore="1" visitedClasses="6" numClasses="6" visitedMethods="11" numMethods="48" />
-      <ModulePath>C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab14\UnitTestProject1\bin\fine-code-coverage-Debug\MyCollectionLibrary.dll</ModulePath>
+      <ModulePath>C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\UnitTestProject1\bin\fine-code-coverage-Debug\MyCollectionLibrary.dll</ModulePath>
       <ModuleTime>2025-03-06T16:15:08.0251006Z</ModuleTime>
       <ModuleName>MyCollectionLibrary</ModuleName>
       <Files>

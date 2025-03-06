@@ -13,3 +13,15 @@ C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab14\Lab14\bin\Debug\Collecti
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab14\Lab14\bin\Debug\CollectionEvent.pdb
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab14\Lab14\bin\Debug\MyCollectionLibrary.pdb
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab14\Lab14\bin\Debug\MyCollectionLibrary.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\bin\Debug\Lab14.exe.config
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\bin\Debug\Lab14.exe
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\bin\Debug\Lab14.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\bin\Debug\CollectionEvent.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\bin\Debug\Library.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\bin\Debug\MyCollectionLibrary.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\obj\Debug\Lab14.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\obj\Debug\Lab14.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\obj\Debug\Lab14.csproj.Up2Date
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\obj\Debug\Lab14.exe
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\Lab14\obj\Debug\Lab14.pdb

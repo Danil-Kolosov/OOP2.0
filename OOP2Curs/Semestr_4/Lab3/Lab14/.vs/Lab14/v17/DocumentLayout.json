@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C532E915-60B6-4554-A285-78D5E2193D89}|Lab14\\Lab14.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\lab14\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C532E915-60B6-4554-A285-78D5E2193D89}|Lab14\\Lab14.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab3\\lab14\\lab14\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C532E915-60B6-4554-A285-78D5E2193D89}|Lab14\\Lab14.csproj|solutionrelative:lab14\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Lab14\\Programm.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\Lab14\\Programm.cs",
               "RelativeToolTip": "Lab14\\Programm.cs",
-              "ViewState": "AgIAAP0AAAAAAAAAAAAgwBoBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAgwA4BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T18:09:31.846Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "..\\..\\..\\Libraries\\MyCollectionLibrary\\MyCollectionExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T18:11:49.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T18:11:49.546Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "..\\..\\..\\Libraries\\MyCollectionLibrary\\MyCollection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:10:28.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T15:10:28.91Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "..\\..\\..\\Libraries\\CollectionEvent\\MyNewCollection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:04:13.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T17:04:13.657Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "..\\..\\..\\Libraries\\Library\\Animal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T12:58:27.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T12:58:27.956Z"
             }
           ]
         },
