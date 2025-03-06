@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab3\\GraphAdjaencyMatrix\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8FDE12D-E786-4BEA-9781-9DC8B4284A4A}|GraphAdjaencyMatrix\\GraphConnectivityMatrix.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\discrete mathematics\\lab3\\graphadjaencymatrix\\graphadjaencymatrix\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8FDE12D-E786-4BEA-9781-9DC8B4284A4A}|GraphAdjaencyMatrix\\GraphConnectivityMatrix.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab3\\GraphAdjaencyMatrix\\graphadjaencymatrix\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8FDE12D-E786-4BEA-9781-9DC8B4284A4A}|GraphAdjaencyMatrix\\GraphConnectivityMatrix.csproj|solutionrelative:graphadjaencymatrix\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8FDE12D-E786-4BEA-9781-9DC8B4284A4A}|GraphAdjaencyMatrix\\GraphConnectivityMatrix.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab3\\GraphAdjaencyMatrix\\graphadjaencymatrix\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8FDE12D-E786-4BEA-9781-9DC8B4284A4A}|GraphAdjaencyMatrix\\GraphConnectivityMatrix.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\discrete mathematics\\lab3\\graphadjaencymatrix\\graphadjaencymatrix\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8FDE12D-E786-4BEA-9781-9DC8B4284A4A}|GraphAdjaencyMatrix\\GraphConnectivityMatrix.csproj|solutionrelative:graphadjaencymatrix\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8FDE12D-E786-4BEA-9781-9DC8B4284A4A}|GraphAdjaencyMatrix\\GraphConnectivityMatrix.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\discrete mathematics\\lab3\\graphadjaencymatrix\\graphadjaencymatrix\\externalinteractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8FDE12D-E786-4BEA-9781-9DC8B4284A4A}|GraphAdjaencyMatrix\\GraphConnectivityMatrix.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab3\\GraphAdjaencyMatrix\\graphadjaencymatrix\\externalinteractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8FDE12D-E786-4BEA-9781-9DC8B4284A4A}|GraphAdjaencyMatrix\\GraphConnectivityMatrix.csproj|solutionrelative:graphadjaencymatrix\\externalinteractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -38,8 +42,7 @@
               "RelativeToolTip": "GraphAdjaencyMatrix\\ExternalInteractions.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T17:15:22.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T17:15:22.722Z"
             },
             {
               "$type": "Document",
@@ -49,7 +52,7 @@
               "RelativeDocumentMoniker": "GraphAdjaencyMatrix\\Programm.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab3\\GraphAdjaencyMatrix\\GraphAdjaencyMatrix\\Programm.cs",
               "RelativeToolTip": "GraphAdjaencyMatrix\\Programm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAABaAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwFAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T15:38:52.126Z",
               "EditorCaption": ""
@@ -62,7 +65,7 @@
               "RelativeDocumentMoniker": "GraphAdjaencyMatrix\\Graph.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab3\\GraphAdjaencyMatrix\\GraphAdjaencyMatrix\\Graph.cs",
               "RelativeToolTip": "GraphAdjaencyMatrix\\Graph.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAgwFoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T15:57:45.007Z",
               "EditorCaption": ""

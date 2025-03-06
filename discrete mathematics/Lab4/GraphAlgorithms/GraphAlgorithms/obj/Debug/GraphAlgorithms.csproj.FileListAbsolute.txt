@@ -1,0 +1,6 @@
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab4\GraphAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab4\GraphAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab4\GraphAlgorithms\GraphAlgorithms\bin\Debug\GraphAlgorithms.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab4\GraphAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab4\GraphAlgorithms\GraphAlgorithms\bin\Debug\GraphAlgorithms.exe
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab4\GraphAlgorithms\GraphAlgorithms\obj\Debug\GraphAlgorithms.exe
