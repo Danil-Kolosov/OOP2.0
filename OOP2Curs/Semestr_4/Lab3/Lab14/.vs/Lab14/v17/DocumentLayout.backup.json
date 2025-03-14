@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\",
+  "WorkspaceRootPath": "C:\\GIT\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C532E915-60B6-4554-A285-78D5E2193D89}|Lab14\\Lab14.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab3\\lab14\\lab14\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C532E915-60B6-4554-A285-78D5E2193D89}|Lab14\\Lab14.csproj|c:\\git\\oop2.0\\oop2curs\\semestr_4\\lab3\\lab14\\lab14\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C532E915-60B6-4554-A285-78D5E2193D89}|Lab14\\Lab14.csproj|solutionrelative:lab14\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,25 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Programm.cs",
-              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\Lab14\\Programm.cs",
+              "DocumentMoniker": "C:\\GIT\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\Lab14\\Programm.cs",
               "RelativeDocumentMoniker": "Lab14\\Programm.cs",
-              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\Lab14\\Programm.cs*",
-              "RelativeToolTip": "Lab14\\Programm.cs*",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEsAAAAnAAAAAAAAAA==",
+              "ToolTip": "C:\\GIT\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\Lab14\\Programm.cs",
+              "RelativeToolTip": "Lab14\\Programm.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAD4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T18:09:31.846Z",
               "EditorCaption": ""
@@ -54,22 +50,21 @@
               "DocumentIndex": 1,
               "Title": "MyCollectionExtensions.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\MyCollectionLibrary\\MyCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Libraries\\MyCollectionLibrary\\MyCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\MyCollectionLibrary\\MyCollectionExtensions.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\MyCollectionLibrary\\MyCollectionExtensions.cs",
-              "RelativeToolTip": "..\\..\\..\\Libraries\\MyCollectionLibrary\\MyCollectionExtensions.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\MyCollectionLibrary\\MyCollectionExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T18:11:49.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T18:11:49.546Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MyCollection.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\MyCollectionLibrary\\MyCollection.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Libraries\\MyCollectionLibrary\\MyCollection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\MyCollectionLibrary\\MyCollection.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\MyCollectionLibrary\\MyCollection.cs",
-              "RelativeToolTip": "..\\..\\..\\Libraries\\MyCollectionLibrary\\MyCollection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\MyCollectionLibrary\\MyCollection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T15:10:28.91Z"
@@ -79,9 +74,9 @@
               "DocumentIndex": 3,
               "Title": "MyNewCollection.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\CollectionEvent\\MyNewCollection.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Libraries\\CollectionEvent\\MyNewCollection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\CollectionEvent\\MyNewCollection.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\CollectionEvent\\MyNewCollection.cs",
-              "RelativeToolTip": "..\\..\\..\\Libraries\\CollectionEvent\\MyNewCollection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\CollectionEvent\\MyNewCollection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T17:04:13.657Z"
@@ -91,30 +86,12 @@
               "DocumentIndex": 2,
               "Title": "Animal.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\Library\\Animal.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Libraries\\Library\\Animal.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\Library\\Animal.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\Library\\Animal.cs",
-              "RelativeToolTip": "..\\..\\..\\Libraries\\Library\\Animal.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Libraries\\Library\\Animal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T12:58:27.956Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 137,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

@@ -54,6 +54,36 @@ namespace Lab14
                                  orderby animal.Age
                                  select animal);
             Stopwatch stopwatch = new Stopwatch();
+
+            Stopwatch timer_no_extension = new Stopwatch();
+            Stopwatch timer_extension = new Stopwatch();
+
+
+            List<Animal> tempList = (collectionDictionaryZoo.Values).SelectMany(section => section).ToList();
+            int n = tempList.Count();
+            //var query2 = (from section in collectionDictionaryZoo.Values
+            //              from animal in section
+            //              where animal is Animal && animal.Weight > 50
+            //              select animal);
+            var query2 = collectionDictionaryZoo.Values.SelectMany(section => section).Where(animal => animal is Animal && animal.Weight > 50);
+            timer_no_extension.Start();
+            for (int i = 0; i < n; ++i)
+            {
+                Animal animal = tempList[i];
+                if (animal.Weight > 50) 
+                {
+                    animal.ToString();
+                }
+            }
+            timer_no_extension.Stop();
+
+            timer_extension.Start();
+            foreach (var item in query2)
+            {
+                item.ToString();
+            }
+            timer_extension.Stop();
+
             stopwatch.Start();
             foreach (var item in whereOrderByQ)
             {
@@ -360,6 +390,10 @@ namespace Lab14
                 }
             stopwatch.Stop();
             Console.WriteLine($"Время группировки: {(double)stopwatch.ElapsedTicks / Stopwatch.Frequency * 1000} мс");
+
+            Console.WriteLine("\n\nElapsed ticks ( 1 - no_extension | 2 - extension):");
+            Console.WriteLine($"Elapsed ticks: {timer_no_extension.Elapsed.Ticks}");
+            Console.WriteLine($"Elapsed ticks: {timer_extension.Elapsed.Ticks}");
         }
         //Поправки
         //    время засечь
