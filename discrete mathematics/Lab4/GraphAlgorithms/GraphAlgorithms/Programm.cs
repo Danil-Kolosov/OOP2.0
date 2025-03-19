@@ -11,7 +11,7 @@ namespace GraphAlgorithms
     {
         public static void Main() 
         {
-            клики ггггггггггг, поледний ваирнт предложения от гробика не опробован, а так все ггггггггг
+            //клики ггггггггггг, поледний ваирнт предложения от гробика не опробован, а так все ггггггггг
             int command = 0;
             int exitCommand = 6;
             while (command != exitCommand)

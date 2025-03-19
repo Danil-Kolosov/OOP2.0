@@ -405,11 +405,11 @@ namespace GraphConnectivityMatrix
                 {
                     HashSet<char> seen = new HashSet<char>();
                     if (bList[j].Contains(aList[i]))
-                        result += b;
+                        result += bList[j];
                     else
                     {
                         if (aList[j].Contains(bList[i]))
-                            result += a;
+                            result += aList[j];
                         else 
                         {
                             string tempRes = aList[i] + bList[j];
@@ -422,8 +422,11 @@ namespace GraphConnectivityMatrix
                             }
                         }
                     }
-                    if (i + 1 != aList.Length)
+                    if (i +1 != aList.Length /*& j + 1 != bList.Length*/)
                         result += " V ";
+                    else
+                        if(j+1 != bList.Length)
+                            result += " V ";
                 }
             return result;
         }
@@ -448,6 +451,96 @@ namespace GraphConnectivityMatrix
             return listResult;
         }
 
+        private static string Absorption(string a, string b) 
+        {
+            /*// Убираем пробелы и разбиваем строки на переменные
+            var aVars = new HashSet<char>(a.Replace(" ", "").Split('V').Select(s => s[0]));
+            var bVars = new HashSet<char>(b.Replace(" ", "").Split('V').Select(s => s[0]));
+
+            // Проверяем, является ли a подмножеством b
+            if (aVars.IsSubsetOf(bVars))
+            {
+                return a; // a поглощает b
+            }
+
+            // Проверяем, является ли b подмножеством a
+            if (bVars.IsSubsetOf(aVars))
+            {
+                return b; // b поглощает a
+            }
+
+            // Если поглощения нет, возвращаем пустую строку
+            return "";*/
+            string[] aList = a.Replace(" ", "").Split('V');
+            string[] bList = b.Replace(" ", "").Split('V');
+
+            string result = "";
+            for (int i = 0; i < aList.Length; i++)
+                for (int j = 0; j < bList.Length; j++)
+                {
+                    HashSet<char> seen = new HashSet<char>();
+                    if (aList[i].OrderBy(cha => cha).ToArray().SequenceEqual(bList[j].OrderBy(cha => cha).ToArray()))
+                    {
+                        return new string(aList[i].OrderBy(cha => cha).ToArray());
+                    }
+                }
+            return result;
+        }
+
+        private static List<string> DoAbsorption(List<string> list) 
+        {
+            List<string> result = new List<string>();
+
+            for(int i = 0; i < list.Count; i++) 
+            {
+                for(int j = i; j < list.Count; j++)
+                {
+                    string res = Absorption(list[i], list[j]);
+                    if (res != "")
+                    {
+                        result.Add(res);
+                        list.Remove(list[j]);
+                        j = list.Count;
+                    }
+                    else
+                        if (j + 1 == list.Count)
+                        result.Add(list[i]);
+                }
+            }
+
+            return result;
+
+            //List<string> result = new List<string>();
+
+            //// Копируем список, чтобы не изменять оригинальный
+            //var tempList = new List<string>(list);
+
+            //// Применяем поглощение ко всем парам дизъюнктов
+            //for (int i = 0; i < tempList.Count; i++)
+            //{
+            //    bool isAbsorbed = false;
+
+            //    for (int j = 0; j < tempList.Count; j++)
+            //    {
+            //        if (i == j) continue; // Не сравниваем дизъюнкт с самим собой
+
+            //        // Проверяем, поглощается ли tempList[i] tempList[j]
+            //        string absorbed = Absorption(tempList[i], tempList[j]);
+            //        if (absorbed == tempList[i])
+            //        {
+            //            // tempList[i] поглощается tempList[j], пропускаем его
+            //            isAbsorbed = true;
+            //            break;
+            //        }
+            //    }
+
+            //    // Если дизъюнкт не поглощен, добавляем его в результат
+            //    if (!isAbsorbed)
+            //    {
+            //        result.Add(tempList[i]);
+            //    }
+
+            }
         public static string GetClique() 
         {
             //    var expressions = new List<string>
@@ -456,13 +549,27 @@ namespace GraphConnectivityMatrix
             //    "(B ∨ CD)"
 
             //};
-            //    string result = MultiplyExpressions(expressions);
+                //string result = MultiplyExpressions(expressions);
+
+            //нормально перемножать скобки сделать!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
             List<string> resultList = GetFirstEquation(adjaencyMatrix);
+            //resultList = DoAbsorption(resultList);
+
+
             //List<string> result = DiscrethMultiplyEach(resultList);
+
+
+
+            //сделать сортирову по алфовиту в dmultimply + поглащение попробовать на конечном результате + 
+            //    + убирание повторяющихся полностью частей + получение из имеющихся недостающих
+
+
+            while (resultList.Count != 1)
+                resultList = DiscrethMultiplyEach(resultList);
             //string result = MultiplyExpressions(resultList.ToArray());
-            string result = FindCliques(adjaencyMatrix);
-            return result;
+            //string result = FindCliques(adjaencyMatrix);
+            return resultList[0];//resultList.ToArray().ToString();
         }
 
         static string FindCliques(int[,] adjacencyMatrix)

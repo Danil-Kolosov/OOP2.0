@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using AnimalLibrary;
@@ -9,7 +9,7 @@ namespace Lab14
 {
     class Programm
     {
-        public static void Main()
+        public static void Main() 
         {
             Dictionary<string, Queue<Animal>> collectionDictionaryZoo = new Dictionary<string, Queue<Animal>>(4);
 
@@ -20,7 +20,7 @@ namespace Lab14
                 collectionDictionaryZoo.Add(key, new Queue<Animal>(3));
                 //for (int j = 0; j < 3; j++) 
                 //{
-                Animal anim = new Animal(1, 1, 1, "Повторюшка");
+                Animal anim = new Animal(1,1,1,"Повторюшка");
                 Mammal mammal = new Mammal();
                 mammal.RandomInit();
                 Artiodactyl artiodactyl = new Artiodactyl();
@@ -70,7 +70,7 @@ namespace Lab14
             for (int i = 0; i < n; ++i)
             {
                 Animal animal = tempList[i];
-                if (animal.Weight > 50)
+                if (animal.Weight > 50) 
                 {
                     animal.ToString();
                 }
@@ -108,9 +108,9 @@ namespace Lab14
             stopwatch.Reset();
             stopwatch.Start();
             foreach (var item in whereOrderByQExtension)
-            {
+            {                
                 Console.WriteLine(item);
-                Console.WriteLine();
+                Console.WriteLine();               
             }
             stopwatch.Stop();
             Console.WriteLine($"Время {(double)stopwatch.ElapsedTicks / Stopwatch.Frequency * 1000} мс");
@@ -124,7 +124,7 @@ namespace Lab14
             Console.WriteLine("Вывести животных первой и последней секций без повторений");
 
             var UnionQ = (from animalQ in collectionDictionaryZoo.Values.SelectMany(animal => animal) //                                                         where !((animal is Mammal)|| (animal is Artiodactyl) || (animal is Bird)) 
-                          select animalQ)
+                     select animalQ)
                      .Concat
                      (
                      from animalQ in collectionDictionaryZoo.Values.SelectMany(animal => animal)
@@ -133,7 +133,7 @@ namespace Lab14
             stopwatch.Reset();
             stopwatch.Start();
             foreach (var item in UnionQ)
-            {
+            {                
                 Console.WriteLine(item);
                 Console.WriteLine();
             }
@@ -165,7 +165,7 @@ namespace Lab14
             stopwatch.Reset();
             stopwatch.Start();
             var MaxAgeQ = (from section in collectionDictionaryZoo.Values
-                           from animal in section.ToArray()
+                           from animal in section.ToArray()                           
                            select animal).Max();
             stopwatch.Stop();
             Console.WriteLine($"Время {(double)stopwatch.ElapsedTicks / Stopwatch.Frequency * 1000} мс");
@@ -196,9 +196,9 @@ namespace Lab14
             stopwatch.Reset();
             stopwatch.Start();
             var mammalsLivivngEnvironment = (from section in collectionDictionaryZoo.Values
-                                             from animalQ in section.ToArray()
-                                             where animalQ is Mammal
-                                             group animalQ by ((Mammal)animalQ).LivingEnvironment /*into birdGroup
+                              from animalQ in section.ToArray()
+                              where animalQ is Mammal
+                              group animalQ by ((Mammal)animalQ).LivingEnvironment /*into birdGroup
                               from birds in birdGroup
                               select birds*/
                               );
@@ -222,11 +222,11 @@ namespace Lab14
             .GroupBy(ani => ((Mammal)ani).LivingEnvironment);
 
             stopwatch.Reset();
-            stopwatch.Start();
+            stopwatch.Start(); 
             foreach (var item in BirdsNamesExtension)
             {
                 Console.WriteLine($"Естественный ареал обитания: {item.Key}");
-                foreach (Mammal mam in item)
+                foreach(Mammal mam in item)
                     Console.WriteLine($"Имя: {mam.Name} Вид: {mam.Specie}");
                 Console.WriteLine();
             }
@@ -240,13 +240,13 @@ namespace Lab14
             Console.WriteLine();
             Console.WriteLine("Сколько корма каждому животному нужно");
             var FoodSuply = from section in collectionDictionaryZoo.Values
-                            from animalQ in section.ToArray()
-                            let averageFoodKG = animalQ.Weight * 0.105
-                            select new
-                            {
-                                animalQ,
-                                averageFoodKG
-                            };
+                             from animalQ in section.ToArray()
+                             let averageFoodKG = animalQ.Weight * 0.105
+                             select new
+                             {
+                                 animalQ,
+                                 averageFoodKG
+                             };
             stopwatch.Reset();
             stopwatch.Start();
             foreach (var item in FoodSuply)
@@ -262,7 +262,7 @@ namespace Lab14
             Console.WriteLine("Методами расширений");
             var FoodSuplyExtension = collectionDictionaryZoo.Values
             .SelectMany(queue => queue)
-            .Select(animalQ => new
+            .Select(animalQ => new 
             {
                 animalQ.Name,
                 averageFoodKG = animalQ.Weight * 0.105
@@ -283,15 +283,15 @@ namespace Lab14
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Сколько корма каждому животному нужно + по средам обитания");
-            var FoodSuplyLivingEnvironment = from livEn in mammalsLivivngEnvironment
-                                             from anim in livEn
-                                             join foodS in FoodSuply on anim.Name equals foodS.animalQ.Name
-                                             select new
-                                             {
-                                                 anim.Name,
-                                                 LivingEnvironment = livEn.Key,
-                                                 Food = foodS.averageFoodKG
-                                             };
+            var FoodSuplyLivingEnvironment =  from livEn in mammalsLivivngEnvironment
+                                              from anim in livEn
+                                              join foodS in FoodSuply on anim.Name equals foodS.animalQ.Name
+                                              select new
+                                              {
+                                                  anim.Name,
+                                                  LivingEnvironment = livEn.Key,
+                                                  Food = foodS.averageFoodKG
+                                              };
             stopwatch.Reset();
             stopwatch.Start();
             foreach (var item in FoodSuplyLivingEnvironment)
@@ -314,7 +314,7 @@ namespace Lab14
                 .SelectMany(livEn => livEn, (livEn2, anim) => new { livEn2, anim }) // Разворачиваем коллекцию и создаем анонимный объект
                 .Join(FoodSuply, // Вторая последовательность
                     combiner => combiner.anim.Name, // Ключ из первой последовательности
-
+            
                     foodS => foodS.animalQ.Name, // Ключ из второй последовательности
                     (combined, foodS) => new // Результат объединения
                     {
@@ -341,7 +341,7 @@ namespace Lab14
                 { "Рептилии", new Animal(50, 3, 34, "Крокодил") },
                 { "Приматы", new Animal(10, 8, 7, "Шимпанзе") }
             };
-            foreach (KeyValuePair<string, Animal> pair in zoo)
+            foreach(KeyValuePair<string, Animal> pair in zoo)
                 Console.WriteLine($"{pair.Key} {pair.Value}");
 
 
@@ -350,7 +350,7 @@ namespace Lab14
             var allReptilies = zoo.SelectionOnCondition(item => item.Key == "Рептилии");
             stopwatch.Reset();
             stopwatch.Start();
-            foreach (var item in allReptilies)
+            foreach (var item in allReptilies) 
             {
                 Console.WriteLine($"{item.Key} {item.Value.ToString()}");
             }
@@ -362,7 +362,7 @@ namespace Lab14
             Console.WriteLine("\nТеперь найдем среднее и максимальное значения возраста всех животных");
             stopwatch.Reset();
             stopwatch.Start();
-            double averageAge = 0;
+            double averageAge = 0; 
             //double.TryParse(zoo.MyAggregate(item => item.Value.Age, (a, b) => a + b, true).ToString(), out averageAge);
             averageAge = zoo.MyAggregate(item => item.Value.Age, (a, b) => a + b, true);
             stopwatch.Stop();
@@ -370,14 +370,14 @@ namespace Lab14
 
             stopwatch.Reset();
             stopwatch.Start();
-            double maxAge = zoo.MyAggregate(item => item.Value.Age, (a, b) => (a > b) ? a : b);
+            double maxAge = zoo.MyAggregate(item => item.Value.Age, (a,b) => (a > b) ? a : b);
             stopwatch.Stop();
             Console.WriteLine($"Время нахождения максимального возраста: {(double)stopwatch.ElapsedTicks / Stopwatch.Frequency * 1000} мс");
 
             Console.WriteLine($"\nСрeдний возраст равен {averageAge}, при этом максимальный - {maxAge}");
 
             Console.WriteLine("\nОтсортируем по уменьшению роста");
-
+     
             var zooOrderByHeight = zoo
             .Order(item => item.Value.Height, true);
             stopwatch.Reset();
@@ -386,7 +386,7 @@ namespace Lab14
                 if (item.Value != null)
                 {
                     Console.WriteLine($"\n{item.Key}");
-                    item.Value.Show();
+                    item.Value.Show(); 
                 }
             stopwatch.Stop();
             Console.WriteLine($"Время группировки: {(double)stopwatch.ElapsedTicks / Stopwatch.Frequency * 1000} мс");
