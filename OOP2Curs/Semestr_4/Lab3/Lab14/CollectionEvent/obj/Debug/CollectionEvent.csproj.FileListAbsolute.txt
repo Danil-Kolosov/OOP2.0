@@ -16,3 +16,12 @@ C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\CollectionEvent\obj\Debug\Coll
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\CollectionEvent\obj\Debug\Collecti.1AC35C16.Up2Date
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\CollectionEvent\obj\Debug\CollectionEvent.dll
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Libraries\CollectionEvent\obj\Debug\CollectionEvent.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\CollectionEvent\bin\Debug\CollectionEvent.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\CollectionEvent\bin\Debug\CollectionEvent.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\CollectionEvent\obj\Debug\CollectionEvent.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\CollectionEvent\obj\Debug\CollectionEvent.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\CollectionEvent\obj\Debug\Collecti.1AC35C16.Up2Date
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\CollectionEvent\obj\Debug\CollectionEvent.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\CollectionEvent\obj\Debug\CollectionEvent.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\CollectionEvent\bin\Debug\MyCollectionLibrary.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\CollectionEvent\bin\Debug\MyCollectionLibrary.pdb

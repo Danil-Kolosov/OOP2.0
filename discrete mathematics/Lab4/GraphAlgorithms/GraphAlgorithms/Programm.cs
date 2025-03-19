@@ -11,12 +11,13 @@ namespace GraphAlgorithms
     {
         public static void Main() 
         {
+            клики ггггггггггг, поледний ваирнт предложения от гробика не опробован, а так все ггггггггг
             int command = 0;
             int exitCommand = 6;
             while (command != exitCommand)
             {
-                Console.WriteLine("1. Задать матрицу смежности\n2. Получить ярусы графа\n3.Получить минимальный путь " +
-                    "алгоритмом Шимбелла\n4. Получить клики графа\n!!!!!5. Сохранить введенную матрицу смежности\n6. !!!!!!Выход");
+                Console.WriteLine("1. Задать матрицу смежности\n2. Получить ярусы графа\n3. Получить минимальный путь " +
+                    "алгоритмом Шимбелла\n4. Получить клики графа\n5. Сохранить введенную матрицу смежности\n6. Выход");
                 External_Interactions.Input(ref command, 1, 6);
                 switch (command)
                 {
@@ -61,12 +62,16 @@ namespace GraphAlgorithms
                             break;
                         }
                     case 3:
-                        {
-                            
+                        {                            
+                            Console.WriteLine(Graph.Shimbell());
+                            //добавить выбор вершины
+                            //    хотя нет, просто для всех ввести и все,
+                            //    а вот путь в ребрах - для скольких ребер брать спросить нужно, сколько раз в степенть возводить
                             break;
                         }
                     case 4:
                         {
+                            Console.WriteLine(Graph.GetClique());
                             break;
                         }
                     case 5: 

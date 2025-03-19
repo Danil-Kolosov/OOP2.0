@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -54,7 +55,7 @@ namespace GraphConnectivityMatrix
             {
                 for (int j = 0; j < size; j++)
                 {
-                    External_Interactions.Input(ref matrix[i, j], 0, 1, $"Введите элемент [{i + 1}][{j + 1}]: ");
+                    External_Interactions.Input(ref matrix[i, j], 0, 10000, $"Введите элемент [{i + 1}][{j + 1}]: ");
                 }
             }
 
@@ -185,15 +186,142 @@ namespace GraphConnectivityMatrix
             }
         }
 
+        public static string Shimbell() 
+        {
+            if (adjaencyMatrix == null)
+            {
+                return "Еще не выбрана ни одна матрица смежности";
+            }
 
+            int minOrMax = 0;
+            External_Interactions.Input(ref minOrMax, 1, 3, "1. Искать минимальные пути\n2. Искать максимальные пути\n3. Назад");
+            if (minOrMax == 3)
+                return "Возвращаемся в главное меню";
+
+            int size = adjaencyMatrix.GetLength(1);
+            int degree = 0;
+            External_Interactions.Input(ref degree, 1, size*size, "Пути, состоящие из скольки ребер будут учитываться:");
+            string result = "";
+            int[,] resultMatrix = new int[0,0];
+            if (minOrMax == 1)
+            {
+                resultMatrix = ShimbellPowMatrix(adjaencyMatrix, degree);
+                result += $"Кратчайшие пути длиной из {degree} ";
+            }
+            else
+            {
+                resultMatrix = ShimbellPowMatrix(adjaencyMatrix, degree, false);
+                result += $"Максимальные пути длиной из {degree} ";
+            }
+            if (degree == 1)
+                result += "ребра";
+            else
+                result += "ребер";
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    result += $"\n{points[i]} : {points[j]} = {resultMatrix[i, j]}";
+                    //if (resultMatrix[i, j]==0)
+                    //    result += $"\n{points[i]} : {points[j]} = Недостижима";
+                    //else
+                    //    result += $"\n{points[i]} : {points[j]} = {resultMatrix[i, j]}";
+                }
+                result += "\n";
+            }
+            return result;
+            //строку сформировать на  основе полученной матрицы шимбела и вывести - кратчайший/максимальный путь длиной n ребра 
+            //    из а в а равен тото
+            //    из а в б равен тото
+
+        }
+
+        private static int ShimbellMultiply(int a, int b) 
+        {
+            if (a == 0 || b == 0)
+                return 0;
+            return a + b;
+        }
+
+        private static int ShimbellSum(int a, int b, Func<int, int, int> maxOrMin)
+        {
+            if (a == 0 & b == 0)
+                return 0;
+            if (a == 0)
+                return b;
+            if (b == 0)
+                return a;
+            return maxOrMin(a, b);
+        }
+
+        private static int[,] ShimbellMultiplyMatrices(int[,] m1, int[,] m2, bool maxOrMin)// не надо, надо но изменить под шимбела
+        {
+            int[,] result = (int[,])m1.Clone();
+            int n = m1.GetLength(1);
+            for (int i = 0/*, i1 = 0, i2 = 0*/; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    int boxResult = 0;
+                    for (int k = 0; k < n; k++)
+                    {
+                        if (maxOrMin)
+                            boxResult = ShimbellSum(boxResult, ShimbellMultiply(m1[i, k], m2[k, j]), (a, b) => (a < b) ? a : b);
+                        else
+                            boxResult = ShimbellSum(boxResult, ShimbellMultiply(m1[i, k], m2[k, j]), (a, b) => (a > b) ? a : b);
+                    }
+                    result[i, j] = boxResult;
+                }
+            }
+            return result;
+        }
+
+        private static int[,] ShimbellPowMatrix(int[,] m, int degree, bool maxOrMin = true)// не надо, надо под шимбела
+        {
+            int[,] result = (int[,])m.Clone();
+            for (int i = 1; i < degree; i++)
+            {
+                result = ShimbellMultiplyMatrices(result, m, maxOrMin);
+            }
+            return result;
+        }
 
         /// <summary>
-        /// ////////////////////////////////////////////////////////опа
+        /// Яростно параллельная форма
         /// </summary>
         /// <param name="m1"></param>
         /// <param name="m2"></param>
-        /// <returns>инт</returns>
+        /// <returns>стринг ответ</returns>
         /// 
+
+        public static string GetTiers()
+        {
+            if (adjaencyMatrix == null)
+            {
+                return "Еще не выбрана ни одна матрица смежности";
+            }
+            int[,] tempMatrix = new int[adjaencyMatrix.GetLength(0), adjaencyMatrix.GetLength(1)];
+            Array.Copy(adjaencyMatrix, tempMatrix, adjaencyMatrix.Length);
+
+            string result = "";
+            int numberOfTops = 0;
+            int k = 1;
+
+            while (numberOfTops < adjaencyMatrix.GetLength(1))
+            {
+                List<int> tempResult = GetAngryComponent(tempMatrix);
+                numberOfTops += tempResult.Count;
+                result += $"{k}-ый ярус:";
+                k++;
+                for (int i = 0; i < tempResult.Count; i++)
+                {
+                    result += $" {points[tempResult[i]]}";
+                }
+                result += "\n";
+            }
+            return result;
+        }
+
         private static void DeleteRow(int number, int[,] m)
         {
             int n = m.GetLength(1);
@@ -227,27 +355,226 @@ namespace GraphConnectivityMatrix
             return result;
         }
 
-        public static string GetTiers()
+
+        /// <summary>
+        /// Клик
+        /// </summary>
+        /// <param name="m1"></param>
+        /// <param name="m2"></param>
+        /// <returns>стринг ответ</returns>
+        /// 
+
+        private static List<string> GetFirstEquation(int[,] matrix) 
         {
-            int[,] tempMatrix = new int[adjaencyMatrix.GetLength(0), adjaencyMatrix.GetLength(1)];
-            Array.Copy(adjaencyMatrix, tempMatrix, adjaencyMatrix.Length);
-
-            string result = "";
-            int numberOfTops = 0;
-            int k = 1;
-
-            while (numberOfTops < adjaencyMatrix.GetLength(1)) 
+            List<string> listResult = new List<string>();
+            int n = matrix.GetLength(1);
+            for(int i=0;i<n-1;i++)
             {
-                List<int> tempResult = GetAngryComponent(tempMatrix);
-                numberOfTops += tempResult.Count;
-                result += $"{k}-ый ярус:";
-                k++;
-                for (int i=0;i< tempResult.Count; i++) 
+                string result = "";
+                result += $"{points[i]}";
+                int step = 0;
+                for (int j = i+1; j < n; j++) 
                 {
-                    result += $" {points[tempResult[i]]}";
+                    //if(j<n)
+                    //{
+                        if (matrix[i, j] == 0)
+                        {
+                            if (step < 1)
+                            {
+                                result += $" V {points[j]}";
+                                step = 1;
+                            }
+                            else
+                                result += $"{points[j]}";
+                        }            
+                    //}        
                 }
-                result += "\n";
+                listResult.Add(result);
             }
+            return listResult;
+        }
+
+        private static string DMultiply(string a, string b) 
+        {
+            string[] aList = a.Replace(" ", "").Split('V');
+            string[] bList = b.Replace(" ", "").Split('V');
+            
+            string result = "";
+            for(int i=0;i<aList.Length;i++)
+                for(int j = 0; j < bList.Length; j++)
+                {
+                    HashSet<char> seen = new HashSet<char>();
+                    if (bList[j].Contains(aList[i]))
+                        result += b;
+                    else
+                    {
+                        if (aList[j].Contains(bList[i]))
+                            result += a;
+                        else 
+                        {
+                            string tempRes = aList[i] + bList[j];
+                            foreach(char c in tempRes)
+                            {
+                                if (seen.Add(c)) // Добавляет символ в HashSet и возвращает true, если он новый
+                                {
+                                    result += c;
+                                }
+                            }
+                        }
+                    }
+                    if (i + 1 != aList.Length)
+                        result += " V ";
+                }
+            return result;
+        }
+
+        private static List<string> DiscrethMultiplyEach(List<string> list) 
+        {
+            List<string> listResult = new List<string>();
+
+            for(int i =0;i<list.Count; i++)
+            {
+                if (i + 1 < list.Count)
+                { 
+                    listResult.Add(DMultiply(list[i], list[i + 1]));
+                    i++;
+                }
+
+                else
+                    listResult.Add(list[i]);
+            }
+
+
+            return listResult;
+        }
+
+        public static string GetClique() 
+        {
+            //    var expressions = new List<string>
+            //{
+            //    "(A ∨ CE)",
+            //    "(B ∨ CD)"
+
+            //};
+            //    string result = MultiplyExpressions(expressions);
+
+            List<string> resultList = GetFirstEquation(adjaencyMatrix);
+            //List<string> result = DiscrethMultiplyEach(resultList);
+            //string result = MultiplyExpressions(resultList.ToArray());
+            string result = FindCliques(adjaencyMatrix);
+            return result;
+        }
+
+        static string FindCliques(int[,] adjacencyMatrix)
+        {
+            int n = adjacencyMatrix.GetLength(0);
+            List<List<int>> cliques = new List<List<int>>();
+
+            // Используем битовые маски для генерации всех подмножеств
+            for (int mask = 1; mask < (1 << n); mask++)
+            {
+                List<int> currentClique = new List<int>();
+                bool isClique = true;
+
+                // Проверяем, является ли подмножество кликой
+                for (int i = 0; i < n; i++)
+                {
+                    if ((mask & (1 << i)) != 0) // Если i-я вершина включена в подмножество
+                    {
+                        currentClique.Add(i);
+                        // Проверяем, соединена ли вершина с остальными
+                        for (int j = 0; j < n; j++)
+                        {
+                            if (i != j && (mask & (1 << j)) != 0 && adjacencyMatrix[i, j] == 0)
+                            {
+                                isClique = false;
+                                break;
+                            }
+                        }
+                    }
+                    if (!isClique) break;
+                }
+
+                if (isClique)
+                {
+                    cliques.Add(currentClique);
+                }
+            }
+
+            // Формируем строку для вывода
+            return FormatCliques(cliques);
+        }
+
+        static string FormatCliques(List<List<int>> cliques)
+        {
+            if (cliques.Count == 0)
+                return "Клики: нет";
+
+            List<string> formattedCliques = new List<string>();
+            for (int i = 0; i < cliques.Count; i++)
+            {
+                // Преобразуем индексы в символы
+                string cliqueString = string.Join(", ", cliques[i].ConvertAll(index => ((char)('A' + index)).ToString()));
+                formattedCliques.Add($"{i + 1}: {cliqueString}");
+            }
+
+            return "Клики:\n" + string.Join("\n", formattedCliques);
+        }
+
+        static string MultiplyExpressions(string[] expressions)
+        {
+            // Список для хранения всех конъюнкций
+            List<List<string>> conjunctions = new List<List<string>>();
+
+            // Разделяем каждое выражение на его компоненты
+            foreach (var expression in expressions)
+            {
+                var terms = expression.Split(new[] { " V " }, StringSplitOptions.RemoveEmptyEntries)
+                                      .Select(t => t.Trim())
+                                      .ToList();
+                conjunctions.Add(terms);
+            }
+
+            // Упрощаем конъюнкции
+            conjunctions = conjunctions.Select(Simplify).ToList();
+
+            // Получаем все комбинации
+            var combinations = GetCombinations(conjunctions);
+
+            // Объединяем результаты в строку
+            return string.Join(" ∨ ", combinations.Select(c => string.Join(" ∧ ", c)));
+        }
+
+        static List<string> Simplify(List<string> terms)
+        {
+            // Убираем дубликаты
+            var uniqueTerms = new HashSet<string>(terms);
+            return uniqueTerms.ToList();
+        }
+
+        static List<List<string>> GetCombinations(List<List<string>> conjunctions)
+        {
+            // Начинаем с пустого списка
+            List<List<string>> result = new List<List<string>>();
+
+            // Рекурсивная функция для получения всех комбинаций
+            void Combine(List<string> current, int index)
+            {
+                if (index == conjunctions.Count)
+                {
+                    result.Add(new List<string>(current));
+                    return;
+                }
+
+                foreach (var term in conjunctions[index])
+                {
+                    current.Add(term);
+                    Combine(current, index + 1);
+                    current.RemoveAt(current.Count - 1);
+                }
+            }
+
+            Combine(new List<string>(), 0);
             return result;
         }
 
@@ -289,60 +616,34 @@ namespace GraphConnectivityMatrix
             }
         }
 
-        private static int[,] MultiplyMatrices(int[,] m1, int[,] m2)// не надо
-        {
-            int[,] result = (int[,])m1.Clone();
-            int n = m1.GetLength(1);
-            for (int i = 0/*, i1 = 0, i2 = 0*/; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    for (int k = 0; k < n; k++)
-                    {
-                        if (result[i, j] + m1[i, k] * m2[k, j] > 0)
-                            result[i, j] = 1;
-                    }
-                }
-            }
-            return result;
-        }
+        
 
-        private static int[,] PowMatrix(int[,] m, int degree)// не надо
-        {
-            int[,] result = (int[,])m.Clone();
-            for (int i = 0; i < degree; i++)
-            {
-                result = MultiplyMatrices(result, m);
-            }
-            return result;
-        }
+        //private static int[,] GetReachabilityMatrix()// не надо
+        //{
+        //    int n = adjaencyMatrix.GetLength(1);
+        //    int[,] result = new int[n, n];
+        //    for (int i = 0; i < n; i++)
+        //    {
+        //        for (int j = 0; j < n; j++)
+        //        {
+        //            if (i == j)
+        //                result[i, j] = 1;
+        //        }
+        //    }
 
-        private static int[,] GetReachabilityMatrix()// не надо
-        {
-            int n = adjaencyMatrix.GetLength(1);
-            int[,] result = new int[n, n];
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    if (i == j)
-                        result[i, j] = 1;
-                }
-            }
+        //    for (int i = 0; i < adjaencyMatrix.GetLength(1); i++)
+        //    {
+        //        result = Sum(result, PowMatrix(adjaencyMatrix, i));
+        //    }
+        //    return result;
+        //}
 
-            for (int i = 0; i < adjaencyMatrix.GetLength(1); i++)
-            {
-                result = Sum(result, PowMatrix(adjaencyMatrix, i));
-            }
-            return result;
-        }
-
-        private static int[,] GetConnectivityMatrix(/*List<List<int>> r*/)//не надо
-        {
-            int[,] r = GetReachabilityMatrix();
-            LogicAnd(ref r, Transpose(r));
-            return r;
-        }
+        //private static int[,] GetConnectivityMatrix(/*List<List<int>> r*/)//не надо
+        //{
+        //    int[,] r = GetReachabilityMatrix();
+        //    LogicAnd(ref r, Transpose(r));
+        //    return r;
+        //}
 
         
 
