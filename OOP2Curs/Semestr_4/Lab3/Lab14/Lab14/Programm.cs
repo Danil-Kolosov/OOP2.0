@@ -72,7 +72,6 @@ namespace Lab14
                 Animal animal = tempList[i];
                 if (animal.Weight > 50)
                 {
-                    animal.ToString();
                 }
             }
             timer_no_extension.Stop();
@@ -80,7 +79,6 @@ namespace Lab14
             timer_extension.Start();
             foreach (var item in query2)
             {
-                item.ToString();
             }
             timer_extension.Stop();
 
