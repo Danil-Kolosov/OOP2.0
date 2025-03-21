@@ -395,11 +395,6 @@ namespace Lab14
             Console.WriteLine($"Elapsed ticks: {timer_no_extension.Elapsed.Ticks}");
             Console.WriteLine($"Elapsed ticks: {timer_extension.Elapsed.Ticks}");
         }
-        //Поправки
-        //    время засечь
-        //    когда отложенный когда мгновенный
-        //    UNION
-        //    общий без first last
-        //+ счет элементов в 12 лаб нормально - не пустых считать
+
     }
 }
