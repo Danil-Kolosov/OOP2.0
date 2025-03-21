@@ -187,26 +187,17 @@ namespace GraphConnectivityMatrix
             }
         }
 
-        public static string Shimbell() 
-        {
-            if (adjaencyMatrix == null)
-            {
-                return "Еще не выбрана ни одна матрица смежности";
-            }
 
-<<<<<<< HEAD
         /// <summary>
         /// Шимбелл
         /// </summary>
-        public static string Shimbell() 
+        public static string Shimbell()
         {
             if (adjaencyMatrix == null)
             {
                 return "Еще не выбрана ни одна матрица смежности";
             }
 
-=======
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
             int minOrMax = 0;
             External_Interactions.Input(ref minOrMax, 1, 3, "1. Искать минимальные пути\n2. Искать максимальные пути\n3. Назад");
             if (minOrMax == 3)
@@ -214,9 +205,9 @@ namespace GraphConnectivityMatrix
 
             int size = adjaencyMatrix.GetLength(1);
             int degree = 0;
-            External_Interactions.Input(ref degree, 1, size*size, "Пути, состоящие из скольки ребер будут учитываться:");
+            External_Interactions.Input(ref degree, 1, size * size, "Пути, состоящие из скольки ребер будут учитываться:");
             string result = "";
-            int[,] resultMatrix = new int[0,0];
+            int[,] resultMatrix = new int[0, 0];
             if (minOrMax == 1)
             {
                 resultMatrix = ShimbellPowMatrix(adjaencyMatrix, degree);
@@ -250,7 +241,7 @@ namespace GraphConnectivityMatrix
 
         }
 
-        private static int ShimbellMultiply(int a, int b) 
+        private static int ShimbellMultiply(int a, int b)
         {
             if (a == 0 || b == 0)
                 return 0;
@@ -268,11 +259,7 @@ namespace GraphConnectivityMatrix
             return maxOrMin(a, b);
         }
 
-<<<<<<< HEAD
         private static int[,] ShimbellMultiplyMatrices(int[,] m1, int[,] m2, bool maxOrMin)
-=======
-        private static int[,] ShimbellMultiplyMatrices(int[,] m1, int[,] m2, bool maxOrMin)// не надо, надо но изменить под шимбела
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
         {
             int[,] result = (int[,])m1.Clone();
             int n = m1.GetLength(1);
@@ -294,11 +281,7 @@ namespace GraphConnectivityMatrix
             return result;
         }
 
-<<<<<<< HEAD
         private static int[,] ShimbellPowMatrix(int[,] m, int degree, bool maxOrMin = true)
-=======
-        private static int[,] ShimbellPowMatrix(int[,] m, int degree, bool maxOrMin = true)// не надо, надо под шимбела
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
         {
             int[,] result = (int[,])m.Clone();
             for (int i = 1; i < degree; i++)
@@ -307,22 +290,11 @@ namespace GraphConnectivityMatrix
             }
             return result;
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
 
         /// <summary>
         /// Яростно параллельная форма
         /// </summary>
-<<<<<<< HEAD
-=======
-        /// <param name="m1"></param>
-        /// <param name="m2"></param>
-        /// <returns>стринг ответ</returns>
-        /// 
-
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
         public static string GetTiers()
         {
             if (adjaencyMatrix == null)
@@ -362,7 +334,7 @@ namespace GraphConnectivityMatrix
         {
             List<int> result = new List<int>();
             int n = matrix.GetLength(1);
-            
+
             for (int j = 0; j < n; j++)
             {
                 bool isColAngry = true;
@@ -386,30 +358,19 @@ namespace GraphConnectivityMatrix
 
 
         /// <summary>
-<<<<<<< HEAD
         /// Клика
         /// </summary>
-=======
-        /// Клик
-        /// </summary>
-        /// <param name="m1"></param>
-        /// <param name="m2"></param>
-        /// <returns>стринг ответ</returns>
-        /// 
-
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
-        private static List<string> GetFirstEquation(int[,] matrix) 
+        private static List<string> GetFirstEquation(int[,] matrix)
         {
             List<string> listResult = new List<string>();
             int n = matrix.GetLength(1);
-            for(int i=0;i<n-1;i++)
+            for (int i = 0; i < n - 1; i++)
             {
                 string result = "";
                 result += $"{points[i]}";
                 int step = 0;
-                for (int j = i+1; j < n; j++) 
+                for (int j = i + 1; j < n; j++)
                 {
-<<<<<<< HEAD
                     if (matrix[i, j] == 0)
                     {
                         if (step < 1)
@@ -419,30 +380,14 @@ namespace GraphConnectivityMatrix
                         }
                         else
                             result += $"{points[j]}";
-                        }                   
-=======
-                    //if(j<n)
-                    //{
-                        if (matrix[i, j] == 0)
-                        {
-                            if (step < 1)
-                            {
-                                result += $" V {points[j]}";
-                                step = 1;
-                            }
-                            else
-                                result += $"{points[j]}";
-                        }            
-                    //}        
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
+                    }
                 }
                 listResult.Add(result);
             }
             return listResult;
         }
 
-<<<<<<< HEAD
-        private static string DMultiply(string a, string b, ref HashSet<string> seen) 
+        private static string DMultiply(string a, string b, ref HashSet<string> seen)
         {
             string[] aList = a.Replace(" ", "").Split('V');
             string[] bList = b.Replace(" ", "").Split('V');
@@ -450,35 +395,35 @@ namespace GraphConnectivityMatrix
 
 
             string result = "";
-            for(int i=0;i<aList.Length;i++)
-                for(int j = 0; j < bList.Length; j++)
+            for (int i = 0; i < aList.Length; i++)
+                for (int j = 0; j < bList.Length; j++)
                 {
                     bool isAdd = true;
                     //HashSet<char> seen = new HashSet<char>();
                     if (bList[j].Contains(aList[i]))
-                        {
-                            isAdd = seen.Add(bList[j]);
-                            if (isAdd)
-                                result += bList[j];
-                                //result += aList[i];
-                        }
+                    {
+                        isAdd = seen.Add(bList[j]);
+                        if (isAdd)
+                            result += bList[j];
+                        //result += aList[i];
+                    }
                     else
                     {
                         if (aList[i].Contains(bList[j]))//if (aList[j].Contains(bList[i]))
-                            {
-                                isAdd = seen.Add(aList[i]);
-                                if (isAdd)
-                                    result += aList[i];
-                                    //result += bList[j];
+                        {
+                            isAdd = seen.Add(aList[i]);
+                            if (isAdd)
+                                result += aList[i];
+                            //result += bList[j];
 
                         }
-                        else 
+                        else
                         {
                             string tempRes = aList[i] + bList[j];
                             List<char> temp = tempRes.ToList();
                             temp = temp.Distinct().ToList();
                             temp.Sort();
-                            tempRes = String.Join("",temp);
+                            tempRes = String.Join("", temp);
                             //distinc c массивом только - temp.Dictinct() надо
                             //tempRes.Distinct();
                             isAdd = seen.Add(tempRes);
@@ -516,15 +461,15 @@ namespace GraphConnectivityMatrix
             return result;
         }
 
-        private static List<string> DiscrethMultiplyEach(List<string> list) 
+        private static List<string> DiscrethMultiplyEach(List<string> list)
         {
             List<string> listResult = new List<string>();
             HashSet<string> seen = new HashSet<string>();
 
-            for (int i =0;i<list.Count; i++)
+            for (int i = 0; i < list.Count; i++)
             {
                 if (i + 1 < list.Count)
-                { 
+                {
                     listResult.Add(DMultiply(list[i], list[i + 1], ref seen/*String.Join("", listResult)*/));
                     i++;
                 }
@@ -537,7 +482,7 @@ namespace GraphConnectivityMatrix
             return listResult;
         }
 
-        private static string Absorption(string a, string b) 
+        private static string Absorption(string a, string b)
         {
             /*// Убираем пробелы и разбиваем строки на переменные
             var aVars = new HashSet<char>(a.Replace(" ", "").Split('V').Select(s => s[0]));
@@ -573,13 +518,13 @@ namespace GraphConnectivityMatrix
             return result;
         }
 
-        private static List<string> DoAbsorption(List<string> list) 
+        private static List<string> DoAbsorption(List<string> list)
         {
             List<string> result = new List<string>();
 
-            for(int i = 0; i < list.Count; i++) 
+            for (int i = 0; i < list.Count; i++)
             {
-                for(int j = i; j < list.Count; j++)
+                for (int j = i; j < list.Count; j++)
                 {
                     string res = Absorption(list[i], list[j]);
                     if (res != "")
@@ -590,7 +535,7 @@ namespace GraphConnectivityMatrix
                     }
                     else
                         if (j + 1 == list.Count)
-                            result.Add(list[i]);
+                        result.Add(list[i]);
                 }
             }
 
@@ -626,9 +571,9 @@ namespace GraphConnectivityMatrix
             //        result.Add(tempList[i]);
             //    }
 
-            }
+        }
 
-        private static string Absorption(string str) 
+        private static string Absorption(string str)
         {
             string result = "";
             HashSet<string> seen = new HashSet<string>();
@@ -637,20 +582,20 @@ namespace GraphConnectivityMatrix
             //string[] bList = b.Replace(" ", "").Split('V');
             //List<string> list = str.
             bool isAdd;
-            for (int i=0; i< n; i++) 
+            for (int i = 0; i < n; i++)
             {
-                for(int j = i + 1; j < n; j++) 
+                for (int j = i + 1; j < n; j++)
                 {
                     isAdd = false;
                     if (list[i] == "*")
-                    { 
-                        j = n; 
+                    {
+                        j = n;
                     }
-                    else 
+                    else
                     {
                         if (list[j] == "*")
                             j++;
-                        else 
+                        else
                         {
                             int bukCounter = 0;
                             foreach (char buk in list[i])
@@ -701,9 +646,9 @@ namespace GraphConnectivityMatrix
                             }
                         }
                     }
-                    
-                    
-                }                  
+
+
+                }
             }
             if (list[n - 1] != "*")
                 result += list[n - 1];
@@ -712,7 +657,7 @@ namespace GraphConnectivityMatrix
             return result;
         }
 
-        public static string GetClique() 
+        public static string GetClique()
         {
             if (adjaencyMatrix == null)
             {
@@ -743,7 +688,7 @@ namespace GraphConnectivityMatrix
             while (resultList.Count != 1)
                 resultList = DiscrethMultiplyEach(resultList);
             resultList[0] = Absorption(resultList[0]);
-            
+
             return GetCliquePoints(resultList[0]);
         }
 
@@ -752,312 +697,23 @@ namespace GraphConnectivityMatrix
             string result = "";
             string[] list = str.Replace(" ", "").Split('V');
             int n = list.Length;
-            for(int i = 0; i < n; i++) 
+            for (int i = 0; i < n; i++)
             {
                 result += $"Клика {i + 1} : ";
                 result += FindMissingPoints(list[i]);
                 result += "\n";
-=======
-        private static string DMultiply(string a, string b) 
-        {
-            string[] aList = a.Replace(" ", "").Split('V');
-            string[] bList = b.Replace(" ", "").Split('V');
-            
-            string result = "";
-            for(int i=0;i<aList.Length;i++)
-                for(int j = 0; j < bList.Length; j++)
-                {
-                    HashSet<char> seen = new HashSet<char>();
-                    if (bList[j].Contains(aList[i]))
-                        result += bList[j];
-                    else
-                    {
-                        if (aList[j].Contains(bList[i]))
-                            result += aList[j];
-                        else 
-                        {
-                            string tempRes = aList[i] + bList[j];
-                            foreach(char c in tempRes)
-                            {
-                                if (seen.Add(c)) // Добавляет символ в HashSet и возвращает true, если он новый
-                                {
-                                    result += c;
-                                }
-                            }
-                        }
-                    }
-                    if (i +1 != aList.Length /*& j + 1 != bList.Length*/)
-                        result += " V ";
-                    else
-                        if(j+1 != bList.Length)
-                            result += " V ";
-                }
+            }
             return result;
         }
 
-        private static List<string> DiscrethMultiplyEach(List<string> list) 
-        {
-            List<string> listResult = new List<string>();
-
-            for(int i =0;i<list.Count; i++)
-            {
-                if (i + 1 < list.Count)
-                { 
-                    listResult.Add(DMultiply(list[i], list[i + 1]));
-                    i++;
-                }
-
-                else
-                    listResult.Add(list[i]);
-            }
-
-
-            return listResult;
-        }
-
-        private static string Absorption(string a, string b) 
-        {
-            /*// Убираем пробелы и разбиваем строки на переменные
-            var aVars = new HashSet<char>(a.Replace(" ", "").Split('V').Select(s => s[0]));
-            var bVars = new HashSet<char>(b.Replace(" ", "").Split('V').Select(s => s[0]));
-
-            // Проверяем, является ли a подмножеством b
-            if (aVars.IsSubsetOf(bVars))
-            {
-                return a; // a поглощает b
-            }
-
-            // Проверяем, является ли b подмножеством a
-            if (bVars.IsSubsetOf(aVars))
-            {
-                return b; // b поглощает a
-            }
-
-            // Если поглощения нет, возвращаем пустую строку
-            return "";*/
-            string[] aList = a.Replace(" ", "").Split('V');
-            string[] bList = b.Replace(" ", "").Split('V');
-
-            string result = "";
-            for (int i = 0; i < aList.Length; i++)
-                for (int j = 0; j < bList.Length; j++)
-                {
-                    HashSet<char> seen = new HashSet<char>();
-                    if (aList[i].OrderBy(cha => cha).ToArray().SequenceEqual(bList[j].OrderBy(cha => cha).ToArray()))
-                    {
-                        return new string(aList[i].OrderBy(cha => cha).ToArray());
-                    }
-                }
-            return result;
-        }
-
-        private static List<string> DoAbsorption(List<string> list) 
-        {
-            List<string> result = new List<string>();
-
-            for(int i = 0; i < list.Count; i++) 
-            {
-                for(int j = i; j < list.Count; j++)
-                {
-                    string res = Absorption(list[i], list[j]);
-                    if (res != "")
-                    {
-                        result.Add(res);
-                        list.Remove(list[j]);
-                        j = list.Count;
-                    }
-                    else
-                        if (j + 1 == list.Count)
-                        result.Add(list[i]);
-                }
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
-            }
-
-            return result;
-
-            //List<string> result = new List<string>();
-
-            //// Копируем список, чтобы не изменять оригинальный
-            //var tempList = new List<string>(list);
-
-            //// Применяем поглощение ко всем парам дизъюнктов
-            //for (int i = 0; i < tempList.Count; i++)
-            //{
-            //    bool isAbsorbed = false;
-
-            //    for (int j = 0; j < tempList.Count; j++)
-            //    {
-            //        if (i == j) continue; // Не сравниваем дизъюнкт с самим собой
-
-            //        // Проверяем, поглощается ли tempList[i] tempList[j]
-            //        string absorbed = Absorption(tempList[i], tempList[j]);
-            //        if (absorbed == tempList[i])
-            //        {
-            //            // tempList[i] поглощается tempList[j], пропускаем его
-            //            isAbsorbed = true;
-            //            break;
-            //        }
-            //    }
-
-            //    // Если дизъюнкт не поглощен, добавляем его в результат
-            //    if (!isAbsorbed)
-            //    {
-            //        result.Add(tempList[i]);
-            //    }
-
-            }
-        public static string GetClique() 
-        {
-            //    var expressions = new List<string>
-            //{
-            //    "(A ∨ CE)",
-            //    "(B ∨ CD)"
-
-            //};
-                //string result = MultiplyExpressions(expressions);
-
-            //нормально перемножать скобки сделать!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-            List<string> resultList = GetFirstEquation(adjaencyMatrix);
-            //resultList = DoAbsorption(resultList);
-
-
-            //List<string> result = DiscrethMultiplyEach(resultList);
-
-
-
-            //сделать сортирову по алфовиту в dmultimply + поглащение попробовать на конечном результате + 
-            //    + убирание повторяющихся полностью частей + получение из имеющихся недостающих
-
-
-            while (resultList.Count != 1)
-                resultList = DiscrethMultiplyEach(resultList);
-            //string result = MultiplyExpressions(resultList.ToArray());
-            //string result = FindCliques(adjaencyMatrix);
-            return resultList[0];//resultList.ToArray().ToString();
-        }
-
-        static string FindCliques(int[,] adjacencyMatrix)
-        {
-            int n = adjacencyMatrix.GetLength(0);
-            List<List<int>> cliques = new List<List<int>>();
-
-            // Используем битовые маски для генерации всех подмножеств
-            for (int mask = 1; mask < (1 << n); mask++)
-            {
-                List<int> currentClique = new List<int>();
-                bool isClique = true;
-
-                // Проверяем, является ли подмножество кликой
-                for (int i = 0; i < n; i++)
-                {
-                    if ((mask & (1 << i)) != 0) // Если i-я вершина включена в подмножество
-                    {
-                        currentClique.Add(i);
-                        // Проверяем, соединена ли вершина с остальными
-                        for (int j = 0; j < n; j++)
-                        {
-                            if (i != j && (mask & (1 << j)) != 0 && adjacencyMatrix[i, j] == 0)
-                            {
-                                isClique = false;
-                                break;
-                            }
-                        }
-                    }
-                    if (!isClique) break;
-                }
-
-                if (isClique)
-                {
-                    cliques.Add(currentClique);
-                }
-            }
-
-            // Формируем строку для вывода
-            return FormatCliques(cliques);
-        }
-
-        static string FormatCliques(List<List<int>> cliques)
-        {
-            if (cliques.Count == 0)
-                return "Клики: нет";
-
-            List<string> formattedCliques = new List<string>();
-            for (int i = 0; i < cliques.Count; i++)
-            {
-                // Преобразуем индексы в символы
-                string cliqueString = string.Join(", ", cliques[i].ConvertAll(index => ((char)('A' + index)).ToString()));
-                formattedCliques.Add($"{i + 1}: {cliqueString}");
-            }
-
-            return "Клики:\n" + string.Join("\n", formattedCliques);
-        }
-
-        static string MultiplyExpressions(string[] expressions)
-        {
-            // Список для хранения всех конъюнкций
-            List<List<string>> conjunctions = new List<List<string>>();
-
-            // Разделяем каждое выражение на его компоненты
-            foreach (var expression in expressions)
-            {
-                var terms = expression.Split(new[] { " V " }, StringSplitOptions.RemoveEmptyEntries)
-                                      .Select(t => t.Trim())
-                                      .ToList();
-                conjunctions.Add(terms);
-            }
-
-            // Упрощаем конъюнкции
-            conjunctions = conjunctions.Select(Simplify).ToList();
-
-            // Получаем все комбинации
-            var combinations = GetCombinations(conjunctions);
-
-            // Объединяем результаты в строку
-            return string.Join(" ∨ ", combinations.Select(c => string.Join(" ∧ ", c)));
-        }
-
-        static List<string> Simplify(List<string> terms)
-        {
-            // Убираем дубликаты
-            var uniqueTerms = new HashSet<string>(terms);
-            return uniqueTerms.ToList();
-        }
-
-        static List<List<string>> GetCombinations(List<List<string>> conjunctions)
-        {
-            // Начинаем с пустого списка
-            List<List<string>> result = new List<List<string>>();
-
-            // Рекурсивная функция для получения всех комбинаций
-            void Combine(List<string> current, int index)
-            {
-                if (index == conjunctions.Count)
-                {
-                    result.Add(new List<string>(current));
-                    return;
-                }
-
-                foreach (var term in conjunctions[index])
-                {
-                    current.Add(term);
-                    Combine(current, index + 1);
-                    current.RemoveAt(current.Count - 1);
-                }
-            }
-
-            Combine(new List<string>(), 0);
-            return result;
-        }
-
-        private static string FindMissingPoints(string str) 
+        private static string FindMissingPoints(string str)
         {
             int n = adjaencyMatrix.GetLength(1);
             string result = "";
             bool isNotFirst = false;
             for (int i = 0; i < n; i++)
             {
-                if (!str.Contains(points[i])) 
+                if (!str.Contains(points[i]))
                 {
                     if (isNotFirst)
                         result += $", {points[i]}";
@@ -1222,7 +878,7 @@ namespace GraphConnectivityMatrix
             }
         }
 
-        
+
 
         //private static int[,] GetReachabilityMatrix()// не надо
         //{
@@ -1251,9 +907,9 @@ namespace GraphConnectivityMatrix
         //    return r;
         //}
 
-        
 
-        
+
+
         //private static List<List<int>> GetConnectivityComponents()//нет?
         //{
         //    List<List<int>> result = new List<List<int>>();
@@ -1270,7 +926,7 @@ namespace GraphConnectivityMatrix
         //    return result;
         //}
 
-        
+
 
         //public static void ShowConnectivityComponents()//пеередел?
         //{
@@ -1292,7 +948,7 @@ namespace GraphConnectivityMatrix
         //    }
         //}
 
-        
+
 
     }
 }

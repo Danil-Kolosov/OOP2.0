@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\\u041E\u041E\u041F\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\",
+  "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9F87041-C6AC-429B-8077-CD1231CF3AED}|GraphAlgorithms\\GraphAlgorithms.csproj|c:\\projectsgit\\oop2curs\\\u043E\u043E\u043F\\oop2.0\\discrete mathematics\\lab4\\graphalgorithms\\graphalgorithms\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9F87041-C6AC-429B-8077-CD1231CF3AED}|GraphAlgorithms\\GraphAlgorithms.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\discrete mathematics\\lab4\\graphalgorithms\\graphalgorithms\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9F87041-C6AC-429B-8077-CD1231CF3AED}|GraphAlgorithms\\GraphAlgorithms.csproj|solutionrelative:graphalgorithms\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9F87041-C6AC-429B-8077-CD1231CF3AED}|GraphAlgorithms\\GraphAlgorithms.csproj|C:\\projectsGit\\OOP2Curs\\\u041E\u041E\u041F\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\graphalgorithms\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9F87041-C6AC-429B-8077-CD1231CF3AED}|GraphAlgorithms\\GraphAlgorithms.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\graphalgorithms\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9F87041-C6AC-429B-8077-CD1231CF3AED}|GraphAlgorithms\\GraphAlgorithms.csproj|solutionrelative:graphalgorithms\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,34 +32,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Graph.cs",
-              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\\u041E\u041E\u041F\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Graph.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Graph.cs",
               "RelativeDocumentMoniker": "GraphAlgorithms\\Graph.cs",
-              "ToolTip": "C:\\projectsGit\\OOP2Curs\\\u041E\u041E\u041F\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Graph.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Graph.cs",
               "RelativeToolTip": "GraphAlgorithms\\Graph.cs",
-<<<<<<< HEAD
-              "ViewState": "AgIAALwAAAAAAAAAAAAkwIUBAABWAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAACMCAAAAAAAAAAAYwDYCAAAAAAAAAAAAAA==",
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
+              "ViewState": "AgIAAOUAAAAAAAAAAADwv4UBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T17:11:58.89Z",
+              "WhenOpened": "2025-03-21T15:37:07.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Programm.cs",
-              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\\u041E\u041E\u041F\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Programm.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Programm.cs",
               "RelativeDocumentMoniker": "GraphAlgorithms\\Programm.cs",
-              "ToolTip": "C:\\projectsGit\\OOP2Curs\\\u041E\u041E\u041F\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Programm.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Programm.cs",
               "RelativeToolTip": "GraphAlgorithms\\Programm.cs",
-<<<<<<< HEAD
               "ViewState": "AgIAADUAAAAAAAAAAAAkwEkAAAAcAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEkAAAAcAAAAAAAAAA==",
->>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T17:08:16.683Z"
+              "WhenOpened": "2025-03-21T15:37:07.752Z"
             }
           ]
         },
