@@ -36,7 +36,11 @@
               "RelativeDocumentMoniker": "GraphAlgorithms\\Graph.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\\u041E\u041E\u041F\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Graph.cs",
               "RelativeToolTip": "GraphAlgorithms\\Graph.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAALwAAAAAAAAAAAAkwIUBAABWAAAAAAAAAA==",
+=======
               "ViewState": "AgIAAFYCAAAAAAAAAAAswGoCAAAAAAAAAAAAAA==",
+>>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T17:11:58.89Z",
               "EditorCaption": ""
@@ -49,10 +53,13 @@
               "RelativeDocumentMoniker": "GraphAlgorithms\\Programm.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\\u041E\u041E\u041F\\OOP2.0\\discrete mathematics\\Lab4\\GraphAlgorithms\\GraphAlgorithms\\Programm.cs",
               "RelativeToolTip": "GraphAlgorithms\\Programm.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEkAAAAcAAAAAAAAAA==",
+=======
               "ViewState": "AgIAADAAAAAAAAAAAAAAAEkAAAAcAAAAAAAAAA==",
+>>>>>>> 5a61b76e37be6e6c09b3233ad35c05043b9a705b
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T17:08:16.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T17:08:16.683Z"
             }
           ]
         },
