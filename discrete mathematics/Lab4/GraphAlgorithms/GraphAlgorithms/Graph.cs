@@ -301,6 +301,8 @@ namespace GraphConnectivityMatrix
             {
                 return "Еще не выбрана ни одна матрица смежности";
             }
+            if (CheckForCycles(adjaencyMatrix))
+                return "В этом графе есть циклы, тополгическая (яростная) сортировка невозможна";
             int[,] tempMatrix = new int[adjaencyMatrix.GetLength(0), adjaencyMatrix.GetLength(1)];
             Array.Copy(adjaencyMatrix, tempMatrix, adjaencyMatrix.Length);
 
@@ -354,6 +356,49 @@ namespace GraphConnectivityMatrix
             }
 
             return result;
+        }
+
+
+        static bool CheckForCycles(int[,] adjacencyMatrix)
+        {
+            int numVertices = adjacencyMatrix.GetLength(0);
+            bool[] visited = new bool[numVertices];
+            bool[] recStack = new bool[numVertices];
+
+            for (int i = 0; i < numVertices; i++)
+            {
+                if (IsCyclic(adjacencyMatrix, i, visited, recStack))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        static bool IsCyclic(int[,] adjacencyMatrix, int v, bool[] visited, bool[] recStack)
+        {
+            if (recStack[v])
+                return true; // Найден цикл
+
+            if (visited[v])
+                return false; // Вершина уже посещена
+
+            visited[v] = true;
+            recStack[v] = true;
+
+            for (int i = 0; i < adjacencyMatrix.GetLength(0); i++)
+            {
+                if (adjacencyMatrix[v, i] > 0) // Если есть ребро
+                {
+                    if (IsCyclic(adjacencyMatrix, i, visited, recStack))
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            recStack[v] = false; // Убираем вершину из стека
+            return false;
         }
 
 
