@@ -360,6 +360,22 @@ namespace GraphConnectivityMatrix
         /// <summary>
         /// Клика
         /// </summary>
+        public static string GetClique()
+        {
+            if (adjaencyMatrix == null)
+            {
+                return "Еще не выбрана ни одна матрица смежности";
+            }
+
+            List<string> resultList = GetFirstEquation(adjaencyMatrix);
+
+            while (resultList.Count != 1)
+                resultList = DiscrethMultiplyEach(resultList);
+            resultList[0] = Absorption(resultList[0]);
+
+            return GetCliquePoints(resultList[0]);
+        }
+
         private static List<string> GetFirstEquation(int[,] matrix)
         {
             List<string> listResult = new List<string>();
@@ -543,23 +559,7 @@ namespace GraphConnectivityMatrix
             if (result[result.Length - 2] == 'V')
                 result = result.Substring(0, result.Length - 3);
             return result;
-        }
-
-        public static string GetClique()
-        {
-            if (adjaencyMatrix == null)
-            {
-                return "Еще не выбрана ни одна матрица смежности";
-            }
-
-            List<string> resultList = GetFirstEquation(adjaencyMatrix);
-
-            while (resultList.Count != 1)
-                resultList = DiscrethMultiplyEach(resultList);
-            resultList[0] = Absorption(resultList[0]);
-
-            return GetCliquePoints(resultList[0]);
-        }
+        }        
 
         private static string GetCliquePoints(string str)
         {
