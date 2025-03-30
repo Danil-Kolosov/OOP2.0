@@ -1,0 +1,2 @@
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15.csproj.CoreCompileInputs.cache
