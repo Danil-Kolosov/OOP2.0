@@ -1,0 +1,7 @@
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\One-armedBandit\obj\Debug\One-armedBandit.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\One-armedBandit\obj\Debug\One-armedBandit.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\One-armedBandit\bin\Debug\One-armedBandit.dll.config
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\One-armedBandit\bin\Debug\One-armedBandit.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\One-armedBandit\bin\Debug\One-armedBandit.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\One-armedBandit\obj\Debug\One-armedBandit.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\One-armedBandit\obj\Debug\One-armedBandit.pdb

@@ -9,3 +9,6 @@ C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\Win
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15(1).csproj.Up2Date
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15.exe
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\One-armedBandit.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\One-armedBandit.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\One-armedBandit.dll.config

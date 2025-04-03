@@ -39,10 +39,10 @@
             this.ThreadStart = new System.Windows.Forms.Button();
             this.ThreadStop = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.congratulation = new System.Windows.Forms.Label();
+            this.result3 = new System.Windows.Forms.Label();
+            this.result2 = new System.Windows.Forms.Label();
+            this.result1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -56,7 +56,6 @@
             // 
             this.ComboBoxThreadPriority2.FormattingEnabled = true;
             this.ComboBoxThreadPriority2.Items.AddRange(new object[] {
-            "None",
             "Lowest",
             "BelowNormal",
             "Normal",
@@ -64,7 +63,7 @@
             "Highest"});
             this.ComboBoxThreadPriority2.Location = new System.Drawing.Point(6, 28);
             this.ComboBoxThreadPriority2.Name = "ComboBoxThreadPriority2";
-            this.ComboBoxThreadPriority2.Size = new System.Drawing.Size(121, 32);
+            this.ComboBoxThreadPriority2.Size = new System.Drawing.Size(157, 32);
             this.ComboBoxThreadPriority2.TabIndex = 1;
             this.ComboBoxThreadPriority2.SelectedIndexChanged += new System.EventHandler(this.ComboBoxThreadPriority2_SelectedIndexChanged);
             // 
@@ -72,7 +71,6 @@
             // 
             this.ComboBoxThreadPriority3.FormattingEnabled = true;
             this.ComboBoxThreadPriority3.Items.AddRange(new object[] {
-            "None",
             "Lowest",
             "BelowNormal",
             "Normal",
@@ -80,15 +78,15 @@
             "Highest"});
             this.ComboBoxThreadPriority3.Location = new System.Drawing.Point(6, 28);
             this.ComboBoxThreadPriority3.Name = "ComboBoxThreadPriority3";
-            this.ComboBoxThreadPriority3.Size = new System.Drawing.Size(121, 32);
+            this.ComboBoxThreadPriority3.Size = new System.Drawing.Size(157, 32);
             this.ComboBoxThreadPriority3.TabIndex = 2;
             this.ComboBoxThreadPriority3.SelectedIndexChanged += new System.EventHandler(this.ComboBoxThreadPriority3_SelectedIndexChanged);
             // 
             // ComboBoxThreadPriority1
             // 
+            this.ComboBoxThreadPriority1.DisplayMember = "1";
             this.ComboBoxThreadPriority1.FormattingEnabled = true;
             this.ComboBoxThreadPriority1.Items.AddRange(new object[] {
-            "None",
             "Lowest",
             "BelowNormal",
             "Normal",
@@ -96,8 +94,9 @@
             "Highest"});
             this.ComboBoxThreadPriority1.Location = new System.Drawing.Point(6, 28);
             this.ComboBoxThreadPriority1.Name = "ComboBoxThreadPriority1";
-            this.ComboBoxThreadPriority1.Size = new System.Drawing.Size(121, 32);
+            this.ComboBoxThreadPriority1.Size = new System.Drawing.Size(157, 32);
             this.ComboBoxThreadPriority1.TabIndex = 3;
+            this.ComboBoxThreadPriority1.ValueMember = "1";
             this.ComboBoxThreadPriority1.SelectedIndexChanged += new System.EventHandler(this.ComboBoxThreadPriority1_SelectedIndexChanged_1);
             // 
             // groupBox1
@@ -108,7 +107,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(1, 1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(440, 102);
+            this.groupBox1.Size = new System.Drawing.Size(555, 102);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Приоритеты потоков";
@@ -116,9 +115,9 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.ComboBoxThreadPriority3);
-            this.groupBox4.Location = new System.Drawing.Point(291, 28);
+            this.groupBox4.Location = new System.Drawing.Point(361, 28);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(133, 69);
+            this.groupBox4.Size = new System.Drawing.Size(169, 68);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Поток 3";
@@ -126,9 +125,9 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.ComboBoxThreadPriority2);
-            this.groupBox3.Location = new System.Drawing.Point(151, 28);
+            this.groupBox3.Location = new System.Drawing.Point(186, 28);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(134, 68);
+            this.groupBox3.Size = new System.Drawing.Size(169, 68);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Поток 2";
@@ -138,14 +137,14 @@
             this.groupBox2.Controls.Add(this.ComboBoxThreadPriority1);
             this.groupBox2.Location = new System.Drawing.Point(11, 28);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(134, 68);
+            this.groupBox2.Size = new System.Drawing.Size(169, 68);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Поток 1";
             // 
             // groupBox6
             // 
-            this.groupBox6.Location = new System.Drawing.Point(518, 86);
+            this.groupBox6.Location = new System.Drawing.Point(576, 140);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(200, 115);
             this.groupBox6.TabIndex = 9;
@@ -176,10 +175,10 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.label4);
-            this.groupBox5.Controls.Add(this.label3);
-            this.groupBox5.Controls.Add(this.label2);
-            this.groupBox5.Controls.Add(this.label1);
+            this.groupBox5.Controls.Add(this.congratulation);
+            this.groupBox5.Controls.Add(this.result3);
+            this.groupBox5.Controls.Add(this.result2);
+            this.groupBox5.Controls.Add(this.result1);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(2, 219);
             this.groupBox5.Name = "groupBox5";
@@ -188,41 +187,41 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Результат";
             // 
-            // label4
+            // congratulation
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1, 109);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(191, 35);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "смешное поздравление";
+            this.congratulation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.congratulation.Location = new System.Drawing.Point(1, 109);
+            this.congratulation.Name = "congratulation";
+            this.congratulation.Size = new System.Drawing.Size(191, 35);
+            this.congratulation.TabIndex = 12;
+            this.congratulation.Text = "смешное поздравление";
             // 
-            // label3
+            // result3
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(382, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 35);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "*";
+            this.result3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.result3.Location = new System.Drawing.Point(382, 37);
+            this.result3.Name = "result3";
+            this.result3.Size = new System.Drawing.Size(35, 35);
+            this.result3.TabIndex = 11;
+            this.result3.Text = "*";
             // 
-            // label2
+            // result2
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(206, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 35);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "*";
+            this.result2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.result2.Location = new System.Drawing.Point(206, 37);
+            this.result2.Name = "result2";
+            this.result2.Size = new System.Drawing.Size(35, 35);
+            this.result2.TabIndex = 10;
+            this.result2.Text = "*";
             // 
-            // label1
+            // result1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(60, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 35);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "*";
+            this.result1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.result1.Location = new System.Drawing.Point(60, 37);
+            this.result1.Name = "result1";
+            this.result1.Size = new System.Drawing.Size(35, 35);
+            this.result1.TabIndex = 9;
+            this.result1.Text = "*";
             // 
             // panel1
             // 
@@ -265,11 +264,11 @@
         private System.Windows.Forms.Button ThreadStart;
         private System.Windows.Forms.Button ThreadStop;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label result1;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label congratulation;
+        private System.Windows.Forms.Label result3;
+        private System.Windows.Forms.Label result2;
         private System.Windows.Forms.Panel panel1;
     }
 }

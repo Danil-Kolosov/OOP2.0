@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using WindowsFormsApp;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp
+namespace Lab15
 {
     class Program
     {
