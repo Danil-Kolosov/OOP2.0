@@ -10,8 +10,8 @@ namespace One_armedBandit
 {
     public class Bandit
     {
-        //public delegate void UpdateUI(int index, int value);
-        //public static event UpdateUI OnUpdateUI; //Событие для "кручения" однорукого бандита - обновления данных в интерфейсе
+        public delegate void UpdateUI(int index, int value);
+        public static event UpdateUI OnUpdateUI; //Событие для "кручения" однорукого бандита - обновления данных в интерфейсе
 
         static int numberOfShots = 3;
         static Thread[] threadArr = new Thread[numberOfShots];
@@ -110,7 +110,7 @@ namespace One_armedBandit
                     if (Thread.CurrentThread.Name == $"Thread {i + 1}")
                     { 
                         shots[i] = IntGeneration();
-                        //OnUpdateUI.Invoke(i, shots[i]); //Для "кручения" однорукого бандита, событие для обновления интерфейса - UI
+                        OnUpdateUI.Invoke(i, shots[i]); //Для "кручения" однорукого бандита, событие для обновления интерфейса - UI
                         i = numberOfShots;
                     }
                 }
