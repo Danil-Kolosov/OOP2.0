@@ -27,7 +27,7 @@ namespace WindowsFormsApp
 
         private void UpdateResults(int index, int value) 
         {
-            //
+            // Обновление элементов управления в основном потоке
             if (InvokeRequired) //InvokeRequired - не в основном потоке вызвали Ivoke
             {
                 Invoke(new Action<int, int>(UpdateResults), index, value);

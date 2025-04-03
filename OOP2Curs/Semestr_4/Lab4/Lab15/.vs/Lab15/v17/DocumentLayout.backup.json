@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{810A9E8C-734B-479C-8B04-25F29C71F865}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810A9E8C-734B-479C-8B04-25F29C71F865}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D74D5592-85B4-4689-9139-CEBC9C72B661}|One-armedBandit\\One-armedBandit.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\one-armedbandit\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74D5592-85B4-4689-9139-CEBC9C72B661}|One-armedBandit\\One-armedBandit.csproj|solutionrelative:one-armedbandit\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D74D5592-85B4-4689-9139-CEBC9C72B661}|One-armedBandit\\One-armedBandit.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab4\\lab15\\one-armedbandit\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D74D5592-85B4-4689-9139-CEBC9C72B661}|One-armedBandit\\One-armedBandit.csproj|solutionrelative:one-armedbandit\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{810A9E8C-734B-479C-8B04-25F29C71F865}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab4\\lab15\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810A9E8C-734B-479C-8B04-25F29C71F865}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{810A9E8C-734B-479C-8B04-25F29C71F865}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -60,6 +60,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\WindowsFormsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Form1.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\WindowsFormsApp\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Form1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIAwwB0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T15:41:29.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -87,18 +100,17 @@
               "RelativeToolTip": "WindowsFormsApp\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIBAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T11:43:13.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T11:43:13.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Bandit.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\One-armedBandit\\Bandit.cs",
               "RelativeDocumentMoniker": "One-armedBandit\\Bandit.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\One-armedBandit\\Bandit.cs",
               "RelativeToolTip": "One-armedBandit\\Bandit.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAAwHAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAwGgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T17:30:50.82Z",
               "EditorCaption": ""
@@ -117,19 +129,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\WindowsFormsApp\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\Form1.cs",
-              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\WindowsFormsApp\\Form1.cs",
-              "RelativeToolTip": "WindowsFormsApp\\Form1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAewCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T15:41:29.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\WindowsFormsApp\\Form1.cs",
@@ -137,8 +136,7 @@
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab4\\Lab15\\WindowsFormsApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WindowsFormsApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T15:38:49.542Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-03-30T15:38:49.542Z"
             },
             {
               "$type": "Document",

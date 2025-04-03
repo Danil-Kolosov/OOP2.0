@@ -13,12 +13,12 @@ namespace One_armedBandit
         public delegate void UpdateUI(int index, int value);
         public static event UpdateUI OnUpdateUI; //Событие для "кручения" однорукого бандита - обновления данных в интерфейсе
 
-        static int numberOfShots = 3;
-        static Thread[] threadArr = new Thread[numberOfShots];
-        static int[] shots = new int[numberOfShots];
-        static volatile bool running = true; //volatile гарантирует, что все потоки будут видеть актуальное значение переменной.
-        static Random random = new Random();
-
+        private static int numberOfShots = 3;
+        private static Thread[] threadArr = new Thread[numberOfShots];
+        private static int[] shots = new int[numberOfShots];
+        private static volatile bool running = true; //volatile гарантирует, что все потоки будут видеть актуальное значение переменной.
+        private static Random random = new Random();
+        private static Mutex mutex = new Mutex(); // Создаем экземпляр Mutex
 
         //возможно в каждом цикле надо запоминать i -> int index =i, тк может много время пройти и/или поменяться
 
@@ -108,9 +108,18 @@ namespace One_armedBandit
                 for (int i = 0; i < numberOfShots; i++) 
                 {
                     if (Thread.CurrentThread.Name == $"Thread {i + 1}")
-                    { 
-                        shots[i] = IntGeneration();
-                        OnUpdateUI.Invoke(i, shots[i]); //Для "кручения" однорукого бандита, событие для обновления интерфейса - UI
+                    {
+                        // Используем Mutex для синхронизации доступа к общему ресурсу
+                        mutex.WaitOne(); // Ожидаем, пока Mutex будет доступен
+                        try
+                        { 
+                            shots[i] = IntGeneration();
+                            OnUpdateUI.Invoke(i, shots[i]); //Для "кручения" однорукого бандита, событие для обновления интерфейса - UI
+                        }
+                        finally
+                        {
+                            mutex.ReleaseMutex(); // Освобождаем Mutex
+                        }
                         i = numberOfShots;
                     }
                 }
