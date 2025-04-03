@@ -19,9 +19,9 @@ namespace Lab15
             // Запуск формы из Windows Forms приложения
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1()); // Замените Form1 на имя вашей формы
+            Application.Run(new Form1());
         }
     }
 }
 
-//тут не работает на то, только это и работат
+///тут не работает на то, только это и работат

@@ -1,15 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using One_armedBandit;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace WindowsFormsApp
 {
@@ -22,6 +13,7 @@ namespace WindowsFormsApp
             ComboBoxThreadPriority2.SelectedIndex = 2;
             ComboBoxThreadPriority3.SelectedIndex = 2;
 
+            this.FormClosing += new FormClosingEventHandler(MyForm_FormClosing); //Для управления закрытием формы
             Bandit.OnUpdateUI += UpdateResults; //Подписка на обновление интерфейса
         }
 
@@ -70,14 +62,37 @@ namespace WindowsFormsApp
             threadPriority[0] = ComboBoxThreadPriority1.Text;
             threadPriority[1] = ComboBoxThreadPriority2.Text;
             threadPriority[2] = ComboBoxThreadPriority3.Text;
-            Bandit.BanditStatrt(threadPriority);
+            Bandit.BanditStart(threadPriority);
             int[] result = Bandit.Shots;
         }
 
         private void ThreadStop_Click(object sender, EventArgs e)
         {
-            Bandit.BanditStop();
-            congratulation.Text = Bandit.CongratulationGeneration();
+            if(Bandit.IsThreadsAllive)
+            {
+                Bandit.BanditStop();
+                congratulation.Text = Bandit.CongratulationGeneration();
+            }
+        }
+
+        private void MyForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (Bandit.IsThreadsAllive) 
+            {
+                // Если хотя бы один поток работает, отменяем закрытие
+                MessageBox.Show("Невозможно закрыть форму, пока работают потоки.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Cancel = true; // Отменяем закрытие формы
+            }
+            else
+            {
+                // Запросить подтверждение закрытия
+                var result = MessageBox.Show("Вы уверены, что хотите закрыть форму?", "Подтверждение", MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+            }
         }
     }
 }
