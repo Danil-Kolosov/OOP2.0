@@ -1,5 +1,3 @@
-C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
-C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\bin\Debug\One-armedBandit.dll
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\bin\Debug\One-armedBandit.pdb
@@ -10,5 +8,7 @@ C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\obj
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\obj\Debug\WindowsF.5F5EF213.Up2Date
-C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\bin\Debug\WindowsFormsApp.dll.config
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\bin\Debug\WindowsFormsApp.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\WindowsFormsApp\obj\Debug\WindowsFormsApp.dll

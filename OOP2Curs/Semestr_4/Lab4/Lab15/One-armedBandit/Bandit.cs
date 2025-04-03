@@ -141,7 +141,7 @@ namespace One_armedBandit
 
             if (IsThereFour())
             {
-                congratulation += "\nЕсть четверка - золотой самородок!";
+                congratulation += "Есть четверка - золотой самородок!";
                 return congratulation;
             }
             return "Удача отвернулась от вас";
@@ -261,13 +261,6 @@ namespace One_armedBandit
                         }
                 }                
             }
-        }
-
-        public static bool TestingHelp() 
-        {
-            if (IsTwoOnes())
-                return true;
-            return false;
         }
     }
 }

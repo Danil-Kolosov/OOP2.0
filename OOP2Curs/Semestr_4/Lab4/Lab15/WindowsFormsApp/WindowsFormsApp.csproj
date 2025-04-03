@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{810A9E8C-734B-479C-8B04-25F29C71F865}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>WindowsFormsApp</RootNamespace>
     <AssemblyName>WindowsFormsApp</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="One-armedBandit, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">

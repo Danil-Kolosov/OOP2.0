@@ -42,14 +42,14 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\WindowsFormsApp\WindowsFormsApp.csproj">
       <Project>{810a9e8c-734b-479c-8b04-25f29c71f865}</Project>
       <Name>WindowsFormsApp</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

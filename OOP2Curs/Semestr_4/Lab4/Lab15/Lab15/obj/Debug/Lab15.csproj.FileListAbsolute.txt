@@ -1,2 +1,14 @@
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15.csproj.AssemblyReference.cache
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\Lab15.exe.config
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\Lab15.exe
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\Lab15.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\One-armedBandit.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\WindowsFormsApp.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\One-armedBandit.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\One-armedBandit.dll.config
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15.csproj.Up2Date
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15.exe
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\obj\Debug\Lab15.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\WindowsFormsApp.dll
+C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab4\Lab15\Lab15\bin\Debug\WindowsFormsApp.dll.config
