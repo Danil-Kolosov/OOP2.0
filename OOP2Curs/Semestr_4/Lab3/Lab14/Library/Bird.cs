@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 //Птица
 namespace AnimalLibrary
 {
+    [XmlInclude(typeof(Animal))]
+    [XmlInclude(typeof(Mammal))]
+    [XmlInclude(typeof(Bird))]
+    [XmlInclude(typeof(Artiodactyl))]
+    [Serializable]
     public class Bird : Animal
     {
         int wingspan; //размах крыльев
@@ -62,7 +68,9 @@ namespace AnimalLibrary
             specie = "none";
         }
 
-        public Bird(float weight, float height, int age, string name, int wingspan, int flightRange, string specie) : base(weight, height, age, name)
+        public Bird(float weight, float height, int age, string name,
+            int wingspan, int flightRange, string specie, NoteClass note = null) 
+            : base(weight, height, age, name, note)
         {
             Wingspan = wingspan;
             FlightRange = flightRange;
@@ -144,7 +152,7 @@ namespace AnimalLibrary
 
         public override string ToString()
         {
-            return base.ToString() + $"\nРазмах крыльев: {Wingspan}\nДальность полета: {FlightRange}\nВид: {Specie}";
+            return base.ToString() + $"\nРазмах крыльев: {Wingspan} \nДальность полета: {FlightRange} \nВид: {Specie}";
         }
     }
 }

@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 //Млекопитающее
 namespace AnimalLibrary
 {
+    [XmlInclude(typeof(Animal))]
+    [XmlInclude(typeof(Mammal))]
+    [XmlInclude(typeof(Bird))]
+    [XmlInclude(typeof(Artiodactyl))]
+    [Serializable]
     public class Mammal : Animal
     {
         string specie;
@@ -74,6 +80,18 @@ namespace AnimalLibrary
             }
         }
 
+        public Mammal() : base ()
+        {
+            Weight = 0;
+            Height = 0;
+            Age = 0;
+            Name = "none";
+            Specie = "none";
+            Location = "none";
+            LivingEnvironment = "none";
+            Lifestyle = "none";
+        }
+
         public Mammal(int numberKeyManage = -1) : base(numberKeyManage)
         {
             Specie = "none";
@@ -83,7 +101,7 @@ namespace AnimalLibrary
         }
 
         public Mammal(float weight, float height, int age, string name, string specie,
-            string location, string livingEnvironment, string lifestyle) : base(weight, height, age, name)
+            string location, string livingEnvironment, string lifestyle, NoteClass note = null) : base(weight, height, age, name, note)
         {
             Specie = specie;
             Location = location;
@@ -178,8 +196,8 @@ namespace AnimalLibrary
 
         public override string ToString()
         {
-            return base.ToString() +  $" {Specie} {Location} " +
-                $"{LivingEnvironment} {Lifestyle}";
+            return base.ToString() + $"\nВид: {Specie} \nМесто обитания: {Location} " +
+                $"\nОреал обитания: {LivingEnvironment} \nОбраз жизни: {Lifestyle} ";
         }
 
         public override int GetHashCode()

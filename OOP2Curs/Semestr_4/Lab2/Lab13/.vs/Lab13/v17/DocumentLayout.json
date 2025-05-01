@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\collectionevent\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|solutionrelative:collectionevent\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBEB714-D1CC-4359-B917-EAF792C69931}|Lab13\\Lab13.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\lab13\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBEB714-D1CC-4359-B917-EAF792C69931}|Lab13\\Lab13.csproj|solutionrelative:lab13\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBEB714-D1CC-4359-B917-EAF792C69931}|Lab13\\Lab13.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab2\\lab13\\lab13\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBEB714-D1CC-4359-B917-EAF792C69931}|Lab13\\Lab13.csproj|solutionrelative:lab13\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab2\\lab13\\collectionevent\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|solutionrelative:collectionevent\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\collectionevent\\mynewcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Programm.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\Lab13\\Programm.cs",
               "RelativeDocumentMoniker": "Lab13\\Programm.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\Lab13\\Programm.cs",
               "RelativeToolTip": "Lab13\\Programm.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACAAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T15:29:42.794Z",
               "EditorCaption": ""
@@ -95,13 +95,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Journal.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\CollectionEvent\\Journal.cs",
               "RelativeDocumentMoniker": "CollectionEvent\\Journal.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\CollectionEvent\\Journal.cs",
               "RelativeToolTip": "CollectionEvent\\Journal.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T14:30:25.619Z",
               "EditorCaption": ""

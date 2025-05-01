@@ -4,10 +4,21 @@ using System.Linq;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Xml.Serialization;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace AnimalLibrary
 {
+    [JsonDerivedType(typeof(Animal), typeDiscriminator: "animal")]
+    [JsonDerivedType(typeof(Mammal), typeDiscriminator: "mammal")]
+    [JsonDerivedType(typeof(Artiodactyl), typeDiscriminator: "artiodactyl")]
+    [JsonDerivedType(typeof(Bird), typeDiscriminator: "bird")]
+    [XmlInclude(typeof(Animal))]
+    [XmlInclude(typeof(Mammal))]
+    [XmlInclude(typeof(Bird))]
+    [XmlInclude(typeof(Artiodactyl))]
+    [Serializable]    
     public class Animal : IInit, IComparable<Object>, ICloneable
     {
         protected float weight;
@@ -92,6 +103,13 @@ namespace AnimalLibrary
         //    get { return number; }
         //    set { number = value; }
         //}
+        public Animal()
+        {
+            Weight = 0;
+            Height = 0;
+            Age = 0;
+            Name = "none";
+        }
 
         public Animal(int numberManagKey = -1)
         {
@@ -106,8 +124,12 @@ namespace AnimalLibrary
             //}
         }
 
-        public Animal(float weight, float height, int age, string name, int number = -1)
+        public Animal(float weight, float height, int age, string name, NoteClass note = null, int number = -1)
         {
+            if(note != null) 
+            {
+                Note = note.Note;
+            }
             Weight = weight;
             Height = height;
             Age = age;
@@ -166,7 +188,7 @@ namespace AnimalLibrary
         {
             if (obj is Animal animal)
                 return ((Weight == animal.Weight) & (Height == animal.Height)
-                    & (Age == animal.Age) & (Name == animal.Name) & (this.GetHashCode() == animal.GetHashCode()));
+                    & (Age == animal.Age) & (Name == animal.Name) & (Note == animal.Note) & (this.GetHashCode() == animal.GetHashCode()));
             return false;
         }
 
@@ -216,7 +238,7 @@ namespace AnimalLibrary
 
         public override string ToString()
         {
-            return $"{name} {weight} {height} {age} {Note}";
+            return $"Имя: {name} Вес: {weight} Рост: {height} Возраст: {age} \nЗаметки по животному: {Note} ";
         }
 
         public override int GetHashCode()

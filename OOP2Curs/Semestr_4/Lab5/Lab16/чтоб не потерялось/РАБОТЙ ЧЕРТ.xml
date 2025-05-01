@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MyNewCollectionOfStringAnimal>
+  <Capacity>5</Capacity>
+  <Items>
+    <Point>
+      <Key>3</Key>
+      <Value>
+        <Animal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Weight>11</Weight>
+          <Height>5</Height>
+          <Age>4</Age>
+          <Name>Бим</Name>
+          <Note>none</Note>
+        </Animal>
+      </Value>
+    </Point>
+    <Point>
+      <Key>4</Key>
+      <Value>
+        <Mammal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Weight>35</Weight>
+          <Height>2</Height>
+          <Age>44</Age>
+          <Name>Тайсон</Name>
+          <Note>none</Note>
+          <Specie>Собака</Specie>
+          <Location>Африка</Location>
+          <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+          <Lifestyle>Дневной</Lifestyle>
+        </Mammal>
+      </Value>
+    </Point>
+    <Point>
+      <Key>5</Key>
+      <Value>
+        <Animal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Weight>95</Weight>
+          <Height>2</Height>
+          <Age>39</Age>
+          <Name>Рекс</Name>
+          <Note>none</Note>
+        </Animal>
+      </Value>
+    </Point>
+    <Point>
+      <Key>1</Key>
+      <Value>
+        <Animal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Weight>25</Weight>
+          <Height>5</Height>
+          <Age>28</Age>
+          <Name>Макс</Name>
+          <Note>none</Note>
+        </Animal>
+      </Value>
+    </Point>
+    <Point>
+      <Key>2</Key>
+      <Value>
+        <Artiodactyl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Weight>25</Weight>
+          <Height>3</Height>
+          <Age>27</Age>
+          <Name>Гром</Name>
+          <Note>none</Note>
+          <Specie>Антилопа </Specie>
+          <Location>Азия</Location>
+          <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+          <Lifestyle>Дневной</Lifestyle>
+          <HoofSize>3</HoofSize>
+          <HornsSize>5</HornsSize>
+        </Artiodactyl>
+      </Value>
+    </Point>
+  </Items>
+</MyNewCollectionOfStringAnimal>

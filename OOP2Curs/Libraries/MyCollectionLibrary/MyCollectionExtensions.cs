@@ -54,22 +54,6 @@ namespace MyCollectionLibrary
             return result;
         }
 
-        //public static double MyAverage<TKey, TVal>
-        //    (this MyCollection<TKey, TVal> hashTable, Func<KeyValuePair<TKey, TVal>, double> itemToDouble)
-        //{
-        //    if (hashTable == null)
-        //        throw new ArgumentNullException(nameof(hashTable));
-        //    if (itemToDouble == null)
-        //        throw new ArgumentNullException(nameof(itemToDouble));
-        //    double result = 0;
-        //    foreach (KeyValuePair<TKey, TVal> item in hashTable)
-        //    {
-        //        result += (itemToDouble(item));
-        //    }
-        //    return result/hashTable.Count;
-        //}
-
-
         public static IEnumerable<KeyValuePair<TKey, TVal>> Order<TKey, TVal, TSortCondition>(
             this MyCollection<TKey, TVal> collection,
             Func<KeyValuePair<TKey, TVal>, TSortCondition> keySelector,
@@ -87,30 +71,5 @@ namespace MyCollectionLibrary
             else
                 return filteredCollection.OrderBy(keySelector);
         }
-
-        /*
-        public static IEnumerable<KeyValuePair<TKey, TValue>> Order<TKey, TValue>(
-            this MyCollection<TKey, TValue> hashTable,
-            Func<KeyValuePair<TKey, TValue>, object> keySelector,
-            bool descending = false)
-        {
-            var items = hashTable.ToList();
-
-            if (descending)
-                return items.OrderByDescending(keySelector);
-            return items.OrderBy(keySelector);
-        }
-
-        // Преобразование MyCollection в List для сортировки
-        private static List<KeyValuePair<TKey, TValue>> ToList<TKey, TValue>(this MyCollection<TKey, TValue> collection)
-        {
-            var list = new List<KeyValuePair<TKey, TValue>>();
-            foreach (var item in collection)
-            {
-                list.Add(item);
-            }
-            return list;
-        }
-        */
     }
 }

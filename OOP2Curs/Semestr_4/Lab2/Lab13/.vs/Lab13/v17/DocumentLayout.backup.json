@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\collectionevent\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|solutionrelative:collectionevent\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FDBEB714-D1CC-4359-B917-EAF792C69931}|Lab13\\Lab13.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab2\\lab13\\lab13\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDBEB714-D1CC-4359-B917-EAF792C69931}|Lab13\\Lab13.csproj|solutionrelative:lab13\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|solutionrelative:collectionevent\\collectionhandlereventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\collectionevent\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|CollectionEvent\\CollectionEvent.csproj|solutionrelative:collectionevent\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B449984-6FD4-4E1E-9384-A787C03FED14}|UnitTestProject1\\UnitTestProject1.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B449984-6FD4-4E1E-9384-A787C03FED14}|UnitTestProject1\\UnitTestProject1.csproj|solutionrelative:unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Programm.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\Lab13\\Programm.cs",
               "RelativeDocumentMoniker": "Lab13\\Programm.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\Lab13\\Programm.cs",
               "RelativeToolTip": "Lab13\\Programm.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T15:29:42.794Z",
               "EditorCaption": ""
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JournalEntry.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\CollectionEvent\\JournalEntry.cs",
               "RelativeDocumentMoniker": "CollectionEvent\\JournalEntry.cs",
@@ -79,12 +79,11 @@
               "RelativeToolTip": "CollectionEvent\\JournalEntry.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA1wBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T14:30:27.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T14:30:27.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MyNewCollection.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\CollectionEvent\\MyNewCollection.cs",
               "RelativeDocumentMoniker": "CollectionEvent\\MyNewCollection.cs",
@@ -92,12 +91,11 @@
               "RelativeToolTip": "CollectionEvent\\MyNewCollection.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwCcAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T18:43:09.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T18:43:09.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Journal.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\CollectionEvent\\Journal.cs",
               "RelativeDocumentMoniker": "CollectionEvent\\Journal.cs",
@@ -110,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CollectionHandlerEventArgs.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab2\\Lab13\\CollectionEvent\\CollectionHandlerEventArgs.cs",
               "RelativeDocumentMoniker": "CollectionEvent\\CollectionHandlerEventArgs.cs",
@@ -118,8 +116,7 @@
               "RelativeToolTip": "CollectionEvent\\CollectionHandlerEventArgs.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T18:43:02.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T18:43:02.929Z"
             }
           ]
         },

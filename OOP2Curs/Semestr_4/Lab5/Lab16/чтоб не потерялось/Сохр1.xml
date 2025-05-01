@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MyNewCollectionOfStringAnimal>
+  <Capacity>10</Capacity>
+  <Items>
+    <Point>
+      <Key>
+        <string>Зоопарк1</string>
+      </Key>
+      <Value>
+        <Animal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Weight>0</Weight>
+          <Height>0</Height>
+          <Age>0</Age>
+          <Name>none</Name>
+          <Note>none</Note>
+        </Animal>
+      </Value>
+    </Point>
+  </Items>
+</MyNewCollectionOfStringAnimal>

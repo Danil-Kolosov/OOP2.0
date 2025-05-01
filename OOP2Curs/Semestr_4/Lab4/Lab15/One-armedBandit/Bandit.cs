@@ -14,7 +14,7 @@ namespace One_armedBandit
         public static event UpdateUI OnUpdateUI; //Событие для "кручения" однорукого бандита - обновления данных в интерфейсе
 
         private static int numberOfShots = 3;
-        private static int timeSleep = 1000;
+        private static int timeSleep = 500;
         private static Thread[] threadArr = new Thread[numberOfShots];
         private static int[] shots = new int[numberOfShots];
         private static volatile bool running = true; //volatile гарантирует, что все потоки будут видеть актуальное значение переменной. //возможно в каждом цикле надо запоминать i -> int index =i, тк может много время пройти и/или поменяться
@@ -69,6 +69,10 @@ namespace One_armedBandit
 
         public static void BanditStart(string[] priorityThreads) 
         {
+            if (isThreadsAllive) 
+            {
+                return;
+            }
             CreateThreds();
             SetThreadPriority(priorityThreads);
             StartThreads();

@@ -1,0 +1,1 @@
+{"\u0417\u043E\u043E\u043F\u0430\u0440\u043A1":{"$type":"bird","Wingspan":0,"FlightRange":0,"Specie":"none","Weight":0,"Height":0,"Age":0,"Name":"none","Note":"none"}}

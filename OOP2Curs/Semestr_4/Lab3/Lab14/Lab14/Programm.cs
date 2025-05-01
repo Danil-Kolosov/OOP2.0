@@ -18,8 +18,7 @@ namespace Lab14
                 string key = i.ToString();
                 Queue<Animal> section = new Queue<Animal>();
                 collectionDictionaryZoo.Add(key, new Queue<Animal>(3));
-                //for (int j = 0; j < 3; j++) 
-                //{
+
                 Animal anim = new Animal(1, 1, 1, "Повторюшка");
                 Mammal mammal = new Mammal();
                 mammal.RandomInit();
@@ -41,11 +40,11 @@ namespace Lab14
 
                 collectionDictionaryZoo[key] = section;
 
-                //}
+
             }
             Console.WriteLine();
 
-            //запросы
+            //Запросы
             Console.WriteLine("Вывести животных с весом больше 50 кг отсортировано по возрастанию возраста");
             Console.WriteLine("Linq");
             var whereOrderByQ = (from section in collectionDictionaryZoo.Values
@@ -55,32 +54,7 @@ namespace Lab14
                                  select animal);
             Stopwatch stopwatch = new Stopwatch();
 
-            Stopwatch timer_no_extension = new Stopwatch();
-            Stopwatch timer_extension = new Stopwatch();
-
-
-            List<Animal> tempList = (collectionDictionaryZoo.Values).SelectMany(section => section).ToList();
-            int n = tempList.Count();
-            //var query2 = (from section in collectionDictionaryZoo.Values
-            //              from animal in section
-            //              where animal is Animal && animal.Weight > 50
-            //              select animal);
-            var query2 = collectionDictionaryZoo.Values.SelectMany(section => section).Where(animal => animal is Animal && animal.Weight > 50);
-            timer_no_extension.Start();
-            for (int i = 0; i < n; ++i)
-            {
-                Animal animal = tempList[i];
-                if (animal.Weight > 50)
-                {
-                }
-            }
-            timer_no_extension.Stop();
-
-            timer_extension.Start();
-            foreach (var item in query2)
-            {
-            }
-            timer_extension.Stop();
+            
 
             stopwatch.Start();
             foreach (var item in whereOrderByQ)
@@ -95,6 +69,7 @@ namespace Lab14
 
             stopwatch.Reset();
             stopwatch.Start();
+            //Мгновенный
             var whereOrderByQExtension = collectionDictionaryZoo.Values
             .SelectMany(queue => queue)
             .Where(animalE => animalE.Weight > 50)
@@ -121,6 +96,7 @@ namespace Lab14
             Console.WriteLine();
             Console.WriteLine("Вывести животных первой и последней секций без повторений");
 
+            //Мгновенный
             var UnionQ = (from animalQ in collectionDictionaryZoo.Values.SelectMany(animal => animal) //                                                         where !((animal is Mammal)|| (animal is Artiodactyl) || (animal is Bird)) 
                           select animalQ)
                      .Concat
@@ -162,6 +138,7 @@ namespace Lab14
 
             stopwatch.Reset();
             stopwatch.Start();
+            //Мгновенный
             var MaxAgeQ = (from section in collectionDictionaryZoo.Values
                            from animal in section.ToArray()
                            select animal).Max();
@@ -177,6 +154,7 @@ namespace Lab14
 
             stopwatch.Reset();
             stopwatch.Start();
+            //Мгновенный
             var MaxAgeQExtension = collectionDictionaryZoo.Values
             .SelectMany(queue => queue)
             .Max(age => age);
@@ -193,17 +171,16 @@ namespace Lab14
 
             stopwatch.Reset();
             stopwatch.Start();
+            //Отложенный - с group by
             var mammalsLivivngEnvironment = (from section in collectionDictionaryZoo.Values
                                              from animalQ in section.ToArray()
                                              where animalQ is Mammal
-                                             group animalQ by ((Mammal)animalQ).LivingEnvironment /*into birdGroup
-                              from birds in birdGroup
-                              select birds*/
+                                             group animalQ by ((Mammal)animalQ).LivingEnvironment
                               );
             stopwatch.Stop();
             foreach (var item in mammalsLivivngEnvironment)
             {
-                Console.WriteLine($"Естественный ареал обитания: {item.Key}");
+                Console.WriteLine($"Естественный ареал обитания: {item.Key}\nКоличесвто в группе: {item.Count()}");
                 foreach (Mammal mam in item)
                     Console.WriteLine($"Имя: {mam.Name} Вид: {mam.Specie}");
                 Console.WriteLine();
@@ -214,14 +191,15 @@ namespace Lab14
             //
             Console.WriteLine();
             Console.WriteLine("Методами расширений");
-            var BirdsNamesExtension = collectionDictionaryZoo.Values
+            //Отложенный
+            var mammalsLivivngEnvironmentExtension = collectionDictionaryZoo.Values
             .SelectMany(queue => queue)
             .Where(ani => ani is Mammal)
             .GroupBy(ani => ((Mammal)ani).LivingEnvironment);
 
             stopwatch.Reset();
             stopwatch.Start();
-            foreach (var item in BirdsNamesExtension)
+            foreach (var item in mammalsLivivngEnvironmentExtension)
             {
                 Console.WriteLine($"Естественный ареал обитания: {item.Key}");
                 foreach (Mammal mam in item)
@@ -236,6 +214,7 @@ namespace Lab14
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
+            //Отложенный - let и select
             Console.WriteLine("Сколько корма каждому животному нужно");
             var FoodSuply = from section in collectionDictionaryZoo.Values
                             from animalQ in section.ToArray()
@@ -258,6 +237,7 @@ namespace Lab14
             //
             Console.WriteLine();
             Console.WriteLine("Методами расширений");
+            //Отложенный
             var FoodSuplyExtension = collectionDictionaryZoo.Values
             .SelectMany(queue => queue)
             .Select(animalQ => new
@@ -281,6 +261,7 @@ namespace Lab14
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Сколько корма каждому животному нужно + по средам обитания");
+            //Отложенный
             var FoodSuplyLivingEnvironment = from livEn in mammalsLivivngEnvironment
                                              from anim in livEn
                                              join foodS in FoodSuply on anim.Name equals foodS.animalQ.Name
@@ -305,7 +286,7 @@ namespace Lab14
             //
             Console.WriteLine();
             Console.WriteLine("Методами расширений");
-            //как ЭТО РАБОТАЕТ
+            //Отложенный
             var FoodSuplyLivingEnvironmentExtension = mammalsLivivngEnvironment
                 //в элементах mammalsLivivngEnvironment храниться два поля - string среда обитания и Animal животное,
                 //их принимаем и на их основе создаем анонимный объект
@@ -332,6 +313,9 @@ namespace Lab14
             Console.WriteLine($"Время {(double)stopwatch.ElapsedTicks / Stopwatch.Frequency * 1000} мс");
 
 
+
+
+            //свои методы расширения
             Console.WriteLine("\n\n\nСоздадим объект зоопарк MyNewCollection");
             MyCollection<string, Animal> zoo = new MyCollection<string, Animal>(3)
             {
@@ -361,7 +345,6 @@ namespace Lab14
             stopwatch.Reset();
             stopwatch.Start();
             double averageAge = 0;
-            //double.TryParse(zoo.MyAggregate(item => item.Value.Age, (a, b) => a + b, true).ToString(), out averageAge);
             averageAge = zoo.MyAggregate(item => item.Value.Age, (a, b) => a + b, true);
             stopwatch.Stop();
             Console.WriteLine($"Время нахождения среднего возраста: {(double)stopwatch.ElapsedTicks / Stopwatch.Frequency * 1000} мс");
@@ -389,6 +372,29 @@ namespace Lab14
             stopwatch.Stop();
             Console.WriteLine($"Время группировки: {(double)stopwatch.ElapsedTicks / Stopwatch.Frequency * 1000} мс");
 
+
+            Stopwatch timer_no_extension = new Stopwatch();
+            Stopwatch timer_extension = new Stopwatch();
+
+
+            List<Animal> tempList = (collectionDictionaryZoo.Values).SelectMany(section => section).ToList();
+            int n = tempList.Count();
+            var query2 = collectionDictionaryZoo.Values.SelectMany(section => section).Where(animal => animal is Animal && animal.Weight > 50);
+            timer_no_extension.Start();
+            for (int i = 0; i < n; ++i)
+            {
+                Animal animal = tempList[i];
+                if (animal.Weight > 50)
+                {
+                }
+            }
+            timer_no_extension.Stop();
+
+            timer_extension.Start();
+            foreach (var item in query2)
+            {
+            }
+            timer_extension.Stop();
             Console.WriteLine("\n\nElapsed ticks ( 1 - no_extension | 2 - extension):");
             Console.WriteLine($"Elapsed ticks: {timer_no_extension.Elapsed.Ticks}");
             Console.WriteLine($"Elapsed ticks: {timer_extension.Elapsed.Ticks}");

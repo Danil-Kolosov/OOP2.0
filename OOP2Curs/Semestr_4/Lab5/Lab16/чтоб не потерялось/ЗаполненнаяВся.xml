@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimalCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PointOfStringAnimal>
+    <Value>
+      <Weight>88</Weight>
+      <Height>5</Height>
+      <Age>45</Age>
+      <Name>Альфа</Name>
+      <Note>none</Note>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Value>
+      <Weight>15</Weight>
+      <Height>1</Height>
+      <Age>32</Age>
+      <Name>Рекс</Name>
+      <Note>none</Note>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Value xsi:type="Mammal">
+      <Weight>60</Weight>
+      <Height>3</Height>
+      <Age>13</Age>
+      <Name>Лорд</Name>
+      <Note>none</Note>
+      <Specie>Медведь</Specie>
+      <Location>Азия</Location>
+      <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+      <Lifestyle>Дневной</Lifestyle>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Value>
+      <Weight>19</Weight>
+      <Height>4</Height>
+      <Age>12</Age>
+      <Name>Дик</Name>
+      <Note>none</Note>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Value xsi:type="Mammal">
+      <Weight>51</Weight>
+      <Height>3</Height>
+      <Age>75</Age>
+      <Name>Лорд</Name>
+      <Note>none</Note>
+      <Specie>Волк</Specie>
+      <Location>Северная Америка</Location>
+      <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+      <Lifestyle>Дневной</Lifestyle>
+    </Value>
+  </PointOfStringAnimal>
+</AnimalCollection>

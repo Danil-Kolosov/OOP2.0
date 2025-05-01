@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnimalLibrary
 {
+    [Serializable]
     public class NoteClass
     {
         private string note;

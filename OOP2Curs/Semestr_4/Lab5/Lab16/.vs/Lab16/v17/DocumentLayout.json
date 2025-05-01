@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01C1C3FA-ED4B-4EF8-9BC6-DD5DC724485E}|CollectionProcessing\\CollectionProcessing.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab5\\lab16\\collectionprocessing\\filesavecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C1C3FA-ED4B-4EF8-9BC6-DD5DC724485E}|CollectionProcessing\\CollectionProcessing.csproj|solutionrelative:collectionprocessing\\filesavecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C1C3FA-ED4B-4EF8-9BC6-DD5DC724485E}|CollectionProcessing\\CollectionProcessing.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\collectionprocessing\\universaljsserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C1C3FA-ED4B-4EF8-9BC6-DD5DC724485E}|CollectionProcessing\\CollectionProcessing.csproj|solutionrelative:collectionprocessing\\universaljsserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD334F7-C57D-41C0-B1DB-9B5E6F3A5654}|Serialisation\\Serialisation.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\serialisation\\universalxmlserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD334F7-C57D-41C0-B1DB-9B5E6F3A5654}|Serialisation\\Serialisation.csproj|solutionrelative:serialisation\\universalxmlserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C1C3FA-ED4B-4EF8-9BC6-DD5DC724485E}|CollectionProcessing\\CollectionProcessing.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\collectionprocessing\\serializexml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C1C3FA-ED4B-4EF8-9BC6-DD5DC724485E}|CollectionProcessing\\CollectionProcessing.csproj|solutionrelative:collectionprocessing\\serializexml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD334F7-C57D-41C0-B1DB-9B5E6F3A5654}|Serialisation\\Serialisation.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\serialisation\\universaljsserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD334F7-C57D-41C0-B1DB-9B5E6F3A5654}|Serialisation\\Serialisation.csproj|solutionrelative:serialisation\\universaljsserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C1C3FA-ED4B-4EF8-9BC6-DD5DC724485E}|CollectionProcessing\\CollectionProcessing.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\collectionprocessing\\jsconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C1C3FA-ED4B-4EF8-9BC6-DD5DC724485E}|CollectionProcessing\\CollectionProcessing.csproj|solutionrelative:collectionprocessing\\jsconvertor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76AD1B9-0684-4A27-879B-49E9D859314E}|MyCollectionLibrary\\MyCollectionLibrary.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\mycollectionlibrary\\mycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76AD1B9-0684-4A27-879B-49E9D859314E}|MyCollectionLibrary\\MyCollectionLibrary.csproj|solutionrelative:mycollectionlibrary\\mycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|..\\..\\Lab3\\Lab14\\CollectionEvent\\CollectionEvent.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab3\\lab14\\collectionevent\\mynewcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B14792-D856-4104-9DA3-B5FB2F135602}|..\\..\\Lab3\\Lab14\\Library\\AnimalLib.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab3\\lab14\\library\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\windowsformsapp\\outform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\outform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\windowsformsapp\\additemdialog .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\additemdialog .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\windowsformsapp\\additemdialog .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\additemdialog .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\windowsformsapp\\outform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D002E22-7E6D-4247-AC96-F7F7BC58EB01}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\outform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|..\\..\\Lab3\\Lab14\\CollectionEvent\\CollectionEvent.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab3\\lab14\\collectionevent\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC1FCF1-3D67-4899-B415-6EA66B43A90E}|..\\..\\Lab3\\Lab14\\CollectionEvent\\CollectionEvent.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\oop2curs\\semestr_4\\lab3\\lab14\\collectionevent\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76AD1B9-0684-4A27-879B-49E9D859314E}|MyCollectionLibrary\\MyCollectionLibrary.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\mycollectionlibrary\\mycollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76AD1B9-0684-4A27-879B-49E9D859314E}|MyCollectionLibrary\\MyCollectionLibrary.csproj|solutionrelative:mycollectionlibrary\\mycollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76AD1B9-0684-4A27-879B-49E9D859314E}|MyCollectionLibrary\\MyCollectionLibrary.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\mycollectionlibrary\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76AD1B9-0684-4A27-879B-49E9D859314E}|MyCollectionLibrary\\MyCollectionLibrary.csproj|solutionrelative:mycollectionlibrary\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 836,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\Library\\Animal.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\Lab14\\Library\\Animal.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\Library\\Animal.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\Lab14\\Library\\Animal.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAswL4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T15:13:27.147Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyCollection.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\MyCollectionLibrary\\MyCollection.cs",
+              "RelativeDocumentMoniker": "MyCollectionLibrary\\MyCollection.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\MyCollectionLibrary\\MyCollection.cs",
+              "RelativeToolTip": "MyCollectionLibrary\\MyCollection.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAuwO8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T14:55:54.123Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddItemDialog .cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\AddItemDialog .cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\AddItemDialog .cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\AddItemDialog .cs",
+              "RelativeToolTip": "WindowsFormsApp\\AddItemDialog .cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwGkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T15:54:01.915Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UniversalXmlSerializer.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\Serialisation\\UniversalXmlSerializer.cs",
+              "RelativeDocumentMoniker": "Serialisation\\UniversalXmlSerializer.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\Serialisation\\UniversalXmlSerializer.cs",
+              "RelativeToolTip": "Serialisation\\UniversalXmlSerializer.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAFAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:09:46.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JournalEntry.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\CollectionEvent\\JournalEntry.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\Lab14\\CollectionEvent\\JournalEntry.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\CollectionEvent\\JournalEntry.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\Lab14\\CollectionEvent\\JournalEntry.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:33:24.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Journal.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\CollectionEvent\\Journal.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\Lab14\\CollectionEvent\\Journal.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\CollectionEvent\\Journal.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\Lab14\\CollectionEvent\\Journal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:33:17.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileSaveCollection.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\CollectionProcessing\\FileSaveCollection.cs",
+              "RelativeDocumentMoniker": "CollectionProcessing\\FileSaveCollection.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\CollectionProcessing\\FileSaveCollection.cs",
+              "RelativeToolTip": "CollectionProcessing\\FileSaveCollection.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDMAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T14:27:07.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\MyCollectionLibrary\\MyCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "MyCollectionLibrary\\MyCollectionExtensions.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\MyCollectionLibrary\\MyCollectionExtensions.cs",
+              "RelativeToolTip": "MyCollectionLibrary\\MyCollectionExtensions.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:49:56.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Point.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\MyCollectionLibrary\\Point.cs",
+              "RelativeDocumentMoniker": "MyCollectionLibrary\\Point.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\MyCollectionLibrary\\Point.cs",
+              "RelativeToolTip": "MyCollectionLibrary\\Point.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwCQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:13:56.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UniversalJsSerializer.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\CollectionProcessing\\UniversalJsSerializer.cs",
+              "RelativeDocumentMoniker": "CollectionProcessing\\UniversalJsSerializer.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\CollectionProcessing\\UniversalJsSerializer.cs",
+              "RelativeToolTip": "CollectionProcessing\\UniversalJsSerializer.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:22:08.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyNewCollection.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\CollectionEvent\\MyNewCollection.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\Lab14\\CollectionEvent\\MyNewCollection.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab3\\Lab14\\CollectionEvent\\MyNewCollection.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\Lab14\\CollectionEvent\\MyNewCollection.cs",
+              "ViewState": "AgIAAJsBAAAAAAAAAAAmwKcBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T14:24:50.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UniversalJsSerializer.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\Serialisation\\UniversalJsSerializer.cs",
+              "RelativeDocumentMoniker": "Serialisation\\UniversalJsSerializer.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\Serialisation\\UniversalJsSerializer.cs",
+              "RelativeToolTip": "Serialisation\\UniversalJsSerializer.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAIgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:10:21.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JsConvertor.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\CollectionProcessing\\JsConvertor.cs",
+              "RelativeDocumentMoniker": "CollectionProcessing\\JsConvertor.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\CollectionProcessing\\JsConvertor.cs",
+              "RelativeToolTip": "CollectionProcessing\\JsConvertor.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:57:34.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SerializeXML.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\CollectionProcessing\\SerializeXML.cs",
+              "RelativeDocumentMoniker": "CollectionProcessing\\SerializeXML.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\CollectionProcessing\\SerializeXML.cs",
+              "RelativeToolTip": "CollectionProcessing\\SerializeXML.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T10:44:09.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OutForm.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\OutForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\OutForm.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\OutForm.cs",
+              "RelativeToolTip": "WindowsFormsApp\\OutForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:46:41.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OutForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\OutForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\OutForm.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\OutForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp\\OutForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:46:21.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Form1.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "WindowsFormsApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:47:31.488Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Form1.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\Form1.cs*",
+              "RelativeToolTip": "WindowsFormsApp\\Form1.cs*",
+              "ViewState": "AgIAAOgBAAAAAAAAAAAcwEYBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:51:03.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddItemDialog .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\AddItemDialog .cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\AddItemDialog .cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\OOP2Curs\\Semestr_4\\Lab5\\Lab16\\WindowsFormsApp\\AddItemDialog .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp\\AddItemDialog .cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T15:37:22.679Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 137,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

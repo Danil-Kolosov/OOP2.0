@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 //Парнокопытное
 namespace AnimalLibrary
 {
+    [XmlInclude(typeof(Animal))]
+    [XmlInclude(typeof(Mammal))]
+    [XmlInclude(typeof(Bird))]
+    [XmlInclude(typeof(Artiodactyl))]
+    [Serializable]
     public class Artiodactyl : Mammal
     {
         int hoofSize;  //размер копыт
@@ -49,8 +55,8 @@ namespace AnimalLibrary
         }
 
         public Artiodactyl(float weight, float height, int age, string name, string specie,
-            string location, string livingEnvironment, string lifestyle, int hoofSize, int hornSize)
-            : base(weight, height, age, name, specie, location, livingEnvironment, lifestyle)
+            string location, string livingEnvironment, string lifestyle, int hoofSize, int hornSize, NoteClass note = null)
+            : base(weight, height, age, name, specie, location, livingEnvironment, lifestyle, note)
         {
             HoofSize = hoofSize;
             HornsSize = hornSize;
@@ -122,7 +128,7 @@ namespace AnimalLibrary
 
         public override string ToString()
         {
-            return base.ToString() + $"\nРазмер копыт: {HoofSize} Размер рогов: {HornsSize}";
+            return base.ToString() + $"\nРазмер копыт: {HoofSize} \nРазмер рогов: {HornsSize}";
         }
     }
 }

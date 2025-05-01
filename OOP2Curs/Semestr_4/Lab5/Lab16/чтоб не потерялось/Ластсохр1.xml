@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimalCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PointOfStringAnimal>
+    <Key>3</Key>
+    <Value xsi:type="Mammal">
+      <Weight>58</Weight>
+      <Height>3</Height>
+      <Age>72</Age>
+      <Name>Дик</Name>
+      <Note>none</Note>
+      <Specie>Собака</Specie>
+      <Location>Северная Америка</Location>
+      <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+      <Lifestyle>Дневной</Lifestyle>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Key>4</Key>
+    <Value xsi:type="Mammal">
+      <Weight>22</Weight>
+      <Height>3</Height>
+      <Age>53</Age>
+      <Name>Тайсон</Name>
+      <Note>none</Note>
+      <Specie>Медведь</Specie>
+      <Location>Северная Америка</Location>
+      <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+      <Lifestyle>Дневной</Lifestyle>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Key>5</Key>
+    <Value xsi:type="Artiodactyl">
+      <Weight>45</Weight>
+      <Height>2</Height>
+      <Age>67</Age>
+      <Name>Рей</Name>
+      <Note>none</Note>
+      <Specie>Баран</Specie>
+      <Location>Африка</Location>
+      <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+      <Lifestyle>Дневной</Lifestyle>
+      <HoofSize>6</HoofSize>
+      <HornsSize>7</HornsSize>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Key>1</Key>
+    <Value xsi:type="Mammal">
+      <Weight>55</Weight>
+      <Height>2</Height>
+      <Age>36</Age>
+      <Name>Буч</Name>
+      <Note>none</Note>
+      <Specie>Медведь</Specie>
+      <Location>Антарктида</Location>
+      <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+      <Lifestyle>Дневной</Lifestyle>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Key>2</Key>
+    <Value>
+      <Weight>30</Weight>
+      <Height>5</Height>
+      <Age>35</Age>
+      <Name>Гром</Name>
+      <Note>none</Note>
+    </Value>
+  </PointOfStringAnimal>
+</AnimalCollection>

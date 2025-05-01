@@ -24,10 +24,10 @@ namespace CollectionEvent
         public override string ToString()
         {
             string information = "";
-            information += $"Имя коллекции:{Name}\n";
-            information += $"Тип операции:{Type}\n";
+            information += $"Имя коллекции: {Name} : ";
+            information += $"Тип операции: {Type} : ";
             if (ObjectData != null)
-                information += $"Объект: {ObjectData}\n";
+                information += $"Объект: \n{ObjectData}\n";
             else
                 information += $"Объект: пустой\n";
             return information;

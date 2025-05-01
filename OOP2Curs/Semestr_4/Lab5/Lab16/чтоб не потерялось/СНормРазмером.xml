@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnimalCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PointOfStringAnimal>
+    <Key>3</Key>
+    <Value>
+      <Weight>94</Weight>
+      <Height>3</Height>
+      <Age>79</Age>
+      <Name>Риччи</Name>
+      <Note>none</Note>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Key>4</Key>
+    <Value>
+      <Weight>92</Weight>
+      <Height>5</Height>
+      <Age>62</Age>
+      <Name>Рич</Name>
+      <Note>none</Note>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Key>5</Key>
+    <Value xsi:type="Mammal">
+      <Weight>96</Weight>
+      <Height>3</Height>
+      <Age>66</Age>
+      <Name>Боня</Name>
+      <Note>none</Note>
+      <Specie>Кит</Specie>
+      <Location>Африка</Location>
+      <LivingEnvironment>Водная</LivingEnvironment>
+      <Lifestyle>Дневной</Lifestyle>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Key>1</Key>
+    <Value xsi:type="Artiodactyl">
+      <Weight>67</Weight>
+      <Height>5</Height>
+      <Age>6</Age>
+      <Name>Рекс</Name>
+      <Note>none</Note>
+      <Specie>Бегемот</Specie>
+      <Location>Антарктида</Location>
+      <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+      <Lifestyle>Дневной</Lifestyle>
+      <HoofSize>2</HoofSize>
+      <HornsSize>6</HornsSize>
+    </Value>
+  </PointOfStringAnimal>
+  <PointOfStringAnimal>
+    <Key>2</Key>
+    <Value xsi:type="Artiodactyl">
+      <Weight>17</Weight>
+      <Height>6</Height>
+      <Age>23</Age>
+      <Name>Рич</Name>
+      <Note>none</Note>
+      <Specie>Бегемот</Specie>
+      <Location>Южная Америка</Location>
+      <LivingEnvironment>Наземно-воздушная</LivingEnvironment>
+      <Lifestyle>Дневной</Lifestyle>
+      <HoofSize>4</HoofSize>
+      <HornsSize>5</HornsSize>
+    </Value>
+  </PointOfStringAnimal>
+</AnimalCollection>
