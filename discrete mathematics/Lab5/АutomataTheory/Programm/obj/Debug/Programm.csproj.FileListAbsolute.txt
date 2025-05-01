@@ -1,0 +1,11 @@
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\bin\Debug\Programm.exe.config
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\bin\Debug\Programm.exe
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\bin\Debug\Programm.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\bin\Debug\АutomataTheory.dll
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\bin\Debug\АutomataTheory.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\bin\Debug\АutomataTheory.dll.config
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\obj\Debug\Programm.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\obj\Debug\Programm.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\obj\Debug\Programm.csproj.Up2Date
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\obj\Debug\Programm.exe
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\Programm\obj\Debug\Programm.pdb

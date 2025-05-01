@@ -1,0 +1,7 @@
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\АutomataTheory\obj\Debug\АutomataTheory.csproj.AssemblyReference.cache
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\АutomataTheory\obj\Debug\АutomataTheory.csproj.CoreCompileInputs.cache
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\АutomataTheory\bin\Debug\АutomataTheory.dll.config
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\АutomataTheory\bin\Debug\АutomataTheory.dll
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\АutomataTheory\bin\Debug\АutomataTheory.pdb
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\АutomataTheory\obj\Debug\АutomataTheory.dll
+C:\projectsGit\OOP2Curs\OOP2.0\discrete mathematics\Lab5\АutomataTheory\АutomataTheory\obj\Debug\АutomataTheory.pdb
