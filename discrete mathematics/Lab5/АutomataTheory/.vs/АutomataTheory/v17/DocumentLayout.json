@@ -7,18 +7,12 @@
       "RelativeMoniker": "D:0:0:{200BDDCE-05D0-4927-BFF5-94C0E18C3F3C}|\u0410utomataTheory\\\u0410utomataTheory.csproj|solutionrelative:\u0430utomatatheory\\kurumamashine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E01E73-FBCC-43F4-A2AF-8F2EA908BDD1}|Programm\\Programm.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\discrete mathematics\\lab5\\\u0430utomatatheory\\programm\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21E01E73-FBCC-43F4-A2AF-8F2EA908BDD1}|Programm\\Programm.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\programm\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E01E73-FBCC-43F4-A2AF-8F2EA908BDD1}|Programm\\Programm.csproj|solutionrelative:programm\\programm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|\u0410utomataTheory||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{200BDDCE-05D0-4927-BFF5-94C0E18C3F3C}|\u0410utomataTheory\\\u0410utomataTheory.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\discrete mathematics\\lab5\\\u0430utomatatheory\\\u0430utomatatheory\\externalinteractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{200BDDCE-05D0-4927-BFF5-94C0E18C3F3C}|\u0410utomataTheory\\\u0410utomataTheory.csproj|C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\\u0430utomatatheory\\externalinteractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{200BDDCE-05D0-4927-BFF5-94C0E18C3F3C}|\u0410utomataTheory\\\u0410utomataTheory.csproj|solutionrelative:\u0430utomatatheory\\externalinteractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{200BDDCE-05D0-4927-BFF5-94C0E18C3F3C}|\u0410utomataTheory\\\u0410utomataTheory.csproj|c:\\projectsgit\\oop2curs\\oop2.0\\discrete mathematics\\lab5\\\u0430utomatatheory\\\u0430utomatatheory\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,14 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "\u0410utomataTheory",
-              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\\u0410utomataTheory\\\u0410utomataTheory.csproj",
-              "RelativeDocumentMoniker": "\u0410utomataTheory\\\u0410utomataTheory.csproj",
-              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\\u0410utomataTheory\\\u0410utomataTheory.csproj",
-              "RelativeToolTip": "\u0410utomataTheory\\\u0410utomataTheory.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-01T19:45:41.678Z",
+              "DocumentIndex": 0,
+              "Title": "KurumaMashine.cs",
+              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\\u0410utomataTheory\\KurumaMashine.cs",
+              "RelativeDocumentMoniker": "\u0410utomataTheory\\KurumaMashine.cs",
+              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\\u0410utomataTheory\\KurumaMashine.cs",
+              "RelativeToolTip": "\u0410utomataTheory\\KurumaMashine.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAgwKwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:26:41.111Z",
               "EditorCaption": ""
             },
             {
@@ -66,35 +61,22 @@
               "RelativeDocumentMoniker": "Programm\\Programm.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\Programm\\Programm.cs",
               "RelativeToolTip": "Programm\\Programm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T19:40:28.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ExternalInteractions.cs",
               "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\\u0410utomataTheory\\ExternalInteractions.cs",
               "RelativeDocumentMoniker": "\u0410utomataTheory\\ExternalInteractions.cs",
               "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\\u0410utomataTheory\\ExternalInteractions.cs",
               "RelativeToolTip": "\u0410utomataTheory\\ExternalInteractions.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwCUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAA6wCUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T17:40:26.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KurumaMashine.cs",
-              "DocumentMoniker": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\\u0410utomataTheory\\KurumaMashine.cs",
-              "RelativeDocumentMoniker": "\u0410utomataTheory\\KurumaMashine.cs",
-              "ToolTip": "C:\\projectsGit\\OOP2Curs\\OOP2.0\\discrete mathematics\\Lab5\\\u0410utomataTheory\\\u0410utomataTheory\\KurumaMashine.cs",
-              "RelativeToolTip": "\u0410utomataTheory\\KurumaMashine.cs",
-              "ViewState": "AgIAAI4BAAAAAAAAAAAqwJwBAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:26:41.111Z",
               "EditorCaption": ""
             }
           ]

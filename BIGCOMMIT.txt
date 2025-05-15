@@ -1,0 +1,899 @@
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$ git add .
+error: open("OOP2Curs/Semestr_4/Lab3/Lab14/.vs/Lab14/FileContentIndex/28a35744-93f7-429d-ad06-2d3f1d7b49c7.vsidx"): Permission denied
+error: unable to index file 'OOP2Curs/Semestr_4/Lab3/Lab14/.vs/Lab14/FileContentIndex/28a35744-93f7-429d-ad06-2d3f1d7b49c7.vsidx'
+fatal: adding files failed
+
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$ git add .
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/WithJournalSaveCollJournal.bin', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/Зоопарк-ваше будующееJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/СЖурналомСохрJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ВездеСохраненный/3 зверькаJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ВездеСохраненный/6 зверьковJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ЗаполненнаяВсяJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ЗаполненноеСКлючамиJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ЗапросыПроверка/запросыпроверкаJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/Итог/итог.BINJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/Итог/итог.XMLJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/Итог/итог2.XMLJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/Ластсохр1Journal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/НормСохрJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ПожалуйстаJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ПтицаЛетиJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ПтицаЛетиПоследняяJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ПтичкаЛети В получившуюся открыть добавили парнокопытное (или млека, забыл)Journal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/РАБОТЙ ЧЕРТJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/РаботающееJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/РабочееJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/С цепочками и нет только AnimalJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/СНормРазмеромJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/СПронстрасвамиИменJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/Сохр1Journal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/Сохр2Journal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ТЕКУЩАЯГJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ЦепнойJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/ЧЕРТJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/Эсперемет с многими сохр/прекрасноJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/кОНеЧНОЕJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/пробныйЗууJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/птицаJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/с асинхронным/test.JSJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/с асинхронным/test.XMLJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/с асинхронным/test2.JSJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/с асинхронным/асинх.BINJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/с асинхронным/асинх.JSJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/с асинхронным/асинх.XMLJournal.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OOP2Curs/Semestr_4/Lab5/Lab16/чтоб не потерялось/с асинхронным/ного асинк.BINJournal.txt', LF will be replaced by CRLF the next time Git touches it
+
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$ echo "*.bin binary" >> .gitattributes
+
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$ git add .gitattributes
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$ git add .
+
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$ git commit -m "Sem4 lab5 working version"
+[main 3d37dba] Sem4 lab5 working version
+ 915 files changed, 167174 insertions(+), 311 deletions(-)
+ create mode 100644 .gitattributes
+ rename OOP2Curs/Semestr_4/Lab2/Lab13/.vs/Lab13/FileContentIndex/{7463d1d2-615b-4f8d-a4e4-7de99c94c42c.vsidx => 29181273-4aff-4dce-8905-acba331676d3.vsidx} (76%)
+ rename OOP2Curs/Semestr_4/Lab2/Lab13/.vs/Lab13/FileContentIndex/{53129e09-6db7-430a-bd5c-7f31631f0ed8.vsidx => 30358452-7dc2-4a40-8be8-3c45213ed0b6.vsidx} (62%)
+ rename OOP2Curs/Semestr_4/Lab2/Lab13/.vs/Lab13/FileContentIndex/{984cbc19-4cca-412a-b6c3-48647b8d5389.vsidx => 57ece824-0ff9-4be0-882c-c4dacf813a89.vsidx} (71%)
+ rename OOP2Curs/Semestr_4/Lab2/Lab13/.vs/Lab13/FileContentIndex/{71d11073-cf73-42d8-88b0-9a795e62558f.vsidx => 6d4cefa7-be84-48be-b74c-e9766cc9d782.vsidx} (82%)
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/.vs/Lab14/FileContentIndex/28a35744-93f7-429d-ad06-2d3f1d7b49c7.vsidx
+ delete mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/.vs/Lab14/FileContentIndex/4e699da8-3535-4b72-a350-3adaa8d10b0e.vsidx
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/.vs/Lab14/FileContentIndex/f91052b2-d57d-4859-8243-91d25d4a2510.vsidx
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/app.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/CollectionEvent.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/Library.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/Library.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/Library.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/MyCollectionLibrary.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/bin/Debug/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/CollectionEvent/packages.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/Library.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab3/Lab14/Library/bin/Debug/System.ValueTuple.xml
+ rename OOP2Curs/Semestr_4/Lab4/Lab15/.vs/Lab15/FileContentIndex/{57a3386d-0c35-4398-b12d-2fb95c37bfde.vsidx => 4ea0cf89-0dbc-4636-ab56-79ed4a65811b.vsidx} (99%)
+ rename OOP2Curs/Semestr_4/Lab4/Lab15/.vs/Lab15/FileContentIndex/{0c3c2a15-d657-4480-b7b5-9b4bd84aeb0a.vsidx => 5163f1d6-bcdb-44a3-af7f-58783e170a9e.vsidx} (99%)
+ rename OOP2Curs/Semestr_4/Lab4/Lab15/.vs/Lab15/FileContentIndex/{c3e401a3-6eb0-4530-8397-d1a69d628ad4.vsidx => 7f41d76c-a47c-494c-8111-629e2cf5e0ac.vsidx} (54%)
+ rename OOP2Curs/Semestr_4/Lab4/Lab15/.vs/Lab15/FileContentIndex/{0de6c5ab-d894-446e-b1da-b0d37d737d14.vsidx => 81c997aa-12ae-4bbe-bb1d-2f9e472ba848.vsidx} (95%)
+ create mode 100644 "OOP2Curs/Semestr_4/Lab4/\321\203\321\201\320\273\320\276\320\262\320\270\320\265/\320\242\320\265\320\274\320\260_17_LINQ to Objects_new (1).pdf"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab4/\321\203\321\201\320\273\320\276\320\262\320\270\320\265/\320\242\320\265\320\274\320\260_18_\320\234\320\275\320\276\320\263\320\276\320\277\320\276\321\202\320\276\321\207\320\275\320\276\320\265_\320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\274\320\270\321\200\320\276\320\262\320\260\320\275\320\270\320\265.pdf"
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/FileContentIndex/12f0ee56-86ca-4949-8dd1-8c481a8e6b2c.vsidx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/FileContentIndex/1f2827c8-5c8b-4099-8fba-fc1de9b3d1fd.vsidx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/FileContentIndex/49f98c8f-3610-4435-aba7-82eadf78a0cc.vsidx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/FileContentIndex/6a6d2134-b4fd-4b0c-85de-791c0fc49309.vsidx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/FileContentIndex/97342567-65cf-410f-80d1-9c6535369fb2.vsidx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/v17/.suo
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/v17/DocumentLayout.backup.json
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/v17/DocumentLayout.json
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/v17/ResourceExplorer/settings.json
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/v17/TestStore/0/002.testlog
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/.vs/Lab16/v17/TestStore/0/testlog.manifest
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/Class1.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/CollectionEvent.csproj
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/CollectionHandlerEventArgs.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/Journal.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/JournalEntry.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/MyNewCollection.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/Properties/AssemblyInfo.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/bin/Debug/CollectionEvent.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/bin/Debug/CollectionEvent.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/bin/Debug/MyCollectionLibrary.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/bin/Debug/MyCollectionLibrary.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/obj/Debug/Collecti.1AC35C16.Up2Date
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/obj/Debug/CollectionEvent.csproj.AssemblyReference.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/obj/Debug/CollectionEvent.csproj.CoreCompileInputs.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/obj/Debug/CollectionEvent.csproj.FileListAbsolute.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/obj/Debug/CollectionEvent.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/obj/Debug/CollectionEvent.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionEvent/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/CollectionProcessing.csproj
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/FileSaveCollection.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/JsConvertor.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/Properties/AssemblyInfo.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/SerializeXML.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/UnivarsalJsSerializer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/UniversalXmlSerializer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/app.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/CollectionEvent.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/CollectionEvent.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/CollectionEvent.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/CollectionProcessing.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/CollectionProcessing.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/CollectionProcessing.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Library.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Library.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Library.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/MyCollectionLibrary.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/MyCollectionLibrary.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/MyCollectionLibrary.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Serialisation.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Serialisation.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/Serialisation.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/bin/Debug/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/obj/Debug/Collecti.5E0ACC89.Up2Date
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/obj/Debug/CollectionProcessing.csproj.AssemblyReference.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/obj/Debug/CollectionProcessing.csproj.CoreCompileInputs.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/obj/Debug/CollectionProcessing.csproj.FileListAbsolute.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/obj/Debug/CollectionProcessing.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/obj/Debug/CollectionProcessing.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/CollectionProcessing/packages.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16.sln
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/App.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/Lab16.csproj
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/Program.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/Properties/AssemblyInfo.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/Properties/Resources.Designer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/Properties/Resources.resx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/Properties/Settings.Designer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/Properties/Settings.settings
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/CollectionEvent.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/CollectionEvent.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/CollectionEvent.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/CollectionProcessing.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/CollectionProcessing.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/CollectionProcessing.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Lab16.exe
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Lab16.exe.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Lab16.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Library.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Library.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Library.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/MyCollectionLibrary.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/MyCollectionLibrary.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/MyCollectionLibrary.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/WindowsFormsApp.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/WindowsFormsApp.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/bin/Debug/WindowsFormsApp.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.Properties.Resources.resources
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.csproj.AssemblyReference.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.csproj.CoreCompileInputs.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.csproj.FileListAbsolute.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.csproj.GenerateResource.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.csproj.SuggestedBindingRedirects.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.csproj.Up2Date
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.exe
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.exe.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Lab16/obj/Debug/Lab16.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/Animal.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/AnimalLib.csproj
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/App.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/Artiodactyl.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/Bird.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/ClassDiagram.cd
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/ClassDiagram1.cd
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/External_Interactions.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/ICloneable.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/IComparable.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/IComparer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/IInit.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/Mammal.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/NoteClass.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/Properties/AssemblyInfo.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/QueryClass.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/SortByHeight.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/bin/Debug/Library.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/bin/Debug/Library.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/bin/Debug/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/bin/Debug/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/bin/Release/Library.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/bin/Release/Library.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/bin/Release/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/bin/Release/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Debug/AnimalLib.csproj.AssemblyReference.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Debug/AnimalLib.csproj.CoreCompileInputs.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Debug/AnimalLib.csproj.FileListAbsolute.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Debug/AnimalLib.csproj.Up2Date
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Debug/Library.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Debug/Library.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Release/AnimalLib.csproj.AssemblyReference.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Release/AnimalLib.csproj.CoreCompileInputs.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Release/AnimalLib.csproj.FileListAbsolute.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Release/AnimalLib.csproj.Up2Date
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Release/Library.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/obj/Release/Library.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Library/packages.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/ClassDiagram1.cd
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/MyCollection.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/MyCollectionExtensions.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/MyCollectionLibrary.csproj
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/MyEnumerator.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/Point.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/Properties/AssemblyInfo.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/app.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/MyCollectionLibrary.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/MyCollectionLibrary.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/MyCollectionLibrary.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/Serialisation.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/Serialisation.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/Serialisation.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Debug/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Release/MyCollectionLibrary.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/bin/Release/MyCollectionLibrary.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Debug/MyCollec.4DBB7C12.Up2Date
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Debug/MyCollectionLibrary.csproj.AssemblyReference.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Debug/MyCollectionLibrary.csproj.CoreCompileInputs.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Debug/MyCollectionLibrary.csproj.FileListAbsolute.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Debug/MyCollectionLibrary.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Debug/MyCollectionLibrary.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Release/MyCollectionLibrary.csproj.AssemblyReference.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Release/MyCollectionLibrary.csproj.CoreCompileInputs.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Release/MyCollectionLibrary.csproj.FileListAbsolute.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Release/MyCollectionLibrary.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/obj/Release/MyCollectionLibrary.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/MyCollectionLibrary/packages.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/Properties/AssemblyInfo.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/Serialisation.csproj
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/UniversalJsSerializer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/UniversalXmlSerializer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/app.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/Serialisation.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/Serialisation.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/Serialisation.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/bin/Debug/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/obj/Debug/Serialis.F802C3BE.Up2Date
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/obj/Debug/Serialisation.csproj.AssemblyReference.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/obj/Debug/Serialisation.csproj.CoreCompileInputs.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/obj/Debug/Serialisation.csproj.FileListAbsolute.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/obj/Debug/Serialisation.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/obj/Debug/Serialisation.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/Serialisation/packages.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/.vs/WindowsFormsApp.csproj.dtbcache.json
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/AddItemDialog .Designer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/AddItemDialog .cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/AddItemDialog .resx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/App.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/Form1.Designer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/Form1.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/Form1.resx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/OutForm.Designer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/OutForm.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/OutForm.resx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/Properties/AssemblyInfo.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/Properties/Resources.Designer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/Properties/Resources.resx
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/Properties/Settings.Designer.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/Properties/Settings.settings
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/WindowsFormsApp.csproj
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/CollectionEvent.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/CollectionEvent.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/CollectionEvent.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/CollectionProcessing.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/CollectionProcessing.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/CollectionProcessing.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/Library.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/Library.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/Library.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/MyCollectionLibrary.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/MyCollectionLibrary.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/MyCollectionLibrary.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/WindowsFormsApp.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/WindowsFormsApp.dll.config
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/bin/Debug/WindowsFormsApp.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsF.5F5EF213.Up2Date
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.AddItemDialog.resources
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.Form1.resources
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.LogViewerForm.resources
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.Properties.Resources.resources
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.csproj.AssemblyReference.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.csproj.CoreCompileInputs.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.csproj.FileListAbsolute.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.csproj.GenerateResource.cache
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WindowsFormsApp/obj/Debug/WindowsFormsApp.pdb
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WithJournalSaveColl.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/WithJournalSaveCollJournal.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/aaaaaaaaa.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/aaaaaaaaaaaaaaaaaaaaa.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/Icon.png
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/Microsoft.Bcl.AsyncInterfaces.9.0.4.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/PACKAGE.md
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/buildTransitive/net461/Microsoft.Bcl.AsyncInterfaces.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/buildTransitive/net462/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/buildTransitive/net8.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/buildTransitive/netcoreapp2.0/Microsoft.Bcl.AsyncInterfaces.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/lib/net462/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/lib/net462/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.AsyncInterfaces.9.0.4/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/Icon.png
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/Microsoft.Bcl.HashCode.6.0.0.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/PACKAGE.md
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/buildTransitive/net461/Microsoft.Bcl.HashCode.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/buildTransitive/net462/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/buildTransitive/net6.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/buildTransitive/netcoreapp2.0/Microsoft.Bcl.HashCode.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/lib/net462/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/lib/net462/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/lib/net6.0/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/lib/net6.0/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/lib/netstandard2.0/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/lib/netstandard2.0/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/lib/netstandard2.1/Microsoft.Bcl.HashCode.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/Microsoft.Bcl.HashCode.6.0.0/lib/netstandard2.1/Microsoft.Bcl.HashCode.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/System.Buffers.4.5.1.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/lib/net461/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/lib/net461/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/ref/net45/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/ref/net45/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Buffers.4.5.1/version.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/Icon.png
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/PACKAGE.md
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/System.IO.Pipelines.9.0.4.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/buildTransitive/net461/System.IO.Pipelines.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/buildTransitive/net462/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/buildTransitive/net8.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/lib/net462/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/lib/net462/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/lib/net8.0/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/lib/net8.0/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/lib/net9.0/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/lib/net9.0/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/lib/netstandard2.0/System.IO.Pipelines.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/lib/netstandard2.0/System.IO.Pipelines.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.IO.Pipelines.9.0.4/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/System.Memory.4.5.5.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/lib/net461/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/lib/net461/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/lib/netcoreapp2.1/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/lib/netstandard1.1/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/lib/netstandard1.1/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/lib/netstandard2.0/System.Memory.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/lib/netstandard2.0/System.Memory.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/ref/netcoreapp2.1/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Memory.4.5.5/version.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/System.Numerics.Vectors.4.5.0.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Numerics.Vectors.4.5.0/version.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/Icon.png
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/System.Runtime.CompilerServices.Unsafe.6.0.0.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/buildTransitive/netcoreapp3.1/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/net461/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/net461/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Runtime.CompilerServices.Unsafe.6.0.0/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/Icon.png
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/PACKAGE.md
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/System.Text.Encodings.Web.9.0.4.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/buildTransitive/net461/System.Text.Encodings.Web.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/buildTransitive/net462/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/buildTransitive/net8.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/lib/net462/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/lib/net462/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/lib/net8.0/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/lib/net8.0/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/lib/net9.0/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/lib/net9.0/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/lib/netstandard2.0/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/lib/netstandard2.0/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/runtimes/browser/lib/net9.0/System.Text.Encodings.Web.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/runtimes/browser/lib/net9.0/System.Text.Encodings.Web.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Encodings.Web.9.0.4/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/Icon.png
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/PACKAGE.md
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/System.Text.Json.9.0.4.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/cs/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/de/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/es/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/fr/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/it/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/ja/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/ko/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/pl/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/ru/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/tr/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/buildTransitive/net461/System.Text.Json.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/buildTransitive/net462/System.Text.Json.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/buildTransitive/net8.0/System.Text.Json.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/buildTransitive/netcoreapp2.0/System.Text.Json.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/buildTransitive/netstandard2.0/System.Text.Json.targets
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/lib/net462/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/lib/net462/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/lib/net8.0/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/lib/net8.0/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/lib/net9.0/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/lib/net9.0/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/lib/netstandard2.0/System.Text.Json.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/lib/netstandard2.0/System.Text.Json.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Text.Json.9.0.4/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/System.Threading.Tasks.Extensions.4.5.4.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoAndroid10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoTouch10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/net461/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/net461/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netcoreapp2.1/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard1.0/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard1.0/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard2.0/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard2.0/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinios10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinmac20/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarintvos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinwatchos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoAndroid10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoTouch10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/ref/netcoreapp2.1/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinios10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinmac20/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarintvos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinwatchos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.Threading.Tasks.Extensions.4.5.4/version.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/.signature.p7s
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/LICENSE.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/System.ValueTuple.4.5.0.nupkg
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/THIRD-PARTY-NOTICES.TXT
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/net461/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/net47/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/packages/System.ValueTuple.4.5.0/version.txt
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/xyz.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/xyzWithoutJournal.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/xyzWithoutJournalWithSavedAnimal.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/y.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/z.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/z2.bin
+ create mode 100644 OOP2Curs/Semestr_4/Lab5/Lab16/z3.bin
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\320\227\320\276\320\276\320\277\320\260\321\200\320\272-\320\262\320\260\321\210\320\265 \320\261\321\203\320\264\321\203\321\216\321\211\320\265\320\265.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\320\227\320\276\320\276\320\277\320\260\321\200\320\272-\320\262\320\260\321\210\320\265 \320\261\321\203\320\264\321\203\321\216\321\211\320\265\320\265Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\320\241\320\226\321\203\321\200\320\275\320\260\320\273\320\276\320\274\320\241\320\276\321\205\321\200.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\320\241\320\226\321\203\321\200\320\275\320\260\320\273\320\276\320\274\320\241\320\276\321\205\321\200Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\320\275\320\265 \321\202\321\203\320\264\320\260 \321\203\320\273\320\265\321\202\320\265\320\273\320\276/pathList"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\222\320\265\320\267\320\264\320\265\320\241\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\275\321\213\320\271/3 \320\267\320\262\320\265\321\200\321\214\320\272\320\260.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\222\320\265\320\267\320\264\320\265\320\241\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\275\321\213\320\271/3 \320\267\320\262\320\265\321\200\321\214\320\272\320\260.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\222\320\265\320\267\320\264\320\265\320\241\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\275\321\213\320\271/3 \320\267\320\262\320\265\321\200\321\214\320\272\320\260.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\222\320\265\320\267\320\264\320\265\320\241\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\275\321\213\320\271/3 \320\267\320\262\320\265\321\200\321\214\320\272\320\260Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\222\320\265\320\267\320\264\320\265\320\241\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\275\321\213\320\271/6 \320\267\320\262\320\265\321\200\321\214\320\272\320\276\320\262.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\222\320\265\320\267\320\264\320\265\320\241\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\275\321\213\320\271/6 \320\267\320\262\320\265\321\200\321\214\320\272\320\276\320\262.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\222\320\265\320\267\320\264\320\265\320\241\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\275\321\213\320\271/6 \320\267\320\262\320\265\321\200\321\214\320\272\320\276\320\262.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\222\320\265\320\267\320\264\320\265\320\241\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\275\321\213\320\271/6 \320\267\320\262\320\265\321\200\321\214\320\272\320\276\320\262Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\227\320\260\320\277\320\276\320\273\320\275\320\265\320\275\320\275\320\260\321\217\320\222\321\201\321\217.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\227\320\260\320\277\320\276\320\273\320\275\320\265\320\275\320\275\320\260\321\217\320\222\321\201\321\217Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\227\320\260\320\277\320\276\320\273\320\275\320\265\320\275\320\275\320\276\320\265\320\241\320\232\320\273\321\216\321\207\320\260\320\274\320\270.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\227\320\260\320\277\320\276\320\273\320\275\320\265\320\275\320\275\320\276\320\265\320\241\320\232\320\273\321\216\321\207\320\260\320\274\320\270Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\227\320\260\320\277\321\200\320\276\321\201\321\213\320\237\321\200\320\276\320\262\320\265\321\200\320\272\320\260/\320\267\320\260\320\277\321\200\320\276\321\201\321\213\320\277\321\200\320\276\320\262\320\265\321\200\320\272\320\260.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\227\320\260\320\277\321\200\320\276\321\201\321\213\320\237\321\200\320\276\320\262\320\265\321\200\320\272\320\260/\320\267\320\260\320\277\321\200\320\276\321\201\321\213\320\277\321\200\320\276\320\262\320\265\321\200\320\272\320\260Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\230\321\202\320\276\320\263/\320\270\321\202\320\276\320\263.BINJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\230\321\202\320\276\320\263/\320\270\321\202\320\276\320\263.XMLJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\230\321\202\320\276\320\263/\320\270\321\202\320\276\320\263.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\230\321\202\320\276\320\263/\320\270\321\202\320\276\320\263.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\230\321\202\320\276\320\263/\320\270\321\202\320\276\320\2632.XMLJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\230\321\202\320\276\320\263/\320\270\321\202\320\276\320\2632.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\233\320\260\321\201\321\202\321\201\320\276\321\205\321\2001.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\233\320\260\321\201\321\202\321\201\320\276\321\205\321\2001Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\235\320\276\321\200\320\274\320\241\320\276\321\205\321\200.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\235\320\276\321\200\320\274\320\241\320\276\321\205\321\200Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\320\236\320\226\320\220\320\233\320\243\320\231\320\241\320\242\320\220.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\320\276\320\266\320\260\320\273\321\203\320\271\321\201\321\202\320\260Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\320\276\320\273\320\265\320\264\320\275\320\265\320\265.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\206\320\260\320\233\320\265\321\202\320\270.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\206\320\260\320\233\320\265\321\202\320\270Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\206\320\260\320\233\320\265\321\202\320\270\320\237\320\276\321\201\320\273\320\265\320\264\320\275\321\217\321\217.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\206\320\260\320\233\320\265\321\202\320\270\320\237\320\276\321\201\320\273\320\265\320\264\320\275\321\217\321\217Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\270 \320\222 \320\277\320\276\320\273\321\203\321\207\320\270\320\262\321\210\321\203\321\216\321\201\321\217 \320\276\321\202\320\272\321\200\321\213\321\202\321\214 \320\264\320\276\320\261\320\260\320\262\320\270\320\273\320\270 \320\277\320\260\321\200\320\275\320\276\320\272\320\276\320\277\321\213\321\202\320\275\320\276\320\265 (\320\270\320\273\320\270 \320\274\320\273\320\265\320\272\320\260, \320\267\320\260\320\261\321\213\320\273).xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\270 \320\222 \320\277\320\276\320\273\321\203\321\207\320\270\320\262\321\210\321\203\321\216\321\201\321\217 \320\276\321\202\320\272\321\200\321\213\321\202\321\214 \320\264\320\276\320\261\320\260\320\262\320\270\320\273\320\270 \320\277\320\260\321\200\320\275\320\276\320\272\320\276\320\277\321\213\321\202\320\275\320\276\320\265 (\320\270\320\273\320\270 \320\274\320\273\320\265\320\272\320\260, \320\267\320\260\320\261\321\213\320\273)Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\270.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\2703.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\270\320\232\321\200\320\270\320\273\320\270\321\206\320\260.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\270\320\241\320\222\321\201\320\265\320\274\320\270\320\241\320\265\321\202\320\265\321\200\320\260\320\274\320\270.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\270\320\241\320\222\321\201\320\265\320\274\320\270\320\241\320\265\321\202\320\265\321\200\320\260\320\274\320\2702.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\270\320\241\320\222\321\201\320\265\320\274\320\270\320\241\320\265\321\202\320\265\321\200\320\260\320\274\320\2703.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\270\320\241\320\222\321\201\320\265\320\274\320\270\320\241\320\265\321\202\320\265\321\200\320\260\320\274\320\270\320\230\320\235\320\276\320\262\321\213\320\241\320\276\321\205\321\200\320\224\320\265\320\241\320\276\321\205\321\200.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\233\320\265\321\202\320\270\320\241\320\222\321\201\320\265\320\274\320\270\320\241\320\265\321\202\320\265\321\200\320\260\320\274\320\270\320\230\320\235\320\276\320\262\321\213\320\241\320\276\321\205\321\200\320\224\320\265\320\241\320\276\321\205\321\2002.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\241\320\226\320\270\320\262\320\276\321\202\320\275\321\213\320\274.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\237\321\202\320\270\321\207\320\272\320\260\320\241\320\272\320\276\320\275\320\262\320\265\321\200\321\202\320\265\321\200\320\276\320\274\320\237\320\276\321\201\320\273\320\265\320\237\320\276\321\201\320\273\320\265\320\264\320\275\320\265\320\271.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\240\320\220\320\221\320\236\320\242\320\220\320\225\320\242 + \320\266\320\270\320\262\320\276\321\202\320\275\320\276\320\265 \320\230\320\234\320\257.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\240\320\220\320\221\320\236\320\242\320\220\320\225\320\242 + \320\266\320\270\320\262\320\276\321\202\320\275\320\276\320\265.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\240\320\220\320\221\320\236\320\242\320\220\320\225\320\242.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\240\320\220\320\221\320\236\320\242\320\231 \320\247\320\225\320\240\320\242.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\240\320\220\320\221\320\236\320\242\320\231 \320\247\320\225\320\240\320\242Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\240\320\260\320\261\320\276\321\202\320\260\321\216\321\211\320\265\320\265.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\240\320\260\320\261\320\276\321\202\320\260\321\216\321\211\320\265\320\265Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\240\320\260\320\261\320\276\321\207\320\265\320\265.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\240\320\260\320\261\320\276\321\207\320\265\320\265Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241 \321\206\320\265\320\277\320\276\321\207\320\272\320\260\320\274\320\270 \320\270 \320\275\320\265\321\202 \321\202\320\276\320\273\321\214\320\272\320\276 Animal.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241 \321\206\320\265\320\277\320\276\321\207\320\272\320\260\320\274\320\270 \320\270 \320\275\320\265\321\202 \321\202\320\276\320\273\321\214\320\272\320\276 AnimalJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241\320\235\320\276\321\200\320\274\320\240\320\260\320\267\320\274\320\265\321\200\320\276\320\274.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241\320\235\320\276\321\200\320\274\320\240\320\260\320\267\320\274\320\265\321\200\320\276\320\274Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241\320\237\321\200\320\276\320\275\321\201\321\202\321\200\320\260\321\201\320\262\320\260\320\274\320\270\320\230\320\274\320\265\320\275.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241\320\237\321\200\320\276\320\275\321\201\321\202\321\200\320\260\321\201\320\262\320\260\320\274\320\270\320\230\320\274\320\265\320\275Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241\320\276\321\205\321\2001.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241\320\276\321\205\321\2001Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241\320\276\321\205\321\2002.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\241\320\276\321\205\321\2002Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\242\320\225\320\232\320\243\320\251\320\220\320\257\320\223.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\242\320\225\320\232\320\243\320\251\320\220\320\257\320\223Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\246\320\265\320\277\320\275\320\276\320\271.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\246\320\265\320\277\320\275\320\276\320\271Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\247\320\225\320\240\320\242.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\247\320\225\320\240\320\242Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\255\321\201\320\277\320\265\321\200\320\265\320\274\320\265\321\202 \321\201 \320\274\320\275\320\276\320\263\320\270\320\274\320\270 \321\201\320\276\321\205\321\200/\320\277\321\200\320\265\320\272\321\200\320\260\321\201\320\275\320\276.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\255\321\201\320\277\320\265\321\200\320\265\320\274\320\265\321\202 \321\201 \320\274\320\275\320\276\320\263\320\270\320\274\320\270 \321\201\320\276\321\205\321\200/\320\277\321\200\320\265\320\272\321\200\320\260\321\201\320\275\320\276.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\255\321\201\320\277\320\265\321\200\320\265\320\274\320\265\321\202 \321\201 \320\274\320\275\320\276\320\263\320\270\320\274\320\270 \321\201\320\276\321\205\321\200/\320\277\321\200\320\265\320\272\321\200\320\260\321\201\320\275\320\276.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\255\321\201\320\277\320\265\321\200\320\265\320\274\320\265\321\202 \321\201 \320\274\320\275\320\276\320\263\320\270\320\274\320\270 \321\201\320\276\321\205\321\200/\320\277\321\200\320\265\320\272\321\200\320\260\321\201\320\275\320\276Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\272\320\236\320\235\320\265\320\247\320\235\320\236\320\225.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\272\320\236\320\235\320\265\320\247\320\235\320\236\320\225Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\277\321\200\320\276\320\261\320\275\321\213\320\271\320\227\321\203\321\203.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\277\321\200\320\276\320\261\320\275\321\213\320\271\320\227\321\203\321\203Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\277\321\202\320\270\321\206\320\260.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\320\277\321\202\320\270\321\206\320\260Journal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\200\320\260\320\261\320\276\321\207\320\265\320\265.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/test.JSJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/test.XMLJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/test.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/test.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/test2.JSJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/test2.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/\320\260\321\201\320\270\320\275\321\205.BINJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/\320\260\321\201\320\270\320\275\321\205.JSJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/\320\260\321\201\320\270\320\275\321\205.XMLJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/\320\260\321\201\320\270\320\275\321\205.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/\320\260\321\201\320\270\320\275\321\205.js"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/\320\260\321\201\320\270\320\275\321\205.xml"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/\320\275\320\276\320\263\320\276 \320\260\321\201\320\270\320\275\320\272.BINJournal.txt"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/Lab16/\321\207\321\202\320\276\320\261 \320\275\320\265 \320\277\320\276\321\202\320\265\321\200\321\217\320\273\320\276\321\201\321\214/\321\201 \320\260\321\201\320\270\320\275\321\205\321\200\320\276\320\275\320\275\321\213\320\274/\320\275\320\276\320\263\320\276 \320\260\321\201\320\270\320\275\320\272.bin"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/\320\227\320\260\320\264\320\260\320\275\320\270\320\265/\320\237\321\200\320\260\320\272\321\202\320\270\321\207\320\265\321\201\320\272\320\260\321\217 \321\200\320\260\320\261\320\276\321\202\320\260 \342\204\22616_\320\244\320\260\320\271\320\273\321\213 new2024.docx"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/\320\227\320\260\320\264\320\260\320\275\320\270\320\265/\320\242\320\265\320\274\320\260_19_\320\240\320\260\320\261\320\276\321\202\320\260 \321\201 \321\204\320\260\320\271\320\273\320\260\320\274\320\270.pptx"
+ create mode 100644 "OOP2Curs/Semestr_4/Lab5/\320\277\321\200\320\276\320\262\320\265\321\200\320\276\321\207\320\272\320\260.png"
+ rename OOP2Curs/Semestr_4/lab1/Lab12/.vs/Lab12/FileContentIndex/{9f284cf5-6cbf-45e6-ab1f-329b52d87dc0.vsidx => 06866f8a-6b0e-4db4-8b96-248a881e9549.vsidx} (76%)
+ rename OOP2Curs/Semestr_4/lab1/Lab12/.vs/Lab12/FileContentIndex/{7cd7db18-5d4d-45b3-b241-2ab65264aa56.vsidx => 302ea478-18e8-4877-9462-698549b33f6c.vsidx} (98%)
+ rename OOP2Curs/Semestr_4/lab1/Lab12/.vs/Lab12/FileContentIndex/{afcb066c-38ca-4566-8113-f8c2942f6292.vsidx => 75467444-fde8-44b1-93d1-e65476737491.vsidx} (87%)
+ rename OOP2Curs/Semestr_4/lab1/Lab12/.vs/Lab12/FileContentIndex/{1dc7852c-65b6-4b0a-a133-4c9cb77325e6.vsidx => be4c4642-c742-4c4a-abb6-2176fe5bcd9a.vsidx} (62%)
+
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$ git push
+Enumerating objects: 811, done.
+Counting objects: 100% (811/811), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (627/627), done.
+Writing objects: 100% (685/685), 11.29 MiB | 962.00 KiB/s, done.
+Total 685 (delta 284), reused 24 (delta 5), pack-reused 0
+remote: Resolving deltas: 100% (284/284), completed with 59 local objects.
+To https://github.com/Danil-Kolosov/OOP2.0
+   e8f8ba3..3d37dba  main -> main
+
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$ git add .
+
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$ git commit "disc math lab5 added"
+error: pathspec 'disc math lab5 added' did not match any file(s) known to git
+
+Данил@DESKTOP-OHVHIQM MINGW64 /c/projectsGit/OOP2Curs/OOP2.0 (main)
+$

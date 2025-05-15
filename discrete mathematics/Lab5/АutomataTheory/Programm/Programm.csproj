@@ -36,6 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExternalInteractions.cs" />
     <Compile Include="Programm.cs" />
   </ItemGroup>
   <ItemGroup>

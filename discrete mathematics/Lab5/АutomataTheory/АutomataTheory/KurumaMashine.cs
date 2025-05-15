@@ -9,420 +9,179 @@ namespace АutomataTheory
 {
     public class KurumaMashine
     {
-        int current = 1;
-        List<string> alphabet = new List<string> { "a", "b", "c", "d" };
-
-        public KurumaMashine() { }
-
-        public string Processing() 
+        private enum State
         {
-            string word = GetInput();
-            foreach (char w in word) 
+            // States without 'c' prefix
+            Q0_0, Q1_0, Q2P_0,
+            Q0_1, Q1_1, Q2P_1,
+            Q0_2P, Q1_2P, Q2P_2P,
+
+            // States with 'c' prefix
+            Q1_0_c, Q2P_0_c, /*Q0_1_c,*/
+            Q1_1_c, Q2P_1_c, /*Q0_2P_c,*/
+            Q1_2P_c, Q2P_2P_c, Q0_0_c,
+
+            Error
+        }
+
+        private State currentState = State.Q0_0;
+
+        public string ProcessWord(string word)
+        {
+            currentState = State.Q0_0;
+            foreach (char ch in word)
             {
-                current = GoToState(w);
-                if (current == -1)
-                    return "Слово не принадлежит алфавиту";
+                if (currentState == State.Error)
+                    break;
+
+                ProcessChar(ch);
             }
-            if (current == 9 || current == 10)
-                return "Слово принадлежит алфавиту";
-            return "Слово не принадлежит алфавиту";
-            //while(current )
-            //current = GoToState(GetInput());
+
+            if (currentState == State.Q2P_2P || currentState == State.Q2P_2P_c)
+                return "Слово принадлежит языку";
+            else
+                return "Слово не принадлежит языку";
+            
         }
 
-        string GetInput() 
+        private void ProcessChar(char ch)
         {
-            string result = "";
-            External_Interactions.Input(ref result, "Введите слово:");
-            return result;
-        }
-
-        int GoToState(char input) 
-        {
-            switch (current) 
-            {
-                case 1:
-                    return FromState1(input);
-                case 2:
-                    return FromState2(input);
-                case 3:
-                    return FromState3(input);
-                case 4:
-                    return FromState4(input);
-                case 5:
-                    return FromState5(input);
-                case 6:
-                    return FromState6(input);
-                case 7:
-                    return FromState7(input);
-                case 8:
-                    return FromState8(input);
-                case 9:
-                    return FromState9(input);
-                case 10:
-                    return FromState10(input);
-                case 11:
-                    return FromState11(input);
-                case 12:
-                    return FromState12(input);
-                case 13:
-                    return FromState13(input);
-                case 14:
-                    return FromState14(input);
-                case 15:
-                    return FromState15(input);
-                case 16:
-                    return FromState16(input);
-                case 17:
-                    return FromState17(input);
-                case 18:
-                    return FromState18(input);
-                case 19:
-                    return FromState19(input);
-                case 20:
-                    return FromState20(input);
-            }
-            throw new ArgumentException("До данной строки дойти не должно");
-        }
-
-        int FromState1(char input) 
-        {
-            switch (input) 
+            switch (ch)
             {
                 case 'a':
-                    return 1;
+                    ProcessA();
+                    break;
                 case 'b':
-                    return 1;
-                case 'd':
-                    return 2;
+                    ProcessB();
+                    break;
                 case 'c':
-                    return 3;
+                    ProcessC();
+                    break;
+                case 'd':
+                    ProcessD();
+                    break;
                 default:
-                    return -1;
+                    currentState = State.Error;
+                    break;
             }
         }
 
-        int FromState2(char input) 
+        private void ProcessA()
         {
-            //throw new ArgumentException("Забыл на схемке сделать");
-            switch (input)
+            switch (currentState)
             {
-                case 'a':
-                    return 2;
-                case 'b':
-                    return 2;
-                case 'd':
-                    return 13;
-                case 'c':
-                    return 16;
-                default:
-                    return -1;
+                case State.Q1_0_c:
+                    currentState = State.Q1_0;
+                    break;
+                case State.Q2P_0_c:
+                    currentState = State.Q2P_0;
+                    break;
+                case State.Q1_1_c:
+                    currentState = State.Q1_1;
+                    break;
+                case State.Q2P_1_c:
+                    currentState = State.Q2P_1;
+                    break;
+                case State.Q1_2P_c:
+                    currentState = State.Q1_2P;
+                    break;
+                case State.Q2P_2P_c:
+                    currentState = State.Q2P_2P;
+                    break;
+                    // Other states remain unchanged
             }
         }
 
-        int FromState13(char input)
+        private void ProcessB()
         {
-            switch (input)
+            switch (currentState)
             {
-                case 'a':
-                    return 13;
-                case 'b':
-                    return 13;
-                case 'd':
-                    return 13;
-                case 'c':
-                    return 14;
-                default:
-                    return -1;
+                case State.Q1_0_c:
+                case State.Q2P_0_c:
+                case State.Q1_1_c:
+                case State.Q2P_1_c:
+                case State.Q1_2P_c:
+                case State.Q2P_2P_c:
+                    currentState = State.Error;
+                    break;
+                    // Other states remain unchanged
             }
         }
 
-        int FromState14(char input)
+        private void ProcessC()
         {
-            switch (input)
+            switch (currentState)
             {
-                case 'a':
-                    return 15;
-                case 'b':
-                    return -1;
-                case 'd':
-                    return 15;
-                case 'c':
-                    return 10;
+                case State.Q0_0:
+                    currentState = State.Q1_0_c;
+                    break;
+                case State.Q1_0:
+                case State.Q1_0_c:
+                    currentState = State.Q2P_0_c;
+                    break;
+                case State.Q2P_0:
+                case State.Q2P_0_c:
+                    currentState = State.Q2P_0_c;
+                    break;
+                case State.Q0_1:
+                //case State.Q0_1_c:
+                    currentState = State.Q1_1_c;
+                    break;
+                case State.Q1_1:
+                case State.Q1_1_c:
+                    currentState = State.Q2P_1_c;
+                    break;
+                case State.Q2P_1:
+                case State.Q2P_1_c:
+                    currentState = State.Q2P_1_c;
+                    break;
+                case State.Q0_2P:
+                //case State.Q0_2P_c:
+                    currentState = State.Q1_2P_c;
+                    break;
+                case State.Q1_2P:
+                case State.Q1_2P_c:
+                    currentState = State.Q2P_2P_c;
+                    break;
+                case State.Q2P_2P:
+                case State.Q2P_2P_c:
+                    currentState = State.Q2P_2P_c;
+                    break;
                 default:
-                    return -1;
+                    currentState = State.Error;
+                    break;
             }
         }
 
-        int FromState15(char input)
+        private void ProcessD()
         {
-            switch (input)
+            switch (currentState)
             {
-                case 'a':
-                    return 15;
-                case 'b':
-                    return 15;
-                case 'd':
-                    return 15;
-                case 'c':
-                    return 10;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState16(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 17;
-                case 'b':
-                    return -1;
-                case 'd':
-                    return 19;
-                case 'c':
-                    return 18;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState17(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 17;
-                case 'b':
-                    return 17;
-                case 'd':
-                    return 19;
-                case 'c':
-                    return 18;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState18(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 20;
-                case 'b':
-                    return -1;
-                case 'd':
-                    return 9;
-                case 'c':
-                    return 18;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState19(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 19;
-                case 'b':
-                    return 19;
-                case 'd':
-                    return 19;
-                case 'c':
-                    return 10;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState20(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 20;
-                case 'b':
-                    return 20;
-                case 'd':
-                    return 9;
-                case 'c':
-                    return 18;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState3(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 3;
-                case 'b':
-                    return -1;
-                case 'd':
-                    return 5;
-                case 'c':
-                    return 4;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState4(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 11;
-                case 'b':
-                    return -1;
-                case 'd':
-                    return 6;
-                case 'c':
-                    return 4;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState11(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 11;
-                case 'b':
-                    return 11;
-                case 'd':
-                    return 6;
-                case 'c':
-                    return 4;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState5(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 5;
-                case 'b':
-                    return 5;
-                case 'd':
-                    return 7;
-                case 'c':
-                    return 8;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState6(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 6;
-                case 'b':
-                    return 6;
-                case 'd':
-                    return 9;
-                case 'c':
-                    return 10;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState7(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 7;
-                case 'b':
-                    return 7;
-                case 'd':
-                    return 7;
-                case 'c':
-                    return 9;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState8(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 12;
-                case 'b':
-                    return -1;
-                case 'd':
-                    return 9;
-                case 'c':
-                    return 8;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState12(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 12;
-                case 'b':
-                    return 12;
-                case 'd':
-                    return 9;
-                case 'c':
-                    return 8;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState9(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 9;
-                case 'b':
-                    return 9;
-                case 'd':
-                    return 9;
-                case 'c':
-                    return 10;
-                default:
-                    return -1;
-            }
-        }
-
-        int FromState10(char input)
-        {
-            switch (input)
-            {
-                case 'a':
-                    return 9;
-                case 'b':
-                    return -1;
-                case 'd':
-                    return 9;
-                case 'c':
-                    return 10;
-                default:
-                    return -1;
+                case State.Q0_0:
+                case State.Q0_0_c:
+                    currentState = State.Q0_1;
+                    break;
+                case State.Q1_0:
+                case State.Q1_0_c:
+                    currentState = State.Q1_1;
+                    break;
+                case State.Q2P_0:
+                case State.Q2P_0_c:
+                    currentState = State.Q2P_1;
+                    break;
+                case State.Q0_1:
+                //case State.Q0_1_c:
+                    currentState = State.Q0_2P;
+                    break;
+                case State.Q1_1:
+                case State.Q1_1_c:
+                    currentState = State.Q1_2P;
+                    break;
+                case State.Q2P_1:
+                case State.Q2P_1_c:
+                    currentState = State.Q2P_2P;
+                    break;
+                    // For states with d_count already ≥2, remain unchanged
             }
         }
     }
