@@ -24,8 +24,6 @@ C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\MyCollectionLibrary
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab3\Lab14\MyCollectionLibrary\obj\Debug\MyCollectionLibrary.pdb
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\MyCollectionLibrary.dll
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\MyCollectionLibrary.pdb
-C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\Serialisation.dll
-C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\Serialisation.pdb
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\obj\Debug\MyCollectionLibrary.csproj.AssemblyReference.cache
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\obj\Debug\MyCollectionLibrary.csproj.CoreCompileInputs.cache
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\obj\Debug\MyCollec.4DBB7C12.Up2Date
@@ -42,7 +40,6 @@ C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\System.Buffers.dll
-C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\Serialisation.dll.config
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\System.Text.Json.xml
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\System.Memory.xml
 C:\projectsGit\OOP2Curs\OOP2.0\OOP2Curs\Semestr_4\Lab5\Lab16\MyCollectionLibrary\bin\Debug\System.IO.Pipelines.xml

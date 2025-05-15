@@ -63,24 +63,7 @@ namespace WindowsFormsApp
                 }
 
                 TreeCollectionView.ExpandAll();
-            }
-
-            //try
-            //{
-            //    if (File.Exists(filePath))
-            //    {
-            //        rtbLog.Text = File.ReadAllText(filePath);
-            //        HighlightKeywords();
-            //    }
-            //    else
-            //    {
-            //        rtbLog.Text = "Файл журнала не найден!";
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    rtbLog.Text = $"Ошибка загрузки журнала:\n{ex.Message}";
-            //}
+            }            
         }
 
         private void HighlightKeywords()

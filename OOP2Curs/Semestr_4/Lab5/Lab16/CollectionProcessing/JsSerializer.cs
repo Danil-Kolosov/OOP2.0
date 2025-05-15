@@ -26,10 +26,7 @@ namespace Serialisation
             {
                 Converters = { new MyNewCollectionJsonConverter<TKey, TVal>() },
                 Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping, // Кириллица
-                //IncludeFields = true,  // Сериализовать поля (если нужно)
                 WriteIndented = true,  // Красивый вывод
-                //PropertyNamingPolicy = JsonNamingPolicy.CamelCase,  // camelCase в JSON
-                //IgnoreReadOnlyProperties = false  // Сериализовать свойства без сеттера
             };
             using (FileStream stream = new FileStream(
                 filePath,
@@ -73,7 +70,7 @@ namespace Serialisation
 
 
 
-        public static /*async*/ void Serialize<T>(T obj, string filePath)
+        public static void Serialize<T>(T obj, string filePath)
         {
             var options = new JsonSerializerOptions
             {
@@ -90,7 +87,7 @@ namespace Serialisation
             }
         }                
 
-        public static /*async Task<T>*/T Deserialize<T>(string filePath)
+        public static T Deserialize<T>(string filePath)
         {
             var options = new JsonSerializerOptions
             {
@@ -99,7 +96,6 @@ namespace Serialisation
             };
             using (FileStream stream = new FileStream(filePath, FileMode.Open))
             {
-                //Get data as a dictionary because JS serializator can't properly work with custom hashtable
                 MyNewCollectionJsonConverter<TKey, TVal/*string, Animal*/>  pp = new MyNewCollectionJsonConverter<TKey, TVal/*string, Animal*/>();
                 T data = JsonSerializer.Deserialize<T>(stream, options);
                 return data;

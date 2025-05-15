@@ -15,18 +15,13 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using MyCollectionLibrary;
 using Serialisation;
+using System.Xml.Linq;
 namespace CollectionProcessing
 {
     public class FileSaveCollection
     {
         private static MyNewCollection<string, Animal> hashTable = null;
-        //private static JournalEntry<Animal> journal = null;
         private static Journal<Animal> allEventZoo = new Journal<Animal>();
-
-        //private static string filePathJournal = null;
-        //private static string filePathCollection = null;
-        //private static string collectionExtension = null;
-
         private static List<string> collectionPathList = null;
 
         public static MyNewCollection<string, Animal> HashTable
@@ -41,23 +36,11 @@ namespace CollectionProcessing
             }
         }
 
-        //запросы добавить
-        //    + роверить вссе ли хоророш с журналами
-        //    + стили вывода подправить чуток
-        //    + кнопку просто сохранить оживить
-        //    + сохранять журнал с расширением, чтобы на коллекцию с одним именем и разными расширениями был не 1 журнал, а 3 - ведь действия-то разные могут быть сделаны
 
-        //сделать ассинхронной запись и чтение ---- осталось про тестировать --- работает
-        //    +окошки при cancel - чтобы без сообщений об ошибке
-        //    + ссылаться на сер/десер хмл в решение процессинг файл, а не универсальный сериализатор
 
 
         private static void JournalLink() 
         {
-            //hashTable.GetALLItems();
-            //journal = new JournalEntry<Animal>(args.Name, args.Type, args.ObjectData); хотел хранить ссылку на журнал
-            //hashTable.CollectionCountChanged += (sourcer, args) => allEventZoo.Add(new JournalEntry<Animal>(args.Name, args.Type, args.ObjectData));
-            //hashTable.CollectionReferenceChanged += (sourcer, args) => allEventZoo.Add(new JournalEntry<Animal>(args.Name, args.Type, args.ObjectData));
             // Отписываемся от предыдущих событий - если открыли коллекцию, при уже открытой
             hashTable.CollectionCountChanged -= (sourcer, args) => allEventZoo.Add(new JournalEntry<Animal>(args.Name, args.Type, args.ObjectData));
             hashTable.CollectionReferenceChanged -= (sourcer, args) => allEventZoo.Add(new JournalEntry<Animal>(args.Name, args.Type, args.ObjectData));
@@ -71,47 +54,53 @@ namespace CollectionProcessing
         {
             hashTable = new MyNewCollection<string, Animal>(capacity);
             JournalLink();
-            //ReportLink?            
         }
 
-        public static void AddItem(string type, Dictionary<string, string> pararmetrs) 
+        public static bool AddItem(string type, Dictionary<string, string> pararmetrs) 
         {
-            switch (type)
+            try
             {
-                case "Животное":
-                    //из-за парсинга чисел нужно либо предусмотреть в интерфейсе либо тут трайй катч
-                    hashTable.Add(
-                        pararmetrs["Ключ"], 
-                        new Animal(float.Parse(pararmetrs["Вес"]), 
-                        float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]), 
-                        pararmetrs["Имя"], new NoteClass(pararmetrs["Заметки"])));
-                    break;
-                case "Млекопитающее":
-                    hashTable.Add
-                        (pararmetrs["Ключ"], new Mammal(float.Parse(pararmetrs["Вес"]),
-                        float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
-                        pararmetrs["Имя"], pararmetrs["Вид"], pararmetrs["Место обитания"], 
-                        pararmetrs["Среда обитания"], pararmetrs["Образ жизни"], new NoteClass(pararmetrs["Заметки"]))
-                        );                       
-                    break;
-                case "Парнокопытное":
-                    hashTable.Add
-                        (pararmetrs["Ключ"], new Artiodactyl(float.Parse(pararmetrs["Вес"]),
-                        float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
-                        pararmetrs["Имя"], pararmetrs["Вид"], pararmetrs["Место обитания"],
-                        pararmetrs["Среда обитания"], pararmetrs["Образ жизни"], 
-                        int.Parse(pararmetrs["Размер копыт"]), int.Parse(pararmetrs["Размер рогов"]),
-                        new NoteClass(pararmetrs["Заметки"]))
-                        );
-                    break;
-                case "Птица":
-                    hashTable.Add(pararmetrs["Ключ"],
-                        new Bird(float.Parse(pararmetrs["Вес"]),
-                        float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
-                        pararmetrs["Имя"], int.Parse(pararmetrs["Размах крыльев"]), 
-                        int.Parse(pararmetrs["Дальность полета"]), pararmetrs["Вид"], new NoteClass(pararmetrs["Заметки"]))
-                        );
-                    break;
+                switch (type)
+                {
+                    case "Животное":
+                        hashTable.Add(
+                            pararmetrs["Ключ"],
+                            new Animal(float.Parse(pararmetrs["Вес"]),
+                            float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
+                            pararmetrs["Имя"], new NoteClass(pararmetrs["Заметки"])));
+                        break;
+                    case "Млекопитающее":
+                        hashTable.Add
+                            (pararmetrs["Ключ"], new Mammal(float.Parse(pararmetrs["Вес"]),
+                            float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
+                            pararmetrs["Имя"], pararmetrs["Вид"], pararmetrs["Место обитания"],
+                            pararmetrs["Среда обитания"], pararmetrs["Образ жизни"], new NoteClass(pararmetrs["Заметки"]))
+                            );
+                        break;
+                    case "Парнокопытное":
+                        hashTable.Add
+                            (pararmetrs["Ключ"], new Artiodactyl(float.Parse(pararmetrs["Вес"]),
+                            float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
+                            pararmetrs["Имя"], pararmetrs["Вид"], pararmetrs["Место обитания"],
+                            pararmetrs["Среда обитания"], pararmetrs["Образ жизни"],
+                            int.Parse(pararmetrs["Размер копыт"]), int.Parse(pararmetrs["Размер рогов"]),
+                            new NoteClass(pararmetrs["Заметки"]))
+                            );
+                        break;
+                    case "Птица":
+                        hashTable.Add(pararmetrs["Ключ"],
+                            new Bird(float.Parse(pararmetrs["Вес"]),
+                            float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
+                            pararmetrs["Имя"], int.Parse(pararmetrs["Размах крыльев"]),
+                            int.Parse(pararmetrs["Дальность полета"]), pararmetrs["Вид"], new NoteClass(pararmetrs["Заметки"]))
+                            );
+                        break;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
             }
         }
 
@@ -177,45 +166,52 @@ namespace CollectionProcessing
 
         public static bool UpdayeByKey(string type, Dictionary<string, string> pararmetrs) 
         {
-            switch (type)
+            try
             {
-                case "Животное":
-                    //из-за парсинга чисел нужно либо предусмотреть в интерфейсе либо тут трайй катч
-                    hashTable[pararmetrs["Ключ"]] = 
-                        new Animal(float.Parse(pararmetrs["Вес"]),
-                        float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
-                        pararmetrs["Имя"], new NoteClass(pararmetrs["Заметки"])
-                        );
-                    return true;
-                case "Млекопитающее":
-                    hashTable[pararmetrs["Ключ"]] =
-                        new Mammal(float.Parse(pararmetrs["Вес"]),
-                        float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
-                        pararmetrs["Имя"], pararmetrs["Вид"], pararmetrs["Место обитания"],
-                        pararmetrs["Среда обитания"], pararmetrs["Образ жизни"], new NoteClass(pararmetrs["Заметки"])
-                        );
-                    return true;
-                case "Парнокопытное":
-                    hashTable[pararmetrs["Ключ"]] =
-                        new Artiodactyl(float.Parse(pararmetrs["Вес"]),
-                        float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
-                        pararmetrs["Имя"], pararmetrs["Вид"], pararmetrs["Место обитания"],
-                        pararmetrs["Среда обитания"], pararmetrs["Образ жизни"],
-                        int.Parse(pararmetrs["Размер копыт"]), int.Parse(pararmetrs["Размер рогов"]),
-                        new NoteClass(pararmetrs["Заметки"])
-                        );
-                    return true;
-                case "Птица":
-                    hashTable[pararmetrs["Ключ"]] =
-                        new Bird(float.Parse(pararmetrs["Вес"]),
-                        float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
-                        pararmetrs["Имя"], int.Parse(pararmetrs["Размах крыльев"]),
-                        int.Parse(pararmetrs["Дальность полета"]), pararmetrs["Вид"],
-                        new NoteClass(pararmetrs["Заметки"])
-                        );
-                    return true;
+                switch (type)
+                {
+                    case "Животное":
+                        //из-за парсинга чисел нужно либо предусмотреть в интерфейсе либо тут трайй катч
+                        hashTable[pararmetrs["Ключ"]] =
+                            new Animal(float.Parse(pararmetrs["Вес"]),
+                            float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
+                            pararmetrs["Имя"], new NoteClass(pararmetrs["Заметки"])
+                            );
+                        return true;
+                    case "Млекопитающее":
+                        hashTable[pararmetrs["Ключ"]] =
+                            new Mammal(float.Parse(pararmetrs["Вес"]),
+                            float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
+                            pararmetrs["Имя"], pararmetrs["Вид"], pararmetrs["Место обитания"],
+                            pararmetrs["Среда обитания"], pararmetrs["Образ жизни"], new NoteClass(pararmetrs["Заметки"])
+                            );
+                        return true;
+                    case "Парнокопытное":
+                        hashTable[pararmetrs["Ключ"]] =
+                            new Artiodactyl(float.Parse(pararmetrs["Вес"]),
+                            float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
+                            pararmetrs["Имя"], pararmetrs["Вид"], pararmetrs["Место обитания"],
+                            pararmetrs["Среда обитания"], pararmetrs["Образ жизни"],
+                            int.Parse(pararmetrs["Размер копыт"]), int.Parse(pararmetrs["Размер рогов"]),
+                            new NoteClass(pararmetrs["Заметки"])
+                            );
+                        return true;
+                    case "Птица":
+                        hashTable[pararmetrs["Ключ"]] =
+                            new Bird(float.Parse(pararmetrs["Вес"]),
+                            float.Parse(pararmetrs["Рост"]), int.Parse(pararmetrs["Возраст"]),
+                            pararmetrs["Имя"], int.Parse(pararmetrs["Размах крыльев"]),
+                            int.Parse(pararmetrs["Дальность полета"]), pararmetrs["Вид"],
+                            new NoteClass(pararmetrs["Заметки"])
+                            );
+                        return true;
+                }
+                return true;
             }
-            return false;
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
         public static bool ContainsKey(string key) 
@@ -247,8 +243,10 @@ namespace CollectionProcessing
                 return "Журнал операций:\n" + allEventZoo.ToString();
         }
 
-        public static void FileSave(List<string> pathList) 
+        public static bool FileSave(List<string> pathList) 
         {
+            if (hashTable == null)
+                return false;
             switch (pathList[3])
             {
                 case ".bin":
@@ -261,6 +259,7 @@ namespace CollectionProcessing
                     SerializeToJs(pathList);
                     break;
             }
+            return true;
         }
 
         public static List<KeyValuePair<string, string>> FilterBy(string type, string value) 
@@ -634,31 +633,8 @@ namespace CollectionProcessing
             return result;
         }
 
-        //flightRange
-        //public static string GetJournalPath()
-        //{
-        //    if (File.Exists(filePathJournal))
-        //    {
-        //        JournalSave(filePathJournal);
-        //        return /*File.ReadAllText(*/filePathJournal/*)*/;
-        //    }
-        //    else
-        //        return "Журнал операций:\n" + allEventZoo.ToString();
-        //}
-
-        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        //Сериализация
-        //бинарная
-        //using System.IO;
-        //using System.Runtime.Serialization.Formatters.Binary;
         private static void JournalSave(string journalPath) 
         {
-            //collectionPathList[1]/*filePathJournal*/ = journalPath;
-            // 3. Сериализуем журнал отдельно
-            //if (!File.Exists(journalPath))
-            //{
-            //    File.WriteAllText(journalPath, "Журнал событий:\n"); //Перезаписываеем или осздаем новый
-            //}
             if (collectionPathList == null)
                 File.AppendAllText(journalPath, allEventZoo.ToString());
             else
@@ -669,9 +645,6 @@ namespace CollectionProcessing
                     File.AppendAllText(journalPath, (File.ReadAllText(collectionPathList[1])) + allEventZoo.ToString());
                 allEventZoo = new Journal<Animal>();
             }
-            //JournalLink();
-
-            //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             //теперь если вывести хоятт- смотрим, существует ли файл, если да - записсываем и выводим из фалйа, нет - просто выводим
         }
 
@@ -683,45 +656,29 @@ namespace CollectionProcessing
             return true;
         }
 
-        public static void SerializeToBinary<T>(T obj, List<string> pathList)
+        private static void SerializeToBinary<T>(T obj, List<string> pathList)
         {
-
-            //hashTable.CollectionCountChanged -= null;
-            //ЖУРНАЛ ПЕРЕД СЕРИАЛИЗАЦИЕЙ ОТВЯЗЫВАЕТСЯ, ПОТОМ НУЖНО ПРИВЯЗАТЬ БУДЕТ, ПОТОМУ ЧТО ДЕЛЕГАТЫ И ИВЕНТЫ - НЕ СЕРИАЛИЗУЕМЫЕ ОБЪЕКТЫ, ИХ МОЖНО ЗАМЕНИТЬ НА СЕРИАЛИЗУЕМЫЕ КЛАССЫ
-            //var formatter = new BinaryFormatter();
-            //using (var stream = File.Create("data.bin"))
-            //{
-            //    formatter.Serialize(stream, hashTable);
-            //}
-
-            using (FileStream fs = new FileStream(pathList[0], FileMode.Create))
-            {
-                BinaryFormatter formatter = new BinaryFormatter();
-                formatter.Serialize(fs, obj);
-            }
+            BinarySerializer.SerializeToBinary(hashTable, pathList);
             JournalSave(pathList[1]);
             collectionPathList = pathList;
-            
 
-
-            //// 3. Сериализуем журнал отдельно
-            //using (FileStream fs = new FileStream("journal.txt", FileMode.Create))
+            //using (FileStream fs = new FileStream(pathList[0], FileMode.Create))
             //{
             //    BinaryFormatter formatter = new BinaryFormatter();
-            //    formatter.Serialize(fs, journal);
+            //    formatter.Serialize(fs, obj);
             //}
-
-            //// 4. Подписываем журнал обратно (если коллекция продолжит работу)
-            //journal.SubscribeToEvents(hashTable);
+            //JournalSave(pathList[1]);
+            //collectionPathList = pathList;
         }
 
         public static async Task DeserializeFromBinary(List<string> filePath)
         {
-            hashTable =  (await DeserializeFromBinaryAsync<MyNewCollection<string, Animal>>(filePath[0]));
+            hashTable = await BinarySerializer.DeserializeFromBinaryAsync<MyNewCollection<string, Animal>>(filePath[0]);
             collectionPathList = filePath;
             JournalLink();
-            //if (File.Exists(filePath[1]))
-            //    filePathJournal = filePath[1];
+
+            //hashTable =  (await DeserializeFromBinaryAsync<MyNewCollection<string, Animal>>(filePath[0]));
+            //collectionPathList = filePath;
             //JournalLink();
         }
         private static async Task<T> DeserializeFromBinaryAsync<T>(string filePath)
@@ -741,55 +698,33 @@ namespace CollectionProcessing
                 return (T)formatter.Deserialize(ms);
             }
         }
-        //как эотот метод сделать асинхронным правильно
-        //private static async T DeserializeFromBinary<T>(string filePath)
-        //{
-        //    using (FileStream fs = new FileStream(filePath, FileMode.Open))
-        //    {
-        //        BinaryFormatter formatter = new BinaryFormatter();
-        //        return (T)formatter.Deserialize(fs);
-        //    }
 
-
-
-        //    // Восстанавливаем подписки на события
-        //    //loadedTable.ItemAdded += (key, value) => Console.WriteLine($"Added: {key}");
-        //    //loadedTable.ItemRemoved += key => Console.WriteLine($"Removed: {key}");
-        //}
-
-
-
-        //хмл
-
-        public static async void SerializeToXml(List<string> pathList)
+        private static async void SerializeToXml(List<string> pathList)
         {
-            //SerializeXML.SerializeToXml(hashTable, pathList[0]);
-            var serializer = new XmlSerializer(
+            var serializer = new System.Xml.Serialization.XmlSerializer(
             typeof(MyNewCollection<string, Animal>),
             new[] { typeof(Bird), typeof(Mammal), typeof(Artiodactyl) } // Все возможные типы
             );
 
             var ns = new XmlSerializerNamespaces();
             ns.Add("", ""); // Отключаем стандартные пространства имен
-            await UniversalXmlSerializer.SerializeAsync(hashTable, pathList[0], serializer);
-            //filePathCollection = pathList[0];
-            //collectionExtension = pathList[3];
+            await XmlSerializer.SerializeAsync(hashTable, pathList[0], serializer);
+
             JournalSave(pathList[1]);
             collectionPathList = pathList;
             
         }
-        //*********
+
         public static async Task DeserializeFromXml(List<string> pathList)
         {
-            //hashTable = SerializeXML.DeserializeFromXml<MyNewCollection<string, Animal>>(filePath);
-            var serializer = new XmlSerializer(
+            var serializer = new System.Xml.Serialization.XmlSerializer(
                 typeof(MyNewCollection<string, Animal>),
                 new[] { typeof(Bird), typeof(Mammal), typeof(Artiodactyl) }
                 );
 
             var ns = new XmlSerializerNamespaces();
             ns.Add("", ""); // Глобальное отключение пространств имён - чисто для красоты
-            hashTable = ( await UniversalXmlSerializer.DeserializeAsync<MyNewCollection<string, Animal>>(pathList[0], serializer));
+            hashTable = ( await XmlSerializer.DeserializeAsync<MyNewCollection<string, Animal>>(pathList[0], serializer));
             collectionPathList = pathList;
             JournalLink();
         }
@@ -798,69 +733,15 @@ namespace CollectionProcessing
         {
             await Serialisation.UniversalJsSerializer<string, Animal>.SerializeAsync(hashTable, pathList[0]);
 
-            //filePathCollection = pathList[0];
-            //collectionExtension = pathList[3];
             JournalSave(pathList[1]);
             collectionPathList = pathList;            
         }
-        //************нужно в параметры список патчей передаввать чтобы востановить все при первой выписи
-        public static async Task DeserializeFromJs(List<string> pathList/*string filePath*/) 
+
+        public static async Task DeserializeFromJs(List<string> pathList) 
         {
             hashTable = await Serialisation.UniversalJsSerializer<string, Animal>.DeserializeAsync<MyNewCollection<string, Animal>>(pathList[0]);
             collectionPathList = pathList;
             JournalLink();
-        }
-        //using System.Xml.Serialization;
-
-        //public static void SerializeToXml<T>(T obj, string filePath)
-        //    {
-        //        XmlSerializer serializer = new XmlSerializer(typeof(T));
-        //        using (TextWriter writer = new StreamWriter(filePath))
-        //        {
-        //            serializer.Serialize(writer, obj);
-        //        }
-        //    }
-
-        //public static T DeserializeFromXml<T>(string filePath)
-        //{
-        //    XmlSerializer serializer = new XmlSerializer(typeof(T));
-        //    using (TextReader reader = new StreamReader(filePath))
-        //    {
-        //        return (T)serializer.Deserialize(reader);
-        //    }
-        //}
-
-        //джейсон
-        //using System.Text.Json;
-        //public static void SerializeToJson<T>(T obj, string filePath)
-        //{
-        //    string json = JsonSerializer.Serialize(obj);
-        //    File.WriteAllText(filePath, json);
-        //}
-
-        //public static T DeserializeFromJson<T>(string filePath)
-        //{
-        //    string json = File.ReadAllText(filePath);
-        //    return JsonSerializer.Deserialize<T>(json);
-        //}
-
-        //пример ипользования
-        //var hashTable = new CustomHashTable<string, Animal>();
-        //hashTable.Add("Lion", new Mammal { Name = "Lion", Age = 5, HasFur = true });
-        //hashTable.Add("Cow", new Artiodactyl { Name = "Cow", Age = 3, HasFur = true, HoofCount = 4 });
-        //hashTable.Add("Eagle", new Bird { Name = "Eagle", Age = 2, CanFly = true });
-
-        //// Бинарная сериализация
-        //SerializeToBinary(hashTable, "animals.bin");
-        //var fromBinary = DeserializeFromBinary<CustomHashTable<string, Animal>>("animals.bin");
-
-        //// XML
-        //SerializeToXml(hashTable, "animals.xml");
-        //var fromXml = DeserializeFromXml<CustomHashTable<string, Animal>>("animals.xml");
-
-        //// JSON
-        //SerializeToJson(hashTable, "animals.json");
-        //var fromJson = DeserializeFromJson<CustomHashTable<string, Animal>>("animals.json");
-        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        }        
     }
 }

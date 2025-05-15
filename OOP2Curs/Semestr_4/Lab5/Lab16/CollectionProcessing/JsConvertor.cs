@@ -29,16 +29,6 @@ namespace Serialisation
             writer.WritePropertyName("hashTable");
             JsonSerializer.Serialize(writer, value.Hashtable, options);
 
-            // Сериализуем элементы как словарь
-            //writer.WritePropertyName("items");
-            //writer.WriteStartObject();
-            //foreach (var pair in value)
-            //{
-            //    writer.WritePropertyName(pair.Key.ToString());
-            //    JsonSerializer.Serialize(writer, pair.Value, options);
-            //}
-            //writer.WriteEndObject();
-
             writer.WriteEndObject();
         }
 
@@ -104,44 +94,4 @@ namespace Serialisation
             }
         }
     }
-
-
-
-
-    /*public class AnimalJsonConverter : JsonConverter<Animal>
-    {
-        public override Animal Read(
-            ref Utf8JsonReader reader,
-            Type typeToConvert,
-            JsonSerializerOptions options)
-        {
-            using (JsonDocument doc = JsonDocument.ParseValue(ref reader))
-            {
-                JsonElement root = doc.RootElement;
-
-                if (!root.TryGetProperty("$type", out JsonElement typeProp))
-                    throw new JsonException("Type discriminator ($type) not found");
-
-                string typeValue = typeProp.GetString();
-
-                if (typeValue == "bird")
-                    return JsonSerializer.Deserialize<Bird>(root.GetRawText(), options);
-                else if (typeValue == "mammal")
-                    return JsonSerializer.Deserialize<Mammal>(root.GetRawText(), options);
-                else if (typeValue == "artiodactyl")
-                    return JsonSerializer.Deserialize<Artiodactyl>(root.GetRawText(), options);
-                else
-                    throw new JsonException($"Unknown animal type: {typeValue}");
-            }
-        }
-
-        public override void Write(
-            Utf8JsonWriter writer,
-            Animal value,
-            JsonSerializerOptions options)
-        {
-            // Сериализуем как object, чтобы включить $type
-            JsonSerializer.Serialize(writer, (object)value, options);
-        }
-    }*/
 }

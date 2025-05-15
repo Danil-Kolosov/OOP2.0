@@ -83,11 +83,5 @@
     <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Serialisation\Serialisation.csproj">
-      <Project>{3fd334f7-c57d-41c0-b1db-9b5e6f3a5654}</Project>
-      <Name>Serialisation</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -73,12 +73,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinarySerializer.cs" />
     <Compile Include="FileSaveCollection.cs" />
     <Compile Include="JsConvertor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SerializeXML.cs" />
-    <Compile Include="UnivarsalJsSerializer.cs" />
-    <Compile Include="UniversalXmlSerializer.cs" />
+    <Compile Include="JsSerializer.cs" />
+    <Compile Include="XmlSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Lab3\Lab14\CollectionEvent\CollectionEvent.csproj">
@@ -92,10 +92,6 @@
     <ProjectReference Include="..\MyCollectionLibrary\MyCollectionLibrary.csproj">
       <Project>{e76ad1b9-0684-4a27-879b-49e9d859314e}</Project>
       <Name>MyCollectionLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Serialisation\Serialisation.csproj">
-      <Project>{3fd334f7-c57d-41c0-b1db-9b5e6f3a5654}</Project>
-      <Name>Serialisation</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

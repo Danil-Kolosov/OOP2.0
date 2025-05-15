@@ -15,7 +15,6 @@ using CollectionEvent;
 using AnimalLibrary;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Diagnostics;
-//using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
 namespace WindowsFormsApp
@@ -84,27 +83,8 @@ namespace WindowsFormsApp
             }
 
             TreeCollectionView.ExpandAll();
-            //дальше - немного утаревшее
-            //TreeCollectionView.Nodes.Clear();
-            //TreeNode rootNode = TreeCollectionView.Nodes.Add("Хэш-таблица");
-
-            //foreach (var item in FileSaveCollection.HashTable.GetAllItems())
-            //{
-            //    TreeNode node = rootNode.Nodes.Add(item.Key);
-            //    node.Nodes.Add(item.Value.ToString());
-            //}
-
-            //TreeCollectionView.ExpandAll(); // Раскрыть все узлы
         }
-        //чтобы таблицей!!!!!!!!!!!!!
-        //private void DisplayHashTable()
-        //{
-        //    dataGridView1.Rows.Clear();
-        //    foreach (var item in _myHashTable.GetAllItems())
-        //    {
-        //        dataGridView1.Rows.Add(item.Key, item.Value);
-        //    }
-        //}        
+        
         private void EnableOperations() 
         {
             OperationsMenu.Enabled = true;
@@ -112,11 +92,7 @@ namespace WindowsFormsApp
         }
 
         private async void OpenCollection_Click(object sender, EventArgs e)
-        {
-
-            EnableOperations();
-            SaveCollection.Enabled = true;
-            //Это засуното в Save()
+        {          
             OpenFileDialog dialog = new OpenFileDialog(); //Тут окно создается
             dialog.Filter = "Binary files(*.bin)|*.bin|XML files(*.xml)|*.xml|Json files(*.js)|*.js"; //Это фильтры выбора файлов
             if (dialog.ShowDialog() == DialogResult.Cancel) //Тут окно открывается
@@ -131,8 +107,6 @@ namespace WindowsFormsApp
 
             List<string> pathList = new List<string>
             {
-                //pathList.Add(collectionPath);
-                //pathList.Add(journalPath);
                 collectionPath,
                 journalPath,
                 filenameCollection,
@@ -150,14 +124,23 @@ namespace WindowsFormsApp
                     await FileSaveCollection.DeserializeFromJs(pathList);
                     break;
             }
-
-            DisplayHashTableInTreeView();
+            if(FileSaveCollection.HashTable != null)
+            {
+                EnableOperations();
+                SaveCollection.Enabled = true;
+                DisplayHashTableInTreeView();
+            }            
         }
 
         private void SaveAsCollection_Click(object sender, EventArgs e)
         {
-            SaveCollection.Enabled = true;
-            Save();
+            if(FileSaveCollection.HashTable == null)
+                MessageBox.Show("Kоллекция не выбрана!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else
+              {
+                SaveCollection.Enabled = true;
+                Save();
+            }
         }
 
         private void Save() 
@@ -244,21 +227,27 @@ namespace WindowsFormsApp
                             {
                                 string selectedType = dialog.SelectedType;
                                 var parameters = dialog.Parameters;
-                                FileSaveCollection.UpdayeByKey(selectedType, parameters);
-                                //параметрс - это словарь Вес - 0 такого типа
-                                // Используем полученные параметры
-                                StringBuilder message = new StringBuilder();
-                                message.AppendLine($"Выбран тип: {selectedType}");
-                                foreach (var param in parameters)
+                                if (FileSaveCollection.UpdayeByKey(selectedType, parameters)) 
                                 {
-                                    message.AppendLine($"{param.Key}: {param.Value}");
-                                }
+                                    //параметрс - это словарь Вес - 0 такого типа
+                                    // Используем полученные параметры
+                                    StringBuilder message = new StringBuilder();
+                                    message.AppendLine($"Выбран тип: {selectedType}");
+                                    foreach (var param in parameters)
+                                    {
+                                        message.AppendLine($"{param.Key}: {param.Value}");
+                                    }
 
-                                MessageBox.Show(message.ToString(), "Параметры созданы", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    MessageBox.Show(message.ToString(), "Параметры созданы", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    DisplayHashTableInTreeView();
+                                    MessageBox.Show("Элемент изменен", "Изменение элемента", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                }
+                                else 
+                                {
+                                    MessageBox.Show("Введены недопустимые значения!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }                                    
                             }
-                        }
-                        DisplayHashTableInTreeView();
-                        MessageBox.Show("Элемент изменен", "Изменение элемента", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }                        
                     }
                     else
                     {
@@ -280,18 +269,25 @@ namespace WindowsFormsApp
                     {
                         string selectedType = dialog.SelectedType;
                         var parameters = dialog.Parameters;
-                        FileSaveCollection.AddItem(selectedType, parameters);
-                        //параметрс - это словарь Вес - 0 такого типа
-                        // Используем полученные параметры
-                        StringBuilder message = new StringBuilder();
-                        message.AppendLine($"Выбран тип: {selectedType}");
-                        foreach (var param in parameters)
+                        if(FileSaveCollection.AddItem(selectedType, parameters))
                         {
-                            message.AppendLine($"{param.Key}: {param.Value}");
-                        }
+                            //параметрс - это словарь Вес - 0 такого типа
+                            // Используем полученные параметры
+                            StringBuilder message = new StringBuilder();
+                            message.AppendLine($"Выбран тип: {selectedType}");
+                            foreach (var param in parameters)
+                            {
+                                message.AppendLine($"{param.Key}: {param.Value}");
+                            }
 
-                        MessageBox.Show(message.ToString(), "Параметры созданы");
-                        DisplayHashTableInTreeView();
+                            MessageBox.Show(message.ToString(), "Параметры созданы");
+                            DisplayHashTableInTreeView();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Введены недопустимые значения!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                        
                     }
                 }                
             }
@@ -305,11 +301,6 @@ namespace WindowsFormsApp
             //Иначе выводим журнал ту стринг
             var logViewer = new LogViewerForm(outText);
             logViewer.ShowDialog(); // Показываем как модальное окно
-
-
-            //string journal = FileSaveCollection.GetJournal();
-            //MessageBox.Show(journal, "Содержимое журнала",
-            //           MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void SearchByKey_Click(object sender, EventArgs e)
@@ -457,44 +448,16 @@ namespace WindowsFormsApp
             }
         }
 
-        private void SortProceccor(string field, Func<string, /*string, desending/notDesending*/ List<KeyValuePair<string, string>>> processor, bool isInt = false)
+        private void SortProceccor(string field, Func<string, List<KeyValuePair<string, string>>> processor, bool isInt = false)
         {
             if (FileSaveCollection.HashTable == null)
                 MessageBox.Show("Kоллекция не выбрана!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             else
             {
 
-                var logViewer = new LogViewerForm("Отсортировано:\n", processor(field/*"Weight"*/));
+                var logViewer = new LogViewerForm("Отсортировано:\n", processor(field));
                 logViewer.ShowDialog();
-                
-                //else
-                //{
-                //    string input = Interaction.InputBox(
-                //    "Введите значение для сортировки:",
-                //    "Сортировка",
-                //    "" // Значение по умолчанию
-                //    );
-                //    if (isInt)
-                //    {
-                //        if (!(int.TryParse(input, out int val) && val > 0))
-                //            MessageBox.Show("Введено не корректное значение!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                //        else
-                //        {
-                //            var logViewer = new LogViewerForm("Отфильтровано:\n", FileSaveCollection.FilterBy(field/*"flightRange"*/, input));
-                //            logViewer.ShowDialog();
-                //        }
-                //    }
-                //    else
-                //    {
-                //        if (input.ToString() == "")
-                //            MessageBox.Show("Введено не корректное значение!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                //        else
-                //        {
-                //            var logViewer = new LogViewerForm("Отфильтровано:\n", FileSaveCollection.FilterBy(field/*"Life style"*/, input));
-                //            logViewer.ShowDialog();
-                //        }
-                //    }
-                //}
+                                
             }
         }
 
